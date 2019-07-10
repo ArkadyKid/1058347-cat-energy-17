@@ -14,23 +14,34 @@
     <h3 class="header__logo-title vissually-hidden">
       Логотип
     </h3>
-    <img class="header__logo-img" src="" alt="CAT ENERGY">
+    <a class="header__logo-link">
+      <img class="header__logo-img" src="" alt="CAT ENERGY">
+    </a>
   </section>
   <nav class="header__nav nav">
     <a class="nav__dropdown" href="#">
-      <svg class="nav__btn-img" width="" height="">
+      <svg class="nav__btn-img nav__btn-img--show" width="" height="">
+
+      </svg>
+      <svg class="nav__btn-img nav__btn-img--close" width="" height="">
 
       </svg>
     </a>
     <ul class="nav__menu">
       <li class="nav__item">
-        Главная
+        <a class="nav__link">
+          Главная
+        </a>
       </li>
       <li class="nav__item">
-        Каталог продукции
+        <a class="nav__link" href="catalog.html">
+          Каталог продукции
+        </a>
       </li>
       <li class="nav__item">
-        Подбор программы
+        <a class="nav__link" href="form.html">
+          Подбор программы
+        </a>
       </li>
     </ul>
   </nav>
@@ -155,8 +166,10 @@
       </tr>
     </table>
     <div class="example__slider slider">
-      <input class="slider__input slider__input--before vissually-hidden" id="before" type="radio" name="status" value="before" checked>
-      <input class="slider__input slider__input--after vissually-hidden" id="after" type="radio" name="status" value="after">
+      <input class="slider__input slider__input--before vissually-hidden" id="before" type="radio" name="status"
+             value="before" checked>
+      <input class="slider__input slider__input--after vissually-hidden" id="after" type="radio" name="status"
+             value="after">
       <img class="slider__img slider__img--before" src="" alt="Толстый кот" width="" height="">
       <img class="slider__img slider__img--after" src="" alt="Худой кот" width="" height="">
       <div class="slider__wrapper">
