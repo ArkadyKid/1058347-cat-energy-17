@@ -43,6 +43,96 @@
   </nav>
 </header>
 
+<main class="main">
+  <section class="main__form form">
+    <h2 class="form__title">
+      Подбор программы
+    </h2>
+    <p class="form__text">
+      Заполните анкету и мы подберем программу питания для вашего кота
+    </p>
+    <form class="form__group" action="https://echo.htmlacademy.ru" method="get">
+      <fieldset class="form__data-fieldset data-fieldset">
+        <label class="data-fieldset__label" for="name">
+          Имя:*
+          <input class="data-fieldset__input" id="name" type="text" name="name" value="Барсик" required>
+        </label>
+        <label class="data-fieldset__label" for="weight">
+          вес (кг):*
+          <input class="data-fieldset__input" id="weight" type="number" name="weight" value="7" required>
+        </label>
+        <label class="data-fieldset__label" for="age">
+          Возраст (лет):
+          <input class="data-fieldset__input" id="age" type="number" name="age" value="7">
+        </label>
+      </fieldset>
+      <fieldset class="form__target-fieldset target-fieldset">
+        <label class="target-fieldset__label" for="slim">
+          <input class="target-fieldset__input vissually-hidden" id="slim" type="radio" name="target" value="slim" checked>
+          Похудение
+        </label>
+        <label class="target-fieldset__label" for="pro">
+          <input class="target-fieldset__input vissually-hidden" id="pro" type="radio" name="target" value="pro">
+          Набор массы
+        </label>
+        <label class="target-fieldset__label" for="undefined">
+          <input class="target-fieldset__input vissually-hidden" id="undefined" type="radio" name="target" value="undefined">
+          Не знаю (нужен совет)
+        </label>
+      </fieldset>
+      <fieldset class="form__contacts-fieldset contacts-fieldset">
+        <legend class="contacts-fieldset__title">
+          Контактные данные (владельца кота)
+        </legend>
+        <label class="contacts-fieldset__label" for="email">
+          E-mail:*
+          <input class="contacts-fieldset__input" id="email" type="email" name="email" value="kuklachev@gmail.com" required>
+        </label>
+        <label class="contacts-fieldset__label" for="phone">
+          Телефон:*
+          <input class="contacts-fieldset__input" id="phone" type="tel" name="phone" value="8 (960) 900-60-90" required>
+        </label>
+      </fieldset>
+      <fieldset class="form__comments-fieldset comments-fieldset">
+        <legend class="comments-fieldset__title">
+          Комментарий
+        </legend>
+        <label class="comments-fieldset__label hidden-text" for="comments">
+          Комментарий
+          <textarea class="comments-fieldset__textarea" id="comments" name="comments" placeholder="Расскажите о всех повадках кота"></textarea>
+        </label>
+      </fieldset>
+      <fieldset class="form__additional-fieldset additional-fieldset">
+        <legend class="additional-fieldset__legend">
+          Дополнительно
+        </legend>
+        <label class="additional-fieldset__label" for="sugar">
+          <input class="additional-fieldset__input vissually-hidden" id="sugar" type="checkbox" name="additional" value="sugar" checked>
+          Сахарозаменитель
+        </label>
+        <label class="additional-fieldset__label" for="water">
+          <input class="additional-fieldset__input vissually-hidden" id="water" type="checkbox" name="additional" value="water">
+          Питьевая вода
+        </label>
+        <label class="additional-fieldset__label" for="milk">
+          <input class="additional-fieldset__input vissually-hidden" id="milk" type="checkbox" name="additional" value="milk">
+          Молоко
+        </label>
+        <label class="additional-fieldset__label" for="vitamins">
+          <input class="additional-fieldset__input vissually-hidden" id="vitamins" type="checkbox" name="additional" value="vitamins">
+          Витамины
+        </label>
+      </fieldset>
+      <button class="form__btn btn" type="submit">
+        Отправить заявку
+      </button>
+    </form>
+    <p class="form__explain-text">
+      * &mdash; Обязательные поля
+    </p>
+  </section>
+</main>
+
 <footer class="footer">
   <section class="footer__contacts contacts">
     <h3 class="contacts__title">
