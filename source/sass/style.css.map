@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;mCAEoC;EAClC,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,WAAW;EACtB,IAAI,EAAE,aAAa;EACnB,QAAQ,EAAE,MAAM",
+"sources": ["vendors/visually-hidden.scss"],
+"names": [],
+"file": "style.css"
+}

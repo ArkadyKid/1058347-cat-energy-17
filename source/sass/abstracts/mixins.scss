@@ -1,0 +1,27 @@
+@mixin flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin reset-indents {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin font-params($font-size: 14px, $font-weight: 400, $line-height: 1.29, $letter-spacing: normal, $color: $color-text) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  color: $color;
+}
+
+@mixin area($padding: 20px) {
+  position: absolute;
+  padding: $padding;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+}
+
