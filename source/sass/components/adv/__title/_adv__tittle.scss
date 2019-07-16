@@ -1,0 +1,4 @@
+.adv__title {
+  @include font-params (36px, 400, 1, $color-white);
+  text-transform: uppercase;
+}

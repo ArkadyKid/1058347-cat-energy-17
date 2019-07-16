@@ -1,0 +1,4 @@
+.category__item-title {
+  @include font-params (24px, 400, 1.54, $color-title);
+  text-transform: uppercase;
+}

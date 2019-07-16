@@ -1,0 +1,4 @@
+.nav__link {
+  @include font-params(20px, 500, 1, $color-title);
+  text-transform: uppercase;
+}

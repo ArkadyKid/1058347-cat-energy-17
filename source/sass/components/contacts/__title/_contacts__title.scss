@@ -1,0 +1,4 @@
+.contacts__title {
+  @include font-params (16px, 400, 1.25, $color-title);
+  text-transform: uppercase;
+}

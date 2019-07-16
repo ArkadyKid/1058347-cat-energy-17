@@ -1,0 +1,4 @@
+.category__item-btn {
+  @include font-params (16px, 400, 1, $color-title);
+  text-transform: uppercase;
+}
