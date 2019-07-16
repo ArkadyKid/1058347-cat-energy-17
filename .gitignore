@@ -13,4 +13,4 @@ source/css/*.map
 Thumbs.db
 source/sass/**/*.css
 source/sass/**/*.map
-sass/.sass-cache/*
+**/.sass-cache
