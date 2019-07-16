@@ -26,7 +26,7 @@ gulp.task("server", function () {
     server: "source/",
     notify: false,
     open: true,
-    cors: false,
+    cors: true,
     ui: false
   });
 
