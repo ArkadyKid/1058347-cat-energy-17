@@ -1,6 +1,6 @@
 .nav__link {
-  position: relative;
   @include font-params(size(20px), 500, 1, $color-title);
+  position: relative;
   padding-top: size(24px);
   padding-bottom: size(20px);
   text-transform: uppercase;
@@ -21,18 +21,18 @@
 }
 
 .nav__link::after {
-  content: '';
   @include area;
+  content: "";
   padding: 0;
   width: 100vw;
   height: 100%;
 }
 
-.nav__link--active:before {
+.nav__link--active::before {
   position: absolute;
   bottom: 25%;
   height: size(2px);
   width: 100%;
   background-color: $color-main;
-  content: '';
+  content: "";
 }
