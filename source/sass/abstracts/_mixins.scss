@@ -15,7 +15,7 @@
   color: $color;
 }
 
-@mixin area($padding: 20px) {
+@mixin area($padding: size(20px)) {
   position: absolute;
   padding: $padding;
   top: 50%;

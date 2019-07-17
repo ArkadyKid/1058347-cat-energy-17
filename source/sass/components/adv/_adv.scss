@@ -1,7 +1,8 @@
 .adv {
-  background-color: $color-main;
-  background-image: url("../img/index-background-mobile@1x.jpg");
+  @include flex;
+  flex-direction: column;
+  background-image: url("../img/index-background-mobile@1x.jpg"), linear-gradient($color-main size(305px), $color-white size(305px));
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: top center;
 }

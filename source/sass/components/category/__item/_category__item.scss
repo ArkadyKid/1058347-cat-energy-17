@@ -1,4 +1,10 @@
 .category__item {
+  margin-bottom: size(20px);
+  padding: size(20px);
   list-style: none;
   background-color: $color-background;
+}
+
+.category__item:last-child {
+  margin-bottom: 0;
 }

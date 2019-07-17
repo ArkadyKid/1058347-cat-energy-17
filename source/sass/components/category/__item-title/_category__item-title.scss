@@ -1,5 +1,6 @@
 .category__item-title {
   @include font-params (size(24px), 400, 1.54, $color-title);
   margin: 0;
+  padding-left: size(20px);
   text-transform: uppercase;
 }

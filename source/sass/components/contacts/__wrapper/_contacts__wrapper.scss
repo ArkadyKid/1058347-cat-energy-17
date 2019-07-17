@@ -1,0 +1,5 @@
+.contacts__wrapper {
+  @include wrapper;
+  @include flex;
+  padding: size(31px) size(20px) size(26px) size(20px);
+}

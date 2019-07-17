@@ -1,0 +1,4 @@
+.footer__social {
+  @include wrapper;
+  border-bottom: size(1px) solid $color-border;
+}

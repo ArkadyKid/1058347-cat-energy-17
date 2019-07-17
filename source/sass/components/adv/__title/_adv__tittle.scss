@@ -1,5 +1,6 @@
 .adv__title {
   @include font-params (size(36px), 400, 1, $color-white);
   margin: 0;
-  text-transform: uppercase;
+  padding-bottom: size(20px);
+  text-align: center;
 }

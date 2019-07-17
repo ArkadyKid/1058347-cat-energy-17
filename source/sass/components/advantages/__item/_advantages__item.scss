@@ -1,3 +1,5 @@
 .advantages__item {
+  @include flex;
   list-style: none;
+  padding-bottom: size(20px);
 }

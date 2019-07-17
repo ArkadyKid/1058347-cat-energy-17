@@ -1,4 +1,8 @@
 .btn {
+  @include flex;
+  justify-content: center;
+  width: 100%;
+  padding: size(12px) 0;
   border: none;
   color: $color-white;
   text-transform: uppercase;

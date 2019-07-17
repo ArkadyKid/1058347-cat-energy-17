@@ -1,4 +1,6 @@
 .category__item-text {
-  margin: 0;
+  margin: 0 0 size(20px);
+  padding-bottom: size(23px);
+  border-bottom: size(1px) solid $color-border;
   font-family: "Arial", sans-serif;
 }

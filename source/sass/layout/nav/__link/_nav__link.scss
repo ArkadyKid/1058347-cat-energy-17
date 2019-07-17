@@ -1,14 +1,13 @@
 .nav__link {
+  position: relative;
   @include font-params(size(20px), 500, 1, $color-title);
-  @include flex;
-  justify-content: center;
-  width: 100%;
   padding-top: size(24px);
   padding-bottom: size(20px);
   text-transform: uppercase;
+  transition: $transition;
 }
 
-.nav__link:first-child {
+.nav__item:first-child .nav__link {
   padding-bottom: size(24px);
 }
 
@@ -19,4 +18,21 @@
 
 .nav__link:active {
   color: rgba($color-title, 0.3);
+}
+
+.nav__link::after {
+  content: '';
+  @include area;
+  padding: 0;
+  width: 100vw;
+  height: 100%;
+}
+
+.nav__link--active:before {
+  position: absolute;
+  bottom: 25%;
+  height: size(2px);
+  width: 100%;
+  background-color: $color-main;
+  content: '';
 }
