@@ -1,0 +1,4 @@
+.form__text {
+  @include font-params(size(14px), 400, 1.29, $color-title);
+  margin: 0;
+}

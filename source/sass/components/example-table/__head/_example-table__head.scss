@@ -1,4 +1,4 @@
 .example-table__head {
-  @include font-params (12px, 400, 1, $color-text);
+  @include font-params (size(12px), 400, 1, $color-text);
   font-family: "Arial", sans-serif;
 }

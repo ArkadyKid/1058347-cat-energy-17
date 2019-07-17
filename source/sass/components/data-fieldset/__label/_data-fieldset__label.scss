@@ -1,0 +1,4 @@
+.data-fieldset__label {
+  @include font-params(size(16px), 400, 1.13, $color-label);
+  text-transform: uppercase;
+}

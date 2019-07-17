@@ -1,0 +1,4 @@
+.more__link {
+  @include font-params(size(16px), 400, 1.25, $color-text);
+  text-transform: uppercase;
+}

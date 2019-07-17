@@ -1,3 +1,3 @@
 .slider__label {
-  @include font-params (16px, 400, 1.25, $color-title);
+  @include font-params (size(16px), 400, 1.25, $color-title);
 }

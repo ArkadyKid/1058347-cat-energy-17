@@ -1,4 +1,22 @@
 .nav__link {
-  @include font-params(20px, 500, 1, $color-title);
+  @include font-params(size(20px), 500, 1, $color-title);
+  @include flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: size(24px);
+  padding-bottom: size(20px);
   text-transform: uppercase;
+}
+
+.nav__link:first-child {
+  padding-bottom: size(24px);
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: rgba($color-title, 0.6);
+}
+
+.nav__link:active {
+  color: rgba($color-title, 0.3);
 }

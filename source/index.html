@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -43,16 +44,18 @@
 
 <main class="main">
   <article class="main__adv adv">
-    <h2 class="adv__title">
-      Функциональное питание для котов
-    </h2>
-    <p class="adv__slogan">
-      Занялся собой? Займись котом!
-    </p>
-    <img class="adv__img" src="https://via.placeholder.com/280x270.png" alt="Cat energy PRO chicken">
-    <a class="adv__link btn" href="./form.html">
-      Подобрать программу
-    </a>
+    <div class="adv__wrapper">
+      <h2 class="adv__title">
+        Функциональное питание для котов
+      </h2>
+      <p class="adv__slogan">
+        Занялся собой? Займись котом!
+      </p>
+      <img class="adv__img" src="https://via.placeholder.com/280x270.png" alt="Cat energy PRO chicken">
+      <a class="adv__link btn" href="./form.html">
+        Подобрать программу
+      </a>
+    </div>
   </article>
   <section class="main__category category">
     <h2 class="category__title visually-hidden">
@@ -196,7 +199,7 @@
       Логотип
     </h3>
     <a class="footer-logo__link" aria-label="CAT ENERGY">
-      <img class="footer-logo__img" src="../img/logo-footer.svg" alt="CAT ENERGY" width="128" height="24">
+      <img class="footer-logo__img" src="./img/logo-footer.svg" alt="CAT ENERGY" width="128" height="24">
     </a>
   </section>
   <section class="footer__social social">
@@ -206,17 +209,23 @@
     <ul class="social__menu">
       <li class="social__item">
         <a class="social__link" href="http://vk.com" target="_blank" rel="noopener" aria-label="Vk">
-          <svg></svg>
+          <svg width="22" height="12">
+
+          </svg>
         </a>
       </li>
       <li class="social__item">
         <a class="social__link" href="http://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
-          <svg></svg>
+          <svg width="23" height="23">
+
+          </svg>
         </a>
       </li>
       <li class="social__item">
         <a class="social__link" href="http://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
-          <svg></svg>
+          <svg width="10" height="19">
+
+          </svg>
         </a>
       </li>
     </ul>
@@ -227,9 +236,6 @@
     </h3>
     <a class="footer-developers__text" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener">
       HTML Academy
-    </a>
-    <a class="footer-developers__link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener" aria-label="HTML Academy">
-      <svg></svg>
     </a>
   </section>
 </footer>

@@ -1,0 +1,4 @@
+.catalog-table__data {
+  @include font-params(size(12px), 400, 1.33, $color-text);
+  font-family: "Arial", sans-serif;
+}
