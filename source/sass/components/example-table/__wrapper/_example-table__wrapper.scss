@@ -1,0 +1,6 @@
+.example-table__wrapper {
+  @include flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: size(38px);
+}

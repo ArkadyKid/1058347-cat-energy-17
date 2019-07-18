@@ -1,0 +1,7 @@
+.example-table__col {
+  @include flex;
+  position: relative;
+  flex-direction: column;
+  width: size(124px);
+  align-items: center;
+}

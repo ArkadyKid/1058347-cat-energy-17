@@ -1,4 +1,10 @@
 .example-table__head {
   @include font-params (size(12px), 400, 1, $color-text);
+  position: absolute;
+  top: size(50px);
+  margin: 0 0 size(25px);
+  width: size(80px);
   font-family: "Arial", sans-serif;
+  text-align: center;
+  background-color: $color-background;
 }

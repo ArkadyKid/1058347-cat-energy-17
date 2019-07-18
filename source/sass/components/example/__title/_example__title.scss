@@ -1,4 +1,5 @@
 .example__title {
   @include font-params (size(36px), 400, 1.67, $color-title);
   margin: 0;
+  padding: size(33px) 0;
 }
