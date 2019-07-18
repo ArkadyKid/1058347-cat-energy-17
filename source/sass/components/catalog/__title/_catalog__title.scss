@@ -1,0 +1,4 @@
+.catalog__title {
+  @include font-params(size(36px), 400, 1.69, $color-title);
+  margin: 0;
+}

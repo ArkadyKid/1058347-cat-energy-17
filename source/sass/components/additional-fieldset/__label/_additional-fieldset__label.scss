@@ -1,0 +1,4 @@
+.additional-fieldset__label {
+  @include font-params(size(16px), 400, 1.16, $color-label);
+  text-transform: uppercase;
+}

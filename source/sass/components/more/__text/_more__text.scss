@@ -1,0 +1,4 @@
+.more__text {
+  @include font-params(size(12px), 400, 1.33, $color-text);
+  margin: 0;
+}

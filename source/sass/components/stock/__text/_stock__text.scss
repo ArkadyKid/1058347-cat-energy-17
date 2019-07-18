@@ -1,0 +1,5 @@
+.stock__text {
+  @include font-params(size(16px), 400, 1.25, $color-white);
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}

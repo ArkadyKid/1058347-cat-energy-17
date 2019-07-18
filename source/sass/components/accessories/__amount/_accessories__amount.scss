@@ -1,0 +1,4 @@
+.accessories__amount {
+  @include font-params(size(14px), 400, 1, $color-text);
+  font-family: "Arial", sans-serif;
+}

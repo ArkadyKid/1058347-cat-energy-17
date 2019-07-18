@@ -1,0 +1,6 @@
+.nav__item {
+  @include flex;
+  justify-content: center;
+  border-bottom: size(1px) solid $color-border;
+  list-style: none;
+}

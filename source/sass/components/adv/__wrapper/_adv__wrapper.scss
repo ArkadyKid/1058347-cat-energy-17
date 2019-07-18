@@ -1,0 +1,7 @@
+.adv__wrapper {
+  @include wrapper;
+  @include flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: size(30px);
+}

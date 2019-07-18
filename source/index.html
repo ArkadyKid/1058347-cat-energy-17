@@ -2,27 +2,29 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
 <header class="header">
-  <h1 class="header__title vissually-hidden">
+  <h1 class="header__title visually-hidden">
     Интернет-магазин фитнес еды для котиков
   </h1>
-  <section class="header__logo">
-    <h3 class="header__logo-title vissually-hidden">
+  <section class="header__logo header-logo">
+    <h3 class="header-logo__title visually-hidden">
       Логотип
     </h3>
-    <a class="header__logo-link" aria-label="CAT ENERGY">
-      <img class="header__logo-img" src="https://via.placeholder.com/191x39.svg" alt="CAT ENERGY">
+    <a class="header-logo__link" aria-label="CAT ENERGY">
+      <img class="header-logo__img" src="./img/logo-mobile.svg" alt="CAT ENERGY" width="191" height="31">
     </a>
   </section>
   <nav class="header__nav nav">
     <a class="nav__toggle" href="#" aria-label="Переключатель мобильного меню"></a>
     <ul class="nav__menu">
       <li class="nav__item">
-        <a class="nav__link">
+        <a class="nav__link nav__link--active">
           Главная
         </a>
       </li>
@@ -42,54 +44,64 @@
 
 <main class="main">
   <article class="main__adv adv">
-    <h2 class="adv__title">
-      Функциональное питание для котов
-    </h2>
-    <p class="adv__text">
-      Занялся собой? Займись котом!
-    </p>
-    <img class="adv__img" src="https://via.placeholder.com/280x270.png" alt="Cat energy PRO chicken">
-    <a class="adv__link" href="./form.html">
-      Подобрать программу
-    </a>
+    <div class="adv__wrapper">
+      <h2 class="adv__title">
+        Функциональное питание для котов
+      </h2>
+      <p class="adv__slogan">
+        Занялся собой? Займись котом!
+      </p>
+      <img class="adv__img" src="https://via.placeholder.com/280x270.png" alt="Cat energy PRO chicken">
+      <a class="adv__link btn" href="./form.html">
+        Подобрать программу
+      </a>
+    </div>
   </article>
   <section class="main__category category">
-    <h2 class="category__title">
+    <h2 class="category__title visually-hidden">
       Категории товаров
     </h2>
     <ul class="category__menu">
       <li class="category__item">
-        <h4 class="category__item-title">
-          Похудение
-        </h4>
-        <svg>
+        <div class="category__wrapper">
+          <div class="category__img-wrapper">
+            <svg width="35" height="49">
 
-        </svg>
+            </svg>
+          </div>
+          <h4 class="category__item-title">
+            Похудение
+          </h4>
+        </div>
         <p class="category__item-text">
           Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim
           поможет вашему питомцу сбросить лишний вес.
         </p>
         <a class="category__item-btn" href="./category/slim.html">
           Каталог slim
-          <svg>
+          <svg width="25" height="12">
 
           </svg>
         </a>
       </li>
       <li class="category__item">
-        <h4 class="category__item-title">
-          Набор массы
-        </h4>
-        <svg>
+        <div class="category__wrapper">
+          <div class="category__img-wrapper">
+            <svg width="35" height="49">
 
-        </svg>
+            </svg>
+          </div>
+          <h4 class="category__item-title">
+            Набор массы
+          </h4>
+        </div>
         <p class="category__item-text">
           Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить
           необходимые мышцы!
         </p>
         <a class="category__item-btn item-btn" href="./category/pro.html">
           Каталог pro
-          <svg>
+          <svg width="25" height="12">
 
           </svg>
         </a>
@@ -102,33 +114,41 @@
     </h2>
     <ul class="advantages__menu">
       <li class="advantages__item">
-        <svg>
+        <div class="advantages__img-wrapper">
+          <svg width="26" height="29">
 
-        </svg>
+          </svg>
+        </div>
         <p class="advantages__text">
           Функциональное питание содержит только полезные питательные вещества.
         </p>
       </li>
       <li class="advantages__item">
-        <svg>
+        <div class="advantages__img-wrapper">
+          <svg width="29" height="31">
 
-        </svg>
+          </svg>
+        </div>
         <p class="advantages__text">
           Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
         </p>
       </li>
       <li class="advantages__item">
-        <svg>
+        <div class="advantages__img-wrapper">
+          <svg width="23" height="30">
 
-        </svg>
+          </svg>
+        </div>
         <p class="advantages__text">
           Замените один-два приема обычной еды на наше функциональное питание.
         </p>
       </li>
       <li class="advantages__item">
-        <svg>
+        <div class="advantages__img-wrapper">
+          <svg width="26" height="31">
 
-        </svg>
+          </svg>
+        </div>
         <p class="advantages__text">
           Замените один-два приема обычной еды на наше функциональное питание.
         </p>
@@ -165,8 +185,8 @@
       </tr>
     </table>
     <div class="example__slider slider">
-      <input class="slider__input slider__input--before vissually-hidden" id="before" type="radio" name="status" value="before" checked>
-      <input class="slider__input slider__input--after vissually-hidden" id="after" type="radio" name="status" value="after">
+      <input class="slider__input slider__input--before visually-hidden" id="before" type="radio" name="status" value="before" checked>
+      <input class="slider__input slider__input--after visually-hidden" id="after" type="radio" name="status" value="after">
       <img class="slider__img slider__img--before" src="https://via.placeholder.com/280x270.png" alt="Толстый кот" width="311" height="232">
       <img class="slider__img slider__img--before" src="https://via.placeholder.com/280x270.png" alt="Толстый кот" width="311" height="232">
       <div class="slider__wrapper">
@@ -184,22 +204,24 @@
 
 <footer class="footer">
   <section class="footer__contacts contacts contacts--index">
-    <h3 class="contacts__title">
-      Приглашаем к сотрудничеству дилеров!
-    </h3>
-    <address class="contacts__address">
-      ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
-    </address>
+    <div class="contacts__wrapper">
+      <h3 class="contacts__title">
+        Приглашаем к&nbsp;сотрудничеству дилеров!
+      </h3>
+      <address class="contacts__address">
+        ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
+      </address>
+    </div>
     <a class="contacts__map" href="https://www.google.com/maps/place/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F+%D0%9A%D0%BE%D0%BD%D1%8E%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%83%D0%BB.,+19%2F8,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+191186/data=!4m2!3m1!1s0x4696310fca145cc1:0x42b32648d8238007?sa=X&ved=2ahUKEwjUroDJ7afjAhVjyqYKHRGiAGkQ8gEwAHoECAoQAQ" target="_blank" rel="noopener" aria-label="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
-      <img class="contacts__map-img" src="https://via.placeholder.com/320x400.png" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
+      <img class="contacts__map-img" src="https://via.placeholder.com/320x400.png" width="320" height="400" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
     </a>
   </section>
-  <section class="footer__logo">
-    <h3 class="footer__logo-title vissually-hidden">
+  <section class="footer__logo footer-logo">
+    <h3 class="footer-logo__title visually-hidden">
       Логотип
     </h3>
-    <a class="footer__logo-link" aria-label="CAT ENERGY">
-      <img class="footer__logo-img" src="https://via.placeholder.com/128x24.svg" alt="CAT ENERGY">
+    <a class="footer-logo__link" aria-label="CAT ENERGY">
+      <img class="footer-logo__img" src="./img/logo-footer.svg" alt="CAT ENERGY" width="128" height="24">
     </a>
   </section>
   <section class="footer__social social">
@@ -209,38 +231,33 @@
     <ul class="social__menu">
       <li class="social__item">
         <a class="social__link" href="http://vk.com" target="_blank" rel="noopener" aria-label="Vk">
-          <svg>
+          <svg width="22" height="12">
 
           </svg>
         </a>
       </li>
       <li class="social__item">
         <a class="social__link" href="http://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
-          <svg>
+          <svg width="23" height="23">
 
           </svg>
         </a>
       </li>
       <li class="social__item">
         <a class="social__link" href="http://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
-          <svg>
+          <svg width="10" height="19">
 
           </svg>
         </a>
       </li>
     </ul>
   </section>
-  <section class="footer__developers">
-    <h3 class="footer__developers">
+  <section class="footer__developers footer-developers">
+    <h3 class="footer-developers__title visually-hidden">
       Разработчики
     </h3>
-    <a class="footer__developers-title" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener">
+    <a class="footer-developers__text" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener">
       HTML Academy
-    </a>
-    <a class="footer__developers-link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener" aria-label="HTML Academy">
-      <svg>
-
-      </svg>
     </a>
   </section>
 </footer>

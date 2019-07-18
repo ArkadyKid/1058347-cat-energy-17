@@ -1,0 +1,5 @@
+.contacts-fieldset__input {
+  @include font-params(size(16px), 400, 1.13, $color-text);
+  text-transform: uppercase;
+  border: size(1px) solid $color-border;
+}

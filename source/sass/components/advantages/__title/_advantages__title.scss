@@ -1,0 +1,5 @@
+.advantages__title {
+  @include font-params (size(36px), 400, 1.67, $color-title);
+  margin: 0;
+  padding-bottom: size(25px);
+}

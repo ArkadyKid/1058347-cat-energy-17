@@ -1,0 +1,6 @@
+.header__logo {
+  @include wrapper;
+  padding-top: size(11px);
+  padding-bottom: size(15px);
+  border-bottom: size(1px) solid $color-border;
+}

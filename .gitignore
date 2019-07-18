@@ -11,3 +11,6 @@ npm-debug.*
 source/css/*.css
 source/css/*.map
 Thumbs.db
+source/sass/**/*.css
+source/sass/**/*.map
+**/.sass-cache

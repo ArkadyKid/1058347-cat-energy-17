@@ -1,0 +1,4 @@
+.accessories__item-title {
+  @include font-params(size(16px), 400, 1, $color-label);
+  margin: 0;
+}

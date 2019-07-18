@@ -1,0 +1,4 @@
+.form__explain-text {
+  @include font-params(size(14px), 400, 1.14, $color-text);
+  font-family: "Arial", sans-serif;
+}
