@@ -1,4 +1,9 @@
 .contacts-fieldset__label {
+  @include flex;
   @include font-params(size(16px), 400, 1.13, $color-label);
+  justify-content: space-between;
+  align-items: center;
   text-transform: uppercase;
+  padding: 0 size(20px);
+  margin-bottom: size(14px);
 }

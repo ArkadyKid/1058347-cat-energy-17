@@ -1,4 +1,6 @@
 .catalog__title {
   @include font-params(size(36px), 400, 1.69, $color-title);
   margin: 0;
+  padding: size(31px) 0 size(35px);
+  border-bottom: 1px solid $color-border;
 }

@@ -1,4 +1,7 @@
 .additional-fieldset {
   @include reset-indents;
+  @include flex;
+  flex-direction: column;
   border: none;
+  margin-bottom: size(31px);
 }

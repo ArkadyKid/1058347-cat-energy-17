@@ -1,5 +1,8 @@
 .comments-fieldset__textarea {
   @include font-params(size(16px), 400, 1.13, $color-text);
+  width: size(280px);
+  min-height: size(150px);
+  padding: size(15px);
   border: size(1px) solid $color-border;
   text-transform: uppercase;
 }

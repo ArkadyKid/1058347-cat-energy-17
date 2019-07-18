@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -55,18 +55,20 @@
       <fieldset class="form__data-fieldset data-fieldset">
         <label class="data-fieldset__label" for="name">
           <span class="data-fieldset__label-wrapper">
-            Имя:<sup class="data-fieldset__label">*</sup>
+            Имя:*
           </span>
           <input class="data-fieldset__input" id="name" type="text" name="name" required>
         </label>
         <label class="data-fieldset__label" for="weight">
           <span class="data-fieldset__label-wrapper">
-            Вес (кг):<sup class="data-fieldset__label">*</sup>
+            Вес (кг):*
           </span>
           <input class="data-fieldset__input" id="weight" type="number" name="weight" required>
         </label>
         <label class="data-fieldset__label" for="age">
-          Возраст (лет):
+          <span class="data-fieldset__label-wrapper">
+            Возраст (лет):
+          </span>
           <input class="data-fieldset__input" id="age" type="number" name="age">
         </label>
       </fieldset>
@@ -90,13 +92,13 @@
         </legend>
         <label class="contacts-fieldset__label" for="email">
           <span class="contacts-fieldset__label-wrapper">
-            E-mail:<sup class="contacts-fieldset__label">*</sup>
+            E-mail:*
           </span>
           <input class="contacts-fieldset__input" id="email" type="email" name="email" required>
         </label>
         <label class="contacts-fieldset__label" for="phone">
           <span class="contacts-fieldset__label-wrapper">
-            Телефон:<sup class="contacts-fieldset__label">*</sup>
+            Телефон:*
           </span>
           <input class="contacts-fieldset__input" id="phone" type="tel" name="phone" required>
         </label>
@@ -130,13 +132,15 @@
           Витамины
         </label>
       </fieldset>
-      <button class="form__btn btn" type="submit">
-        Отправить заявку
-      </button>
+      <div class="form__wrapper">
+        <button class="form__btn btn" type="submit">
+          Отправить заявку
+        </button>
+        <small class="form__explain-text">
+          * &mdash; Обязательные поля
+        </small>
+      </div>
     </form>
-    <small class="form__explain-text">
-      <sup class="form__explain-text">*</sup>&mdash; Обязательные поля
-    </small>
   </section>
 </main>
 

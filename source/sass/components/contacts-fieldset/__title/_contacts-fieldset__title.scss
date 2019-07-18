@@ -1,4 +1,5 @@
 .contacts-fieldset__title {
   @include font-params(size(24px), 400, 1, $color-title);
-  margin: 0;
+  padding: 0 size(20px);
+  margin: 0 0 size(30px);
 }

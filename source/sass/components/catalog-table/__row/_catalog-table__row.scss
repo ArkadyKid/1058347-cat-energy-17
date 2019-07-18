@@ -1,0 +1,5 @@
+.catalog-table__row {
+  @include flex;
+  width: 100%;
+  justify-content: space-between;
+}

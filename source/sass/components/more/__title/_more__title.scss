@@ -1,5 +1,6 @@
 .more__title {
   @include font-params(size(16px), 400, 1.25, $color-title);
   margin: 0;
+  padding-bottom: 25px;
   text-transform: uppercase;
 }

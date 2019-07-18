@@ -1,4 +1,6 @@
 .more__text {
   @include font-params(size(12px), 400, 1.33, $color-text);
+  padding-bottom: size(22px);
+  font-family: "Arial", sans-serif;
   margin: 0;
 }

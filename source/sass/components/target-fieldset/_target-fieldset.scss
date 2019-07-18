@@ -1,4 +1,8 @@
 .target-fieldset {
+  @include flex;
   @include reset-indents;
+  flex-direction: column;
   border: none;
+  border-bottom: size(1px) solid $color-border;
+  margin-bottom: size(31px);
 }
