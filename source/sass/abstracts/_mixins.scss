@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-@mixin font-params($font-size: 0.87rem, $font-weight: 400, $line-height: 1.29, $color: $color-text) {
+@mixin font-params($font-size: 1rem, $font-weight: 400, $line-height: 1.29, $color: $color-text) {
   font-size: $font-size;
   font-weight: $font-weight;
   line-height: $line-height;
@@ -29,4 +29,13 @@
   padding: 0 1.25rem;
   min-width: 20rem;
   width: 100%;
+
+  @media ($for-tablet) {
+    min-width: 768px;
+  }
+  
+  @media ($for-desktop) {
+    min-width: 1024px;
+    max-width: 1220px;
+  }
 }
