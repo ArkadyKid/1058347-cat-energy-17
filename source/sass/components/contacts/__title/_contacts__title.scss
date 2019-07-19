@@ -1,5 +1,5 @@
 .contacts__title {
-  @include font-params (size(16px), 400, 1.25, $color-title);
+  @include font-params (1.14rem, 400, 1.25, $color-title);
   width: 50%;
   margin: 0;
   text-transform: uppercase;

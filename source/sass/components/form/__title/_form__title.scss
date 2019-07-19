@@ -1,5 +1,5 @@
 .form__title {
-  @include font-params(size(36px), 400, 1.67, $color-title);
-  padding: 0 size(20px);
-  margin: size(30px) 0 size(35px);
+  @include font-params(2.57rem, 400, 1.67, $color-title);
+  padding: 0 1.42rem;
+  margin: 2.14rem 0 2.5rem;
 }

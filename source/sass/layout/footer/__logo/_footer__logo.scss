@@ -1,4 +1,4 @@
 .footer__logo {
   @include wrapper;
-  border-bottom: size(1px) solid $color-border;
+  border-bottom: 0.07rem solid $color-border;
 }

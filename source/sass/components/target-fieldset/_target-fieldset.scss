@@ -3,6 +3,6 @@
   @include reset-indents;
   flex-direction: column;
   border: none;
-  border-bottom: size(1px) solid $color-border;
-  margin-bottom: size(31px);
+  border-bottom: 0.07rem solid $color-border;
+  margin-bottom: 2.21rem;
 }

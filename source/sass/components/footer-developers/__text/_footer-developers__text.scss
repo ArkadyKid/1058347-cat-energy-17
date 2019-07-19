@@ -1,4 +1,4 @@
 .footer-developers__text {
-  @include font-params(size(16px), 400, 1, $color-text);
+  @include font-params(1.14rem, 400, 1, $color-text);
   font-family: "Arial", sans-serif;
 }

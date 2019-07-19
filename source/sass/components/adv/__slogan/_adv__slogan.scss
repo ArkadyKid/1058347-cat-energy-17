@@ -1,6 +1,6 @@
 .adv__slogan {
-  @include font-params(size(14px), 400, 1, $color-white);
+  @include font-params(1rem, 400, 1, $color-white);
   margin: 0;
-  padding-bottom: size(30px);
+  padding-bottom: 2.14rem;
   text-transform: uppercase;
 }

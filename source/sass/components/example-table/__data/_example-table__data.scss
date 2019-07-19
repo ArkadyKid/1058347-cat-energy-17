@@ -1,6 +1,6 @@
 .example-table__data {
-  @include font-params (size(24px), 400, 1, $color-title);
-  padding: size(15px) 0;
+  @include font-params (1.71rem, 400, 1, $color-title);
+  padding: 1.07rem 0;
   border: 1px solid $color-border;
   width: 100%;
   text-align: center;

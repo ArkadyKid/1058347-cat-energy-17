@@ -16,4 +16,5 @@ $color-border: rgba($color-silver, 0.5);
 
 $transition: 300ms ease-out;
 
-$baseWidth: 320px;
+$for-tablet: "min-width: 768px";
+$for-desktop: "min-width: 1200px";

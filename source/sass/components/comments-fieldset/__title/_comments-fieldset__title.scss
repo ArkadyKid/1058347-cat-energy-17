@@ -1,5 +1,5 @@
 .comments-fieldset__title {
-  @include font-params(size(24px), 400, 1, $color-title);
-  padding: 0 size(20px);
-  margin-bottom: size(30px);
+  @include font-params(1.71rem, 400, 1, $color-title);
+  padding: 0 1.42rem;
+  margin-bottom: 2.14rem;
 }

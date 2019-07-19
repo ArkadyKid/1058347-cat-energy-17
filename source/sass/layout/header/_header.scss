@@ -1,11 +1,10 @@
-.nav__menu {
-  @include reset-indents;
+.header {
   @include flex;
   flex-direction: column;
 }
 
 @media ($for-tablet) {
-  .nav__menu {
+  .header {
     flex-direction: row;
   }
 }

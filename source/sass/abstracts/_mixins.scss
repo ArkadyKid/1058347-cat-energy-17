@@ -8,14 +8,14 @@
   padding: 0;
 }
 
-@mixin font-params($font-size: size(14px), $font-weight: 400, $line-height: 1.29, $color: $color-text) {
+@mixin font-params($font-size: 16px, $font-weight: 400, $line-height: 1.29, $color: $color-text) {
   font-size: $font-size;
   font-weight: $font-weight;
   line-height: $line-height;
   color: $color;
 }
 
-@mixin area($padding: size(20px)) {
+@mixin area($padding: 1.42rem) {
   position: absolute;
   padding: $padding;
   top: 50%;
@@ -26,7 +26,11 @@
 
 @mixin wrapper {
   margin: 0 auto;
-  padding: 0 size(20px);
-  min-width: size(320px);
+  padding: 0 1.42rem;
+  min-width: 22.85rem;
   width: 100%;
+
+  @media ($for-tablet) {
+    width: 50.57rem;
+  }
 }

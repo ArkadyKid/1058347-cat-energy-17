@@ -1,7 +1,8 @@
 .data-fieldset__input {
-  @include font-params(size(16px), 400, 1.13, $color-text);
+  @include font-params(1.14rem, 400, 1.13, $color-text);
   flex-grow: 1;
-  padding: size(15px);
-  border: size(1px) solid $color-border;
+  padding: 1.07rem;
+  width: 50%;
+  border: 0.07rem solid $color-border;
   text-transform: uppercase;
 }
