@@ -2,8 +2,15 @@
   @include reset-indents;
   @include flex;
   flex-direction: column;
+<<<<<<< HEAD
   padding-bottom: 0.71rem;
   border: none;
   border-bottom: 0.07rem solid $color-background;
   margin-bottom: 1.42rem;
+=======
+  padding-bottom: 0.62rem;
+  border: none;
+  border-bottom: 0.06rem solid $color-background;
+  margin-bottom: 1.25rem;
+>>>>>>> module4-task1-test
 }

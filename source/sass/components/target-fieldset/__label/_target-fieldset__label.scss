@@ -1,5 +1,11 @@
 .target-fieldset__label {
+<<<<<<< HEAD
   @include font-params(1.14rem, 400, 1.13, $color-label);
   text-transform: uppercase;
   padding: 0 1.42rem 1.85rem;
+=======
+  @include font-params(1rem, 400, 1.13, $color-label);
+  text-transform: uppercase;
+  padding: 0 1.25rem 1.62rem;
+>>>>>>> module4-task1-test
 }

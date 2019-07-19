@@ -1,5 +1,11 @@
 .example__title {
+<<<<<<< HEAD
   @include font-params (2.57rem, 400, 1.67, $color-title);
   margin: 0;
   padding: 2.35rem 0;
+=======
+  @include font-params (2.25rem, 400, 1.67, $color-title);
+  margin: 0;
+  padding: 2.06rem 0;
+>>>>>>> module4-task1-test
 }

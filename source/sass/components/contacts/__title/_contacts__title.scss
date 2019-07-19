@@ -1,5 +1,9 @@
 .contacts__title {
+<<<<<<< HEAD
   @include font-params (1.14rem, 400, 1.25, $color-title);
+=======
+  @include font-params (1rem, 400, 1.25, $color-title);
+>>>>>>> module4-task1-test
   width: 50%;
   margin: 0;
   text-transform: uppercase;

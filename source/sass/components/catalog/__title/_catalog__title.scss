@@ -1,6 +1,12 @@
 .catalog__title {
+<<<<<<< HEAD
   @include font-params(2.57rem, 400, 1.69, $color-title);
   margin: 0;
   padding: 2.21rem 0 2.5rem;
+=======
+  @include font-params(2.25rem, 400, 1.69, $color-title);
+  margin: 0;
+  padding: 1.93rem 0 2.18rem;
+>>>>>>> module4-task1-test
   border-bottom: 1px solid $color-border;
 }

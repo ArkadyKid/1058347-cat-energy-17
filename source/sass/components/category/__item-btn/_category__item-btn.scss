@@ -1,4 +1,8 @@
 .category__item-btn {
+<<<<<<< HEAD
   @include font-params (1.14rem, 400, 1, $color-title);
+=======
+  @include font-params (1rem, 400, 1, $color-title);
+>>>>>>> module4-task1-test
   text-transform: uppercase;
 }

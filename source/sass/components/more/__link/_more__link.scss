@@ -1,7 +1,13 @@
 .more__link {
+<<<<<<< HEAD
   @include font-params(1.14rem, 400, 1.25, $color-text);
   width: 100%;
   padding: 0.85rem 0;
+=======
+  @include font-params(1rem, 400, 1.25, $color-text);
+  width: 100%;
+  padding: 0.75rem 0;
+>>>>>>> module4-task1-test
   text-align: center;
   background-color: $color-background;
   text-transform: uppercase;

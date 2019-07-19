@@ -1,6 +1,12 @@
 .category__item-title {
+<<<<<<< HEAD
   @include font-params (1.71rem, 400, 1.54, $color-title);
   margin: 0;
   padding-left: 1.42rem;
+=======
+  @include font-params (1.5rem, 400, 1.54, $color-title);
+  margin: 0;
+  padding-left: 1.25rem;
+>>>>>>> module4-task1-test
   text-transform: uppercase;
 }

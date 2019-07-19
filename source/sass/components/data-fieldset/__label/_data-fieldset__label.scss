@@ -1,9 +1,17 @@
 .data-fieldset__label {
   @include flex;
+<<<<<<< HEAD
   @include font-params(1.14rem, 400, 1.13, $color-label);
   justify-content: space-between;
   align-items: center;
   padding: 0 1.42rem;
   margin-bottom: 1rem;
+=======
+  @include font-params(1rem, 400, 1.13, $color-label);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.25rem;
+  margin-bottom: 0.87rem;
+>>>>>>> module4-task1-test
   text-transform: uppercase;
 }

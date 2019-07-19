@@ -1,8 +1,15 @@
 .data-fieldset__input {
+<<<<<<< HEAD
   @include font-params(1.14rem, 400, 1.13, $color-text);
   flex-grow: 1;
   padding: 1.07rem;
   width: 50%;
   border: 0.07rem solid $color-border;
+=======
+  @include font-params(1rem, 400, 1.13, $color-text);
+  flex-grow: 1;
+  padding: 0.93rem;
+  border: 0.06rem solid $color-border;
+>>>>>>> module4-task1-test
   text-transform: uppercase;
 }

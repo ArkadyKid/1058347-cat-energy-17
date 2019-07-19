@@ -1,6 +1,13 @@
 .category__item-text {
-  margin: 0 0 1.42rem;
-  padding-bottom: 1.64rem;
-  border-bottom: 0.07rem solid $color-border;
+  margin: 0 0 1.25rem;
+  padding-bottom: 1.43rem;
+  border-bottom: 0.06rem solid $color-border;
+  font-size: 0.87rem;
   font-family: "Arial", sans-serif;
+}
+
+@media ($for-tablet) {
+  .category__item-text {
+    font-size: 1rem;
+  }
 }

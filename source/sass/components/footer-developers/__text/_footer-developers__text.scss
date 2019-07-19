@@ -1,4 +1,8 @@
 .footer-developers__text {
+<<<<<<< HEAD
   @include font-params(1.14rem, 400, 1, $color-text);
+=======
+  @include font-params(1rem, 400, 1, $color-text);
+>>>>>>> module4-task1-test
   font-family: "Arial", sans-serif;
 }

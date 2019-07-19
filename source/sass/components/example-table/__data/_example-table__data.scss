@@ -1,6 +1,11 @@
 .example-table__data {
+<<<<<<< HEAD
   @include font-params (1.71rem, 400, 1, $color-title);
   padding: 1.07rem 0;
+=======
+  @include font-params (1.5rem, 400, 1, $color-title);
+  padding: 0.93rem 0;
+>>>>>>> module4-task1-test
   border: 1px solid $color-border;
   width: 100%;
   text-align: center;

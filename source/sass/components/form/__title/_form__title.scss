@@ -1,5 +1,11 @@
 .form__title {
+<<<<<<< HEAD
   @include font-params(2.57rem, 400, 1.67, $color-title);
   padding: 0 1.42rem;
   margin: 2.14rem 0 2.5rem;
+=======
+  @include font-params(2.25rem, 400, 1.67, $color-title);
+  padding: 0 1.25rem;
+  margin: 1.87rem 0 2.18rem;
+>>>>>>> module4-task1-test
 }

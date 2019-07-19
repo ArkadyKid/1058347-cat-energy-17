@@ -1,6 +1,6 @@
 .accessories__item-title {
-  @include font-params(1.14rem, 400, 1, $color-label);
+  @include font-params(1rem, 400, 1, $color-label);
   text-transform: uppercase;
-  padding-bottom: 1.07rem;
+  padding-bottom: 0.93rem;
   margin: 0;
 }
