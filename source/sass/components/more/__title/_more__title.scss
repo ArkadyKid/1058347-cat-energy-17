@@ -1,9 +1,5 @@
 .more__title {
-<<<<<<< HEAD
-  @include font-params(1.14rem, 400, 1.25, $color-title);
-=======
   @include font-params(1rem, 400, 1.25, $color-title);
->>>>>>> module4-task1-test
   margin: 0;
   padding-bottom: 25px;
   text-transform: uppercase;

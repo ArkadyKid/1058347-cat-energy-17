@@ -1,13 +1,6 @@
 .form__text {
-<<<<<<< HEAD
-  @include font-params(1rem, 400, 1.29, $color-title);
-  text-transform: uppercase;
-  padding: 0 1.42rem;
-  margin: 0 0 2.85rem;
-=======
   @include font-params(0.87rem, 400, 1.29, $color-title);
   text-transform: uppercase;
   padding: 0 1.25rem;
   margin: 0 0 2.5rem;
->>>>>>> module4-task1-test
 }

@@ -1,11 +1,5 @@
 .contacts-fieldset__title {
-<<<<<<< HEAD
-  @include font-params(1.71rem, 400, 1, $color-title);
-  padding: 0 1.42rem;
-  margin: 0 0 2.14rem;
-=======
   @include font-params(1.5rem, 400, 1, $color-title);
   padding: 0 1.25rem;
   margin: 0 0 1.87rem;
->>>>>>> module4-task1-test
 }

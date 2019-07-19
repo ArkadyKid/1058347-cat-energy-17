@@ -1,10 +1,5 @@
 .form__explain-text {
-<<<<<<< HEAD
-  @include font-params(1rem, 400, 1.14, $color-text);
-  margin-bottom: 2.42rem;
-=======
   @include font-params(0.87rem, 400, 1.14, $color-text);
   margin-bottom: 2.12rem;
->>>>>>> module4-task1-test
   font-family: "Arial", sans-serif;
 }

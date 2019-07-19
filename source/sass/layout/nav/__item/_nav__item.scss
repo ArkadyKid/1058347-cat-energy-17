@@ -1,10 +1,6 @@
 .nav__item {
   @include flex;
   justify-content: center;
-<<<<<<< HEAD
-  border-bottom: 0.07rem solid $color-border;
-=======
   border-bottom: 0.06rem solid $color-border;
->>>>>>> module4-task1-test
   list-style: none;
 }

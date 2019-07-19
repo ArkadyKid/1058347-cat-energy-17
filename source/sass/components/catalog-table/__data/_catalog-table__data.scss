@@ -1,8 +1,4 @@
 .catalog-table__data {
-<<<<<<< HEAD
-  @include font-params(0.85rem, 400, 1.33, $color-text);
-=======
   @include font-params(0.75rem, 400, 1.33, $color-text);
->>>>>>> module4-task1-test
   font-family: "Arial", sans-serif;
 }

@@ -1,11 +1,6 @@
 .more__text {
-<<<<<<< HEAD
-  @include font-params(0.85rem, 400, 1.33, $color-text);
-  padding-bottom: 1.57rem;
-=======
   @include font-params(0.75rem, 400, 1.33, $color-text);
   padding-bottom: 1.37rem;
->>>>>>> module4-task1-test
   font-family: "Arial", sans-serif;
   margin: 0;
 }

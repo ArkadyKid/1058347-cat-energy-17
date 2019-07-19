@@ -1,25 +1,14 @@
 .nav__link {
-<<<<<<< HEAD
-  @include font-params(1.42rem, 500, 1, $color-title);
-  position: relative;
-  padding-top: 1.71rem;
-  padding-bottom: 1.42rem;
-=======
   @include font-params(1.25rem, 500, 1, $color-title);
   position: relative;
   padding-top: 1.5rem;
   padding-bottom: 1.25rem;
->>>>>>> module4-task1-test
   text-transform: uppercase;
   transition: $transition;
 }
 
 .nav__item:first-child .nav__link {
-<<<<<<< HEAD
-  padding-bottom: 1.71rem;
-=======
   padding-bottom: 1.5rem;
->>>>>>> module4-task1-test
 }
 
 .nav__link:hover,
@@ -42,11 +31,7 @@
 .nav__link--active::before {
   position: absolute;
   bottom: 25%;
-<<<<<<< HEAD
-  height: 0.14rem;
-=======
   height: 0.12rem;
->>>>>>> module4-task1-test
   width: 100%;
   background-color: $color-main;
   content: "";

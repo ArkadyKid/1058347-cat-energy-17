@@ -1,16 +1,8 @@
 .comments-fieldset__textarea {
-<<<<<<< HEAD
-  @include font-params(1.14rem, 400, 1.13, $color-text);
-  width: 20rem;
-  min-height: 10.71rem;
-  padding: 1.07rem;
-  border: 0.07rem solid $color-border;
-=======
   @include font-params(1rem, 400, 1.13, $color-text);
   width: 17.5rem;
   min-height: 9.37rem;
   padding: 0.93rem;
   border: 0.06rem solid $color-border;
->>>>>>> module4-task1-test
   text-transform: uppercase;
 }
