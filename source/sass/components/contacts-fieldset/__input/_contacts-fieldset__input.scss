@@ -1,7 +1,7 @@
 .contacts-fieldset__input {
-  @include font-params(size(16px), 400, 1.13, $color-text);
-  border: size(1px) solid $color-border;
+  @include font-params(1rem, 400, 1.13, $color-text);
+  border: 0.06rem solid $color-border;
   flex-grow: 1;
-  padding: size(15px);
+  padding: 0.93rem;
   text-transform: uppercase;
 }

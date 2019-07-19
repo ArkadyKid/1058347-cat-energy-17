@@ -1,7 +1,7 @@
 .stock__text {
-  @include font-params(size(16px), 400, 1.25, $color-white);
-  width: size(160px);
-  margin: 0 0 size(43px);
+  @include font-params(1rem, 400, 1.25, $color-white);
+  width: 10rem;
+  margin: 0 0 2.68rem;
   font-family: "Arial", sans-serif;
   text-align: center;
 }

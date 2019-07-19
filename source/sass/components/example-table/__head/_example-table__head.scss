@@ -1,9 +1,9 @@
 .example-table__head {
-  @include font-params (size(12px), 400, 1, $color-text);
+  @include font-params (0.75rem, 400, 1, $color-text);
   position: absolute;
-  top: size(50px);
-  margin: 0 0 size(25px);
-  width: size(80px);
+  top: 3.12rem;
+  margin: 0 0 1.56rem;
+  width: 5rem;
   font-family: "Arial", sans-serif;
   text-align: center;
   background-color: $color-background;

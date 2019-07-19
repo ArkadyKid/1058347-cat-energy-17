@@ -1,6 +1,6 @@
 .form__text {
-  @include font-params(size(14px), 400, 1.29, $color-title);
+  @include font-params(0.87rem, 400, 1.29, $color-title);
   text-transform: uppercase;
-  padding: 0 size(20px);
-  margin: 0 0 size(40px);
+  padding: 0 1.25rem;
+  margin: 0 0 2.5rem;
 }

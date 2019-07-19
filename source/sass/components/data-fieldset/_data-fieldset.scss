@@ -2,8 +2,8 @@
   @include reset-indents;
   @include flex;
   flex-direction: column;
-  padding-bottom: size(10px);
+  padding-bottom: 0.62rem;
   border: none;
-  border-bottom: size(1px) solid $color-background;
-  margin-bottom: size(20px);
+  border-bottom: 0.06rem solid $color-background;
+  margin-bottom: 1.25rem;
 }

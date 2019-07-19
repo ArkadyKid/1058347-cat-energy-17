@@ -1,5 +1,5 @@
 .additional-fieldset__title {
-  @include font-params(size(24px), 400, 1, $color-title);
-  padding: 0 size(20px);
-  margin-bottom: size(31px);
+  @include font-params(1.5rem, 400, 1, $color-title);
+  padding: 0 1.25rem;
+  margin-bottom: 1.93rem;
 }

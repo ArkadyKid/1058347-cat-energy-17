@@ -1,7 +1,7 @@
 .catalog__product {
-  @include font-params(size(16px), 400, 1.25, $color-title);
+  @include font-params(1rem, 400, 1.25, $color-title);
   display: block;
-  width: size(73px);
-  padding-bottom: size(18px);
+  width: 4.56rem;
+  padding-bottom: 1.12rem;
   text-transform: uppercase;
 }

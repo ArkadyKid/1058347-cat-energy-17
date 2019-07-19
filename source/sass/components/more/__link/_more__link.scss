@@ -1,7 +1,7 @@
 .more__link {
-  @include font-params(size(16px), 400, 1.25, $color-text);
+  @include font-params(1rem, 400, 1.25, $color-text);
   width: 100%;
-  padding: size(12px) 0;
+  padding: 0.75rem 0;
   text-align: center;
   background-color: $color-background;
   text-transform: uppercase;

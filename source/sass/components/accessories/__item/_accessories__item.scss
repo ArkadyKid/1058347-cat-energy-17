@@ -1,7 +1,7 @@
 .accessories__item {
   @include flex;
   flex-direction: column;
-  padding: size(14px) 0 size(17px);
+  padding: 0.87rem 0 1.06rem;
   border-bottom: 1px solid $color-border;
   list-style: none;
 }

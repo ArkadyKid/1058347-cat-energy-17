@@ -1,14 +1,14 @@
 .nav__link {
-  @include font-params(size(20px), 500, 1, $color-title);
+  @include font-params(1.25rem, 500, 1, $color-title);
   position: relative;
-  padding-top: size(24px);
-  padding-bottom: size(20px);
+  padding-top: 1.5rem;
+  padding-bottom: 1.25rem;
   text-transform: uppercase;
   transition: $transition;
 }
 
 .nav__item:first-child .nav__link {
-  padding-bottom: size(24px);
+  padding-bottom: 1.5rem;
 }
 
 .nav__link:hover,
@@ -31,7 +31,7 @@
 .nav__link--active::before {
   position: absolute;
   bottom: 25%;
-  height: size(2px);
+  height: 0.12rem;
   width: 100%;
   background-color: $color-main;
   content: "";
