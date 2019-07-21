@@ -28,7 +28,7 @@
 @mixin wrapper {
   margin: 0 auto;
   padding: 0 1.25rem;
-  min-width: 20rem;
+  min-width: 320px;
   width: 100%;
 
   @media ($for-tablet) {

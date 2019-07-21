@@ -3,3 +3,18 @@
   list-style: none;
   padding-bottom: 1.25rem;
 }
+
+@media ($for-tablet) {
+  .advantages__item {
+    min-height: 14.25rem;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 5.56rem;
+  }
+}
+
+@media ($for-desktop) {
+  .advantages__item {
+    width: 25%;
+  }
+}

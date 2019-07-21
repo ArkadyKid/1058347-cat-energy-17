@@ -4,3 +4,17 @@
   padding-left: 1.25rem;
   text-transform: uppercase;
 }
+
+@media ($for-tablet) {
+  .category__item-title {
+    padding-left: 0;
+    font-size: 2.25rem;
+    line-height: 1.03;
+  }
+}
+
+@media ($for-desktop) {
+  .category__item-title {
+    padding-left: 1.25rem;
+  }
+}

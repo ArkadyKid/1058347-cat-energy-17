@@ -4,3 +4,14 @@
   border-bottom: 0.06rem solid $color-border;
   list-style: none;
 }
+
+@media ($for-tablet) {
+  .nav__item {
+    margin-right: 2rem;
+    border-bottom: none;
+  }
+
+  .nav__item:last-child {
+    margin-right: 0;
+  }
+}

@@ -3,3 +3,18 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media ($for-tablet) {
+  .example-table {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
+@media ($for-desktop) {
+  .example-table {
+    flex-direction: column;
+  }
+}

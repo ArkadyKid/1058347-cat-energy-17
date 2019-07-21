@@ -1,3 +1,19 @@
 .adv__img {
   object-fit: contain;
 }
+
+@media ($for-tablet) {
+  .adv__img {
+    order: 4;
+    align-self: center;
+  }
+}
+
+@media ($for-desktop) {
+  .adv__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

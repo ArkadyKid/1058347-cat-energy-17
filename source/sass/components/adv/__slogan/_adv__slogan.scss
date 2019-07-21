@@ -4,3 +4,11 @@
   padding-bottom: 1.87rem;
   text-transform: uppercase;
 }
+
+@media ($for-tablet) {
+  .adv__slogan {
+    padding-bottom: 3rem;
+    font-size: 1.25rem;
+    color: $color-title;
+  }
+}

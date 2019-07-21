@@ -1,4 +1,9 @@
 .footer__social {
-  @include wrapper;
   border-bottom: 0.06rem solid $color-border;
+}
+
+@media ($for-tablet) {
+  .footer__social {
+    border-bottom: none;
+  }
 }

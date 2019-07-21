@@ -1,4 +1,9 @@
 .footer__logo {
-  @include wrapper;
   border-bottom: 0.06rem solid $color-border;
+}
+
+@media ($for-tablet) {
+  .footer__logo {
+    border-bottom: none;
+  }
 }

@@ -3,3 +3,10 @@
   margin: 0;
   padding: 2.06rem 0;
 }
+
+@media ($for-tablet) {
+  .example__title {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}

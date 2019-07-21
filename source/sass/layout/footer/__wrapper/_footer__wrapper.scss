@@ -1,0 +1,12 @@
+.footer__wrapper {
+  @include flex;
+  @include wrapper;
+  flex-direction: column;
+}
+
+@media ($for-tablet) {
+  .footer__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,9 @@
+.contacts__address-wrapper {
+  margin: 0;
+}
+
+@media ($for-tablet) {
+  .contacts__address-wrapper {
+    padding: 1rem 0;
+  }
+}

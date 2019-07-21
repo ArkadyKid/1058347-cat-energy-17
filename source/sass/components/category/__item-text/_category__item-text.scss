@@ -8,6 +8,15 @@
 
 @media ($for-tablet) {
   .category__item-text {
+    max-width: 70%;
+    border-bottom: none;
     font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media ($for-desktop) {
+  .category__item-text {
+    max-width: none;
   }
 }

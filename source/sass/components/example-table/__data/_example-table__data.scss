@@ -6,3 +6,11 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+@media ($for-tablet) {
+  .example-table__data {
+    padding: 1.37rem 0;
+    font-size: 1.87rem;
+    line-height: 1.23;
+  }
+}

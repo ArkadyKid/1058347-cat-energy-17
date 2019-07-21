@@ -1,0 +1,9 @@
+.nav {
+  position: relative;
+}
+
+@media ($for-tablet) {
+  .nav {
+    width: 70%;
+  }
+}

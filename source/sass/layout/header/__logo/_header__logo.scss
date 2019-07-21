@@ -4,3 +4,15 @@
   padding-bottom: 0.93rem;
   border-bottom: 0.06rem solid $color-border;
 }
+
+@media ($for-tablet) {
+  .header__logo {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: none;
+    width: 30%;
+    min-width: auto;
+    max-width: none;
+  }
+}

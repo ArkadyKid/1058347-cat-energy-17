@@ -7,5 +7,6 @@
 @media ($for-tablet) {
   .nav__menu {
     flex-direction: row;
+    justify-content: flex-end;
   }
 }

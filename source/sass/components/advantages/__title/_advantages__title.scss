@@ -1,5 +1,12 @@
 .advantages__title {
   @include font-params (2.25rem, 400, 1.67, $color-title);
-  margin: 0;
-  padding-bottom: 1.56rem;
+  margin: 0 0 1.56rem;
+}
+
+@media ($for-tablet) {
+  .advantages__title {
+    margin-bottom: 3.93rem;
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }

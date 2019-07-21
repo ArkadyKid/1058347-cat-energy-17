@@ -1,0 +1,14 @@
+.nav__link--index--active::before {
+  position: absolute;
+  bottom: 25%;
+  height: 0.12rem;
+  width: 100%;
+  background-color: $color-main;
+  content: "";
+}
+
+@media ($for-desktop) {
+  .nav__link--index--active::before {
+    background-color: $color-white;
+  }
+}

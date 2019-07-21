@@ -1,7 +1,9 @@
 .adv {
   @include flex;
+  position: relative;
   flex-direction: column;
-  background-image: url("../img/index-background-mobile@1x.jpg"), linear-gradient($color-main 19.06rem, $color-white 19.06rem);
+  background-color: $color-main;
+  background-image: url("../img/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top center;
@@ -16,9 +18,9 @@
 
 @media ($for-desktop) {
   .adv {
-    background-image: url("../img/index-background-mobile@1x.jpg"), linear-gradient($color-main 21.78rem, $color-white 21.78rem);
+    background-image: url("../img/index-background-mobile@1x.jpg"), linear-gradient(to right, $color-white 50%, $color-main 50%);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: top center;
+    background-position: top right;
   }
 }

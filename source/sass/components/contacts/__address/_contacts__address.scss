@@ -1,6 +1,16 @@
 .contacts__address {
-  width: 50%;
+  width: 9.37rem;
+  font-size: 0.87rem;
   line-height: 1.43;
   font-family: "Arial", sans-serif;
   font-style: normal;
+  text-align: right;
+}
+
+@media ($for-tablet) {
+  .contacts__address {
+    font-size: 1rem;
+    line-height: 1.25;
+    width: 10.56rem;
+  }
 }

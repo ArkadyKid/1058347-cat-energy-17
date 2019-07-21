@@ -5,6 +5,7 @@
 
 @media ($for-tablet) {
   .header {
+    @include wrapper;
     flex-direction: row;
   }
 }

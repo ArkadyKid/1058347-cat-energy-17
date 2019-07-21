@@ -5,3 +5,9 @@
   width: 7.75rem;
   align-items: center;
 }
+
+@media ($for-tablet) {
+  .example-table__col {
+    width: 10.12rem;
+  }
+}
