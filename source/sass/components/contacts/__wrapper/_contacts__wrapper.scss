@@ -1,5 +1,20 @@
 .contacts__wrapper {
   @include wrapper;
   @include flex;
-  padding: size(31px) size(20px) size(26px) size(20px);
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.93rem 1.25rem 1.62rem 1.25rem;
+}
+
+@media ($for-desktop) {
+  .contacts__wrapper {
+    position: absolute;
+    top: 5.93rem;
+    width: 35.65rem;
+    min-width: auto;
+    max-width: none;
+    min-height: 12.56rem;
+    padding: 4.31rem 5.62rem 3.68rem 4.75rem;
+    background-color: $color-white;
+  }
 }

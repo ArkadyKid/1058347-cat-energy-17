@@ -1,0 +1,8 @@
+.nav__link--active::before {
+  position: absolute;
+  bottom: 25%;
+  height: 0.12rem;
+  width: 100%;
+  background-color: $color-main;
+  content: "";
+}

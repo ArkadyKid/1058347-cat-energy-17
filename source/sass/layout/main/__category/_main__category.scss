@@ -1,4 +1,10 @@
 .main__category {
   @include wrapper;
-  margin-bottom: size(20px);
+  margin-bottom: 1.25rem;
+}
+
+@media ($for-tablet) {
+  .main__category {
+    margin-bottom: 3.18rem;
+  }
 }

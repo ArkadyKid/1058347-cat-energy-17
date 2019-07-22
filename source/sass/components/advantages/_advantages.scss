@@ -1,0 +1,11 @@
+.advantages {
+  @include flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media ($for-tablet) {
+  .advantages {
+    align-items: flex-start;
+  }
+}

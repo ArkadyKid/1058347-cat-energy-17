@@ -1,4 +1,7 @@
 .contacts-fieldset {
   @include reset-indents;
+  @include flex;
+  flex-direction: column;
   border: none;
+  margin-bottom: 30px;
 }

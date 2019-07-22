@@ -1,6 +1,26 @@
 .category__img-wrapper {
   background-color: $color-main;
-  width: 3rem;
-  height: 3rem;
+  width: 3.12rem;
+  height: 3.12rem;
   border-radius: 50%;
+}
+
+@media ($for-tablet) {
+  .category__img-wrapper {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    width: 12.5rem;
+    height: 12.5rem;
+    transform: translateY(-50%);
+  }
+}
+
+@media ($for-desktop) {
+  .category__img-wrapper {
+    position: static;
+    width: 6.25rem;
+    height: 6.25rem;
+    transform: translate(0);
+  }
 }

@@ -1,4 +1,9 @@
 .data-fieldset__label {
-  @include font-params(size(16px), 400, 1.13, $color-label);
+  @include flex;
+  @include font-params(1rem, 400, 1.13, $color-label);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.25rem;
+  margin-bottom: 0.87rem;
   text-transform: uppercase;
 }

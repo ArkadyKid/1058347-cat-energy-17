@@ -2,13 +2,13 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-<header class="header">
+<header class="header header--index">
   <h1 class="header__title visually-hidden">
     Интернет-магазин фитнес еды для котиков
   </h1>
@@ -24,17 +24,17 @@
     <a class="nav__toggle" href="#" aria-label="Переключатель мобильного меню"></a>
     <ul class="nav__menu">
       <li class="nav__item">
-        <a class="nav__link nav__link--active">
+        <a class="nav__link nav__link--index nav__link--index--active">
           Главная
         </a>
       </li>
       <li class="nav__item">
-        <a class="nav__link" href="./catalog.html">
+        <a class="nav__link nav__link--index" href="./catalog.html">
           Каталог продукции
         </a>
       </li>
       <li class="nav__item">
-        <a class="nav__link" href="./form.html">
+        <a class="nav__link nav__link--index" href="./form.html">
           Подбор программы
         </a>
       </li>
@@ -156,47 +156,56 @@
     </ul>
   </section>
   <section class="main__example example">
-    <h2 class="example__title">
-      Живой пример
-    </h2>
-    <p class="example__text">
-      Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без
-      изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
-    </p>
-    <table class="example__table example-table">
-      <caption class="example-table__caption">
-        Затраты на питание: 15 000 руб.
-      </caption>
-      <tr class="example-table__row">
-        <td class="example-table__data">
-          5&nbsp;кг
-        </td>
-        <td class="example-table__data">
-          60&nbsp;дней
-        </td>
-      </tr>
-      <tr class="example-table__row">
-        <th class="example-table__head">
-          Снижение веса
-        </th>
-        <th class="example-table__head">
-          Затрачено веса
-        </th>
-      </tr>
-    </table>
-    <div class="example__slider slider">
-      <input class="slider__input slider__input--before visually-hidden" id="before" type="radio" name="status" value="before" checked>
-      <input class="slider__input slider__input--after visually-hidden" id="after" type="radio" name="status" value="after">
-      <img class="slider__img slider__img--before" src="https://via.placeholder.com/280x270.png" alt="Толстый кот" width="311" height="232">
-      <img class="slider__img slider__img--before" src="https://via.placeholder.com/280x270.png" alt="Толстый кот" width="311" height="232">
-      <div class="slider__wrapper">
-        <label class="slider__label" for="before">
-          Было
-        </label>
-        <div class="slider__range"></div>
-        <label class="slider__label" for="after">
-          Стало
-        </label>
+    <div class="example__wrapper">
+      <div class="example__container">
+        <h2 class="example__title">
+          Живой пример
+        </h2>
+        <p class="example__text">
+          Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без
+          изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
+        </p>
+        <div class="example__table example-table">
+          <div class="example-table__wrapper">
+            <div class="example-table__col">
+              <span class="example-table__data">
+                5&nbsp;кг
+              </span>
+              <p class="example-table__head">
+                снижение веса
+              </p>
+            </div>
+            <div class="example-table__col">
+              <span class="example-table__data">
+                60&nbsp;дней
+              </span>
+              <p class="example-table__head">
+                затрачено времени
+              </p>
+            </div>
+          </div>
+          <p class="example-table__text">
+            Затраты на питание:
+            <span class="example-table__text-wrapper">
+              15&nbsp;000&nbsp;руб.
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="example__slider slider">
+        <input class="slider__input slider__input--before visually-hidden" id="before" type="radio" name="status" value="before" checked>
+        <input class="slider__input slider__input--after visually-hidden" id="after" type="radio" name="status" value="after">
+        <img class="slider__img slider__img--before" src="https://via.placeholder.com/280x270.png" alt="Толстый кот" width="311" height="232">
+        <img class="slider__img slider__img--after" src="https://via.placeholder.com/280x270.png" alt="Толстый кот" width="311" height="232">
+        <div class="slider__wrapper">
+          <label class="slider__label" for="before">
+            Было
+          </label>
+          <div class="slider__range"></div>
+          <label class="slider__label" for="after">
+            Стало
+          </label>
+        </div>
       </div>
     </div>
   </section>
@@ -209,57 +218,67 @@
         Приглашаем к&nbsp;сотрудничеству дилеров!
       </h3>
       <address class="contacts__address">
-        ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
+        ул. Большая Конюшенная, д. 19/8
+        <p class="contacts__address-wrapper">
+          Санкт-Петербург
+        </p>
       </address>
     </div>
-    <a class="contacts__map" href="https://www.google.com/maps/place/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F+%D0%9A%D0%BE%D0%BD%D1%8E%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%83%D0%BB.,+19%2F8,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+191186/data=!4m2!3m1!1s0x4696310fca145cc1:0x42b32648d8238007?sa=X&ved=2ahUKEwjUroDJ7afjAhVjyqYKHRGiAGkQ8gEwAHoECAoQAQ" target="_blank" rel="noopener" aria-label="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
-      <img class="contacts__map-img" src="https://via.placeholder.com/320x400.png" width="320" height="400" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
+  </section>
+  <section class="footer__map map">
+    <h3 class="map__title visually-hidden">
+      Наши координаты
+    </h3>
+    <a class="map__link" href="https://www.google.com/maps/place/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F+%D0%9A%D0%BE%D0%BD%D1%8E%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%83%D0%BB.,+19%2F8,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+191186/data=!4m2!3m1!1s0x4696310fca145cc1:0x42b32648d8238007?sa=X&ved=2ahUKEwjUroDJ7afjAhVjyqYKHRGiAGkQ8gEwAHoECAoQAQ" target="_blank" rel="noopener" aria-label="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
+      <img class="map__img" src="https://via.placeholder.com/320x400.png" width="320" height="400" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
     </a>
   </section>
-  <section class="footer__logo footer-logo">
-    <h3 class="footer-logo__title visually-hidden">
-      Логотип
-    </h3>
-    <a class="footer-logo__link" aria-label="CAT ENERGY">
-      <img class="footer-logo__img" src="./img/logo-footer.svg" alt="CAT ENERGY" width="128" height="24">
-    </a>
-  </section>
-  <section class="footer__social social">
-    <h3 class="social__title visually-hidden">
-      Социальные сети
-    </h3>
-    <ul class="social__menu">
-      <li class="social__item">
-        <a class="social__link" href="http://vk.com" target="_blank" rel="noopener" aria-label="Vk">
-          <svg width="22" height="12">
+  <div class="footer__wrapper">
+    <section class="footer__logo footer-logo">
+      <h3 class="footer-logo__title visually-hidden">
+        Логотип
+      </h3>
+      <a class="footer-logo__link" aria-label="CAT ENERGY">
+        <img class="footer-logo__img" src="./img/logo-footer.svg" alt="CAT ENERGY" width="128" height="24">
+      </a>
+    </section>
+    <section class="footer__social social">
+      <h3 class="social__title visually-hidden">
+        Социальные сети
+      </h3>
+      <ul class="social__menu">
+        <li class="social__item">
+          <a class="social__link" href="http://vk.com" target="_blank" rel="noopener" aria-label="Vk">
+            <svg width="22" height="12">
 
-          </svg>
-        </a>
-      </li>
-      <li class="social__item">
-        <a class="social__link" href="http://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
-          <svg width="23" height="23">
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="http://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="23" height="23">
 
-          </svg>
-        </a>
-      </li>
-      <li class="social__item">
-        <a class="social__link" href="http://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
-          <svg width="10" height="19">
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="http://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="10" height="19">
 
-          </svg>
-        </a>
-      </li>
-    </ul>
-  </section>
-  <section class="footer__developers footer-developers">
-    <h3 class="footer-developers__title visually-hidden">
-      Разработчики
-    </h3>
-    <a class="footer-developers__text" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener">
-      HTML Academy
-    </a>
-  </section>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="footer__developers footer-developers">
+      <h3 class="footer-developers__title visually-hidden">
+        Разработчики
+      </h3>
+      <a class="footer-developers__text" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener">
+        HTML Academy
+      </a>
+    </section>
+  </div>
 </footer>
 
 </body>

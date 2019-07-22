@@ -1,3 +1,12 @@
 .category__menu {
   @include reset-indents;
+  @include flex;
+  flex-direction: column;
+}
+
+@media ($for-desktop) {
+  .category__menu {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

@@ -1,3 +1,6 @@
 .accessories__wrapper {
+  @include flex;
+  justify-content: space-between;
+  padding-bottom: 0.93rem;
   margin: 0;
 }

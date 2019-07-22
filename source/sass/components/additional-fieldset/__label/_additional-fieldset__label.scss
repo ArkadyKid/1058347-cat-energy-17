@@ -1,4 +1,10 @@
 .additional-fieldset__label {
-  @include font-params(size(16px), 400, 1.16, $color-label);
+  @include font-params(1rem, 400, 1.16, $color-label);
+  padding: 0 1.25rem;
   text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.additional-fieldset__label:last-child {
+  margin-bottom: 0;
 }

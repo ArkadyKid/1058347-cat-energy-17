@@ -1,8 +1,8 @@
 @charset "utf-8";
 @import "abstracts/variables";
 @import "abstracts/mixins";
-@import "abstracts/functions";
 @import "vendors/visually-hidden";
+@import "vendors/normalize";
 @import "base/fonts";
 @import "base/base";
 @import "layout/header/index";
@@ -17,6 +17,7 @@
 @import "components/example-table/index";
 @import "components/slider/index";
 @import "components/contacts/index";
+@import "components/map/index";
 @import "components/social/index";
 @import "components/footer-developers/index";
 @import "components/catalog/index";
@@ -30,4 +31,5 @@
 @import "components/contacts-fieldset/index";
 @import "components/comments-fieldset/index";
 @import "components/additional-fieldset/index";
+@import "components/footer-logo/index";
 @import "pages/index";

@@ -1,5 +1,13 @@
 .advantages__img-wrapper {
-  width: 4.28rem;
-  height: 4.28rem;
+  width: 3.75rem;
+  height: 3.75rem;
   background-color: $color-main;
+}
+
+@media ($for-tablet) {
+  .advantages__img-wrapper {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 2.31rem;
+  }
 }

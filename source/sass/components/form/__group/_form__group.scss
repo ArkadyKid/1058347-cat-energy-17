@@ -1,0 +1,4 @@
+.form__group {
+  @include flex;
+  flex-direction: column;
+}

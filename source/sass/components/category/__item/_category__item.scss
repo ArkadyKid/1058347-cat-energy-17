@@ -1,10 +1,30 @@
 .category__item {
-  margin-bottom: size(20px);
-  padding: size(20px);
+  @include flex;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
   list-style: none;
   background-color: $color-background;
 }
 
 .category__item:last-child {
   margin-bottom: 0;
+}
+
+@media ($for-tablet) {
+  .category__item {
+    padding: 5.06rem 3.87rem 3.87rem 3.25rem;
+  }
+}
+
+@media ($for-desktop) {
+  .category__item {
+    width: 48%;
+    padding: 2.56rem 3.5rem 3.875rem 3.25rem;
+  }
+
+  .category__item:last-child {
+    margin-bottom: 1.25rem;
+  }
 }

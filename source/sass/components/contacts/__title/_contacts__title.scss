@@ -1,6 +1,13 @@
 .contacts__title {
-  @include font-params (size(16px), 400, 1.25, $color-title);
-  width: 50%;
+  @include font-params (1rem, 400, 1.25, $color-title);
+  width: 7.68rem;
   margin: 0;
   text-transform: uppercase;
+}
+
+@media ($for-tablet) {
+  .contacts__title {
+    width: 9.62rem;
+    font-size: 1.25rem;
+  }
 }

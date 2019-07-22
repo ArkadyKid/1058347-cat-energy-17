@@ -1,0 +1,4 @@
+.slider__wrapper {
+  @include flex;
+  justify-content: space-between;
+}

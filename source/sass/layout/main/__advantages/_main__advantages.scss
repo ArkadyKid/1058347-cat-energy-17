@@ -1,4 +1,9 @@
 .main__advantages {
   @include wrapper;
-  margin-bottom: size(22px);
+}
+
+@media ($for-tablet) {
+  .main__advantages {
+    border-bottom: 0.06rem solid $color-border;
+  }
 }

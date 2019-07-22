@@ -1,4 +1,9 @@
 .data-fieldset {
   @include reset-indents;
+  @include flex;
+  flex-direction: column;
+  padding-bottom: 0.62rem;
   border: none;
+  border-bottom: 0.06rem solid $color-background;
+  margin-bottom: 1.25rem;
 }

@@ -1,3 +1,19 @@
 .advantages__menu {
   @include reset-indents;
+  @include flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media ($for-tablet) {
+  .advantages__menu {
+    flex-direction: row;
+  }
+}
+
+@media ($for-desktop) {
+  .advantages__menu {
+    align-items: flex-start;
+  }
 }

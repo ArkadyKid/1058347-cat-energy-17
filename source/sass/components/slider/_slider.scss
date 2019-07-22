@@ -1,0 +1,11 @@
+.slider {
+  @include flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media ($for-desktop) {
+  .slider {
+    width: 50%;
+  }
+}

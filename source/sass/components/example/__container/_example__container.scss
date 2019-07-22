@@ -1,0 +1,17 @@
+.example__container {
+  @include flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media ($for-tablet) {
+  .example__container {
+    align-items: flex-start;
+  }
+}
+
+@media ($for-desktop) {
+  .example__container {
+    width: 50%;
+  }
+}

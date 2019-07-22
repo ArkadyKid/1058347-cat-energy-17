@@ -1,4 +1,11 @@
 .category__item-btn {
-  @include font-params (size(16px), 400, 1, $color-title);
+  @include font-params (1rem, 400, 1, $color-title);
   text-transform: uppercase;
+}
+
+@media ($for-tablet) {
+  .category__item-btn {
+    max-width: 70%;
+    font-size: 1.25rem;
+  }
 }
