@@ -3,3 +3,9 @@
   width: 100%;
   justify-content: space-between;
 }
+
+@media ($for-tablet) {
+  .catalog-table__row {
+    border-bottom: 0.06rem solid $color-border;
+  }
+}

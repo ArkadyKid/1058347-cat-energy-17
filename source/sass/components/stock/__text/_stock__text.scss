@@ -5,3 +5,9 @@
   font-family: "Arial", sans-serif;
   text-align: center;
 }
+
+@media ($for-tablet) {
+  .stock__text {
+    margin: 0;
+  }
+}

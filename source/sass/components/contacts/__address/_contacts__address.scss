@@ -4,7 +4,7 @@
   line-height: 1.43;
   font-family: "Arial", sans-serif;
   font-style: normal;
-  text-align: right;
+  text-align: left;
 }
 
 @media ($for-tablet) {
@@ -12,5 +12,6 @@
     font-size: 1rem;
     line-height: 1.25;
     width: 10.56rem;
+    text-align: right;
   }
 }

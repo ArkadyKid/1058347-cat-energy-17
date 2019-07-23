@@ -1,6 +1,17 @@
 .catalog__title {
   @include font-params(2.25rem, 400, 1.69, $color-title);
+  width: 100%;
   margin: 0;
   padding: 1.93rem 0 2.18rem;
+  text-align: center;
   border-bottom: 1px solid $color-border;
+}
+
+@media ($for-tablet) {
+  .catalog__title {
+    border-bottom: none;
+    font-size: 3.75rem;
+    line-height: 1;
+    text-align: left;
+  }
 }

@@ -1,0 +1,11 @@
+.catalog {
+  @include flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media ($for-tablet) {
+  .catalog {
+    @include wrapper;
+  }
+}

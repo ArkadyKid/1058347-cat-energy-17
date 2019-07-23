@@ -1,7 +1,40 @@
 .catalog__item {
   @include flex;
   flex-direction: column;
-  margin: 1.56rem 0;
+  align-items: center;
+  min-width: 320px;
+  width: 100%;
+  margin: 1.56rem auto;
+  padding: 0 1.25rem;
   border-bottom: 1px solid $color-border;
   list-style: none;
+}
+
+@media ($for-tablet) {
+  .catalog__item {
+    width: auto;
+    flex-grow: 1;
+    margin: 0 3.75rem 5.75rem 0;
+    border-bottom: none;
+    background-color: $color-background;
+  }
+  .catalog__item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media ($for-desktop) {
+  .catalog__item {
+    min-width: auto;
+    width: 20%;
+    margin-right: 5rem;
+  }
+
+  .catalog__item:nth-child(2n) {
+    margin-right: 5rem;
+  }
+
+  .catalog__item:nth-child(4n) {
+    margin-right: 0;
+  }
 }

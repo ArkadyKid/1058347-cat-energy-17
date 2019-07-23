@@ -6,3 +6,9 @@
   background-color: $color-background;
   text-transform: uppercase;
 }
+
+@media ($for-tablet) {
+  .more__link {
+    margin-top: auto;
+  }
+}

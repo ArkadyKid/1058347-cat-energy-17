@@ -1,3 +1,14 @@
 .catalog__menu {
   @include reset-indents;
+  @include flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+@media ($for-tablet) {
+  .catalog__menu {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
