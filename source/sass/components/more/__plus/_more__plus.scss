@@ -1,3 +1,11 @@
 .more__plus {
   padding-bottom: 1.56rem;
+  padding-top: 0.125rem;
+}
+
+@media ($for-tablet) {
+  .more__plus {
+    padding-top: 3.43rem;
+    padding-bottom: 3.12rem;
+  }
 }

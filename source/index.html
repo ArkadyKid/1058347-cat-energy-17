@@ -51,7 +51,11 @@
       <p class="adv__slogan">
         Занялся собой? Займись котом!
       </p>
-      <img class="adv__img" src="https://via.placeholder.com/280x270.png" alt="Cat energy PRO chicken">
+      <picture>
+        <source srcset="./img/index-can-desktop@1x.png" media="(min-width: 1024px)" type="image/webp">
+        <source srcset="./img/index-can-tablet@1x.jpg" media="(min-width: 768px)" type="image/webp">
+        <img class="adv__img" src="img/index-can-mobile@1x.png" alt="Cat energy PRO chicken" width="280" height="271">
+      </picture>
       <a class="adv__link btn" href="./form.html">
         Подобрать программу
       </a>
@@ -195,8 +199,8 @@
       <div class="example__slider slider">
         <input class="slider__input slider__input--before visually-hidden" id="before" type="radio" name="status" value="before" checked>
         <input class="slider__input slider__input--after visually-hidden" id="after" type="radio" name="status" value="after">
-        <img class="slider__img slider__img--before" src="https://via.placeholder.com/280x270.png" alt="Толстый кот" width="311" height="232">
-        <img class="slider__img slider__img--after" src="https://via.placeholder.com/280x270.png" alt="Толстый кот" width="311" height="232">
+        <img class="slider__img slider__img--before" src="./img/before-mobile@1x.png" alt="Толстый кот" width="311" height="232">
+        <img class="slider__img slider__img--after" src="./img/after-mobile@1x.png" alt="Толстый кот" width="311" height="232">
         <div class="slider__wrapper">
           <label class="slider__label" for="before">
             Было

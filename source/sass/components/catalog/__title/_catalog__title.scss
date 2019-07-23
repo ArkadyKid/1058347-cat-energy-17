@@ -4,11 +4,12 @@
   margin: 0;
   padding: 1.93rem 0 2.18rem;
   text-align: center;
-  border-bottom: 1px solid $color-border;
+  border-bottom: 0.06rem solid $color-border;
 }
 
 @media ($for-tablet) {
   .catalog__title {
+    padding-bottom: 6.87rem;
     border-bottom: none;
     font-size: 3.75rem;
     line-height: 1;

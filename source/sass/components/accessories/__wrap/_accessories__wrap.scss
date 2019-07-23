@@ -1,0 +1,6 @@
+@media ($for-desktop) {
+  .accessories__wrap {
+    @include flex;
+    justify-content: space-between;
+  }
+}

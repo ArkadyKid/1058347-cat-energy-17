@@ -1,4 +1,4 @@
-.stock__wrapper {
+.stock {
   @include flex;
   flex-direction: column;
   align-items: center;
@@ -10,9 +10,18 @@
 }
 
 @media ($for-tablet) {
-  .stock__wrapper {
+  .stock {
     flex-direction: row;
     justify-content: center;
     background-image: url("../img/gift-photo-tablet@1x.jpg");
+  }
+}
+
+@media ($for-desktop) {
+  .stock {
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 15.31rem;
+    background-image: url("../img/gift-photo-desktop@1x.jpg");
   }
 }

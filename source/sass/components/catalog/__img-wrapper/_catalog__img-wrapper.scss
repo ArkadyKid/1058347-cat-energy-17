@@ -1,0 +1,9 @@
+.catalog__img-wrapper {
+  object-fit: contain;
+}
+
+@media ($for-tablet) {
+  .catalog__img-wrapper {
+    margin-bottom: 2.43rem;
+  }
+}

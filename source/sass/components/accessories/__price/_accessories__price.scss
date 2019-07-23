@@ -1,5 +1,3 @@
 .accessories__price {
-  @include font-params(0.87rem, 400, 1, $color-text);
-  font-family: "Arial", sans-serif;
   text-transform: uppercase;
 }

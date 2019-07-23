@@ -1,6 +1,19 @@
 .accessories__item-title {
   @include font-params(1rem, 400, 1, $color-label);
+  padding-bottom: 0.81rem;
   text-transform: uppercase;
-  padding-bottom: 0.93rem;
   margin: 0;
+}
+
+@media ($for-tablet) {
+  .accessories__item-title {
+    font-size: 1.25rem;
+  }
+}
+
+@media ($for-desktop) {
+  .accessories__item-title {
+    padding-bottom: 0;
+    max-width: 10rem;
+  }
 }

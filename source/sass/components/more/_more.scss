@@ -5,15 +5,25 @@
   flex-direction: column;
   align-items: center;
   padding: 1.56rem 1.25rem;
-  border-bottom: 1px solid $color-border;
+  border-bottom: 0.06rem solid $color-border-light;
 }
 
 @media ($for-tablet) {
   .more {
-    width: auto;
-    margin-bottom: 5.75rem;
+    width: 42%;
+    min-width: 20.25rem;
+    min-height: 26.93rem;
     flex-grow: 1;
-    align-self: stretch;
-    border: 1px solid $color-border;
+    margin-bottom: 5.75rem;
+    padding: 0 2.37rem;
+    border: 0.06rem solid $color-border;
+  }
+}
+
+@media ($for-desktop) {
+  .more {
+    min-width: auto;
+    max-width: 15.31rem;
+    width: 18%;
   }
 }

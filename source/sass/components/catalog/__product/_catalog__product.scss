@@ -2,15 +2,16 @@
   @include font-params(1rem, 400, 1.25, $color-title);
   display: block;
   max-width: 4.56rem;
-  padding-bottom: 1.12rem;
+  margin-bottom: 1.12rem;
   text-transform: uppercase;
 }
 
 @media ($for-tablet) {
   .catalog__product {
+    max-width: 8rem;
+    margin: 0 auto 1.75rem;
     font-size: 1.25rem;
     line-height: 1;
     text-align: center;
-    max-width: 8rem;
   }
 }

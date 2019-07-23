@@ -4,3 +4,12 @@
   padding-bottom: 25px;
   text-transform: uppercase;
 }
+
+@media ($for-tablet) {
+  .more__title {
+    max-width: 9rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    text-align: center;
+  }
+}

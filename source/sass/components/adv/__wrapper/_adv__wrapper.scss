@@ -6,16 +6,40 @@
   padding-top: 1.87rem;
 }
 
+.adv__wrapper img {
+  object-fit: contain;
+}
+
 @media ($for-tablet) {
   .adv__wrapper {
     position: relative;
     align-items: flex-start;
     padding-left: 7.5rem;
   }
+
+  .adv__wrapper img {
+    width: 44.31rem;
+    height: 38.06rem;
+    align-self: center;
+  }
+
+  .adv__wrapper picture {
+    order: 4;
+  }
 }
 
 @media ($for-desktop) {
   .adv__wrapper {
     padding-top: 14.12rem;
+    padding-bottom: 16.75rem;
   }
+
+  .adv__wrapper img {
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    width: 34.5rem;
+    height: 31.18rem;
+  }
+
 }

@@ -1,6 +1,25 @@
 .accessories__wrapper {
   @include flex;
+  @include font-params(0.87rem, 400, 1, $color-text);
   justify-content: space-between;
-  padding-bottom: 0.93rem;
+  padding-bottom: 0.87rem;
   margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+@media ($for-tablet) {
+  .accessories__wrapper {
+    font-size: 1rem;
+    line-height: 1.25;
+    padding-bottom: 0.93rem;
+  }
+}
+
+@media ($for-desktop) {
+  .accessories__wrapper {
+    justify-content: space-between;
+    min-width: 17.12rem;
+    margin-left: auto;
+    margin-right: 2.5rem;
+  }
 }

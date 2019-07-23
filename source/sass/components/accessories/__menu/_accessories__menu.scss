@@ -1,3 +1,9 @@
 .accessories__menu {
   @include reset-indents;
 }
+
+@media ($for-desktop) {
+  .accessories__menu {
+    flex-grow: 1;
+  }
+}

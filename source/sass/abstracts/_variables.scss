@@ -12,7 +12,8 @@ $color-title: $color-codgray;
 $color-text: $color-tundora;
 $color-background: $color-concrete;
 $color-label: $color-mineshaft;
-$color-border: rgba($color-silver, 0.5);
+$color-border-light: rgba($color-silver, 0.5);
+$color-border: $color-silver;
 
 $transition: 300ms ease-out;
 
