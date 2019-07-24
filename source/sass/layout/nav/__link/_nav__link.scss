@@ -1,5 +1,6 @@
 .nav__link {
   @include font-params(1.25rem, 500, 1, $color-title);
+  font-weight: 500;
   position: relative;
   padding-top: 1.5rem;
   padding-bottom: 1.25rem;
@@ -37,5 +38,4 @@
   .nav__link::after {
     width: auto;
   }
-
 }

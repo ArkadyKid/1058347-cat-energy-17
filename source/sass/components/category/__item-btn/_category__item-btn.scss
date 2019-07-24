@@ -1,6 +1,15 @@
 .category__item-btn {
   @include font-params (1rem, 400, 1, $color-title);
   text-transform: uppercase;
+  background-image: url("../img/icon-right-arrow-long.svg");
+  background-repeat: no-repeat;
+  background-position: 7.25rem;
+  background-size: 25px 12px;
+}
+
+.category__item-btn:hover {
+  background-image: url("../img/icon-right-arrow-verylong.svg");
+  background-size: 34px 12px;
 }
 
 @media ($for-tablet) {

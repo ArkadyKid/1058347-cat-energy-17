@@ -56,56 +56,66 @@
       Заполните анкету и мы подберем программу питания для вашего кота
     </p>
     <form class="form__group" action="https://echo.htmlacademy.ru" method="get">
-      <fieldset class="form__data-fieldset data-fieldset">
-        <label class="data-fieldset__label" for="name">
-          <span class="data-fieldset__label-wrapper">
-            Имя:*
-          </span>
-          <input class="data-fieldset__input" id="name" type="text" name="name" required>
-        </label>
-        <label class="data-fieldset__label" for="weight">
-          <span class="data-fieldset__label-wrapper">
-            Вес (кг):*
-          </span>
-          <input class="data-fieldset__input" id="weight" type="number" name="weight" required>
-        </label>
-        <label class="data-fieldset__label" for="age">
-          <span class="data-fieldset__label-wrapper">
-            Возраст (лет):
-          </span>
-          <input class="data-fieldset__input" id="age" type="number" name="age">
-        </label>
-      </fieldset>
-      <fieldset class="form__target-fieldset target-fieldset">
-        <label class="target-fieldset__label" for="slim">
+      <div class="form__container">
+        <fieldset class="form__data-fieldset data-fieldset">
+          <label class="data-fieldset__label" for="name">
+            <span class="data-fieldset__label-wrapper">
+              Имя:*
+            </span>
+            <input class="data-fieldset__input" id="name" type="text" name="name" required>
+          </label>
+          <label class="data-fieldset__label" for="weight">
+            <span class="data-fieldset__label-wrapper">
+              Вес (кг):*
+            </span>
+            <input class="data-fieldset__input" id="weight" type="number" name="weight" required>
+          </label>
+          <label class="data-fieldset__label" for="age">
+            <span class="data-fieldset__label-wrapper">
+              Возраст (лет):
+            </span>
+            <input class="data-fieldset__input" id="age" type="number" name="age">
+          </label>
+        </fieldset>
+        <fieldset class="form__target-fieldset target-fieldset">
           <input class="target-fieldset__input visually-hidden" id="slim" type="radio" name="target" value="slim" checked>
-          Похудение
-        </label>
-        <label class="target-fieldset__label" for="pro">
+          <label class="target-fieldset__label" for="slim">
+            Похудение
+          </label>
           <input class="target-fieldset__input visually-hidden" id="pro" type="radio" name="target" value="pro">
-          Набор массы
-        </label>
-        <label class="target-fieldset__label" for="undefined">
+          <label class="target-fieldset__label" for="pro">
+            Набор массы
+          </label>
           <input class="target-fieldset__input visually-hidden" id="undefined" type="radio" name="target" value="undefined">
-          Не знаю (нужен совет)
-        </label>
-      </fieldset>
+          <label class="target-fieldset__label" for="undefined">
+            Не знаю (нужен совет)
+          </label>
+        </fieldset>
+      </div>
       <fieldset class="form__contacts-fieldset contacts-fieldset">
         <legend class="contacts-fieldset__title">
           Контактные данные (владельца кота)
         </legend>
-        <label class="contacts-fieldset__label" for="email">
-          <span class="contacts-fieldset__label-wrapper">
-            E-mail:*
-          </span>
-          <input class="contacts-fieldset__input" id="email" type="email" name="email" required>
-        </label>
-        <label class="contacts-fieldset__label" for="phone">
-          <span class="contacts-fieldset__label-wrapper">
-            Телефон:*
-          </span>
-          <input class="contacts-fieldset__input" id="phone" type="tel" name="phone" required>
-        </label>
+        <div class="contacts-fieldset__wrapper">
+          <label class="contacts-fieldset__label" for="email">
+            <span class="contacts-fieldset__label-wrapper">
+              E-mail:*
+            </span>
+            <input class="contacts-fieldset__input" id="email" type="email" name="email" required>
+            <svg width="18" height="14">
+              <use xlink:href="./img/sprite.svg#icon-mail"></use>
+            </svg>
+          </label>
+          <label class="contacts-fieldset__label" for="phone">
+            <span class="contacts-fieldset__label-wrapper">
+              Телефон:*
+            </span>
+            <input class="contacts-fieldset__input" id="phone" type="tel" name="phone" required>
+            <svg width="21" height="21">
+              <use xlink:href="./img/sprite.svg#icon-phone"></use>
+            </svg>
+          </label>
+        </div>
       </fieldset>
       <fieldset class="form__comments-fieldset comments-fieldset">
         <legend class="comments-fieldset__title">
@@ -119,22 +129,24 @@
         <legend class="additional-fieldset__title">
           Дополнительно
         </legend>
-        <label class="additional-fieldset__label" for="sugar">
+        <div class="additional-fieldset__wrapper">
           <input class="additional-fieldset__input visually-hidden" id="sugar" type="checkbox" name="additional" value="sugar" checked>
-          Сахарозаменитель
-        </label>
-        <label class="additional-fieldset__label" for="water">
+          <label class="additional-fieldset__label" for="sugar">
+            Сахарозаменитель
+          </label>
           <input class="additional-fieldset__input visually-hidden" id="water" type="checkbox" name="additional" value="water">
-          Питьевая вода
-        </label>
-        <label class="additional-fieldset__label" for="milk">
+          <label class="additional-fieldset__label" for="water">
+            Питьевая вода
+          </label>
           <input class="additional-fieldset__input visually-hidden" id="milk" type="checkbox" name="additional" value="milk">
-          Молоко
-        </label>
-        <label class="additional-fieldset__label" for="vitamins">
+          <label class="additional-fieldset__label" for="milk">
+            Молоко
+          </label>
           <input class="additional-fieldset__input visually-hidden" id="vitamins" type="checkbox" name="additional" value="vitamins">
-          Витамины
-        </label>
+          <label class="additional-fieldset__label" for="vitamins">
+            Витамины
+          </label>
+        </div>
       </fieldset>
       <div class="form__wrapper">
         <button class="form__btn btn" type="submit">
@@ -189,21 +201,21 @@
         <li class="social__item">
           <a class="social__link" href="http://vk.com" target="_blank" rel="noopener" aria-label="Vk">
             <svg width="22" height="12">
-
+              <use xlink:href="./img/sprite.svg#icon-vk"></use>
             </svg>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link" href="http://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
             <svg width="23" height="23">
-
+              <use xlink:href="./img/sprite.svg#icon-insta"></use>
             </svg>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link" href="http://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
             <svg width="10" height="19">
-
+              <use xlink:href="./img/sprite.svg#icon-fb"></use>
             </svg>
           </a>
         </li>
@@ -216,6 +228,9 @@
       <a class="footer-developers__text" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener">
         HTML Academy
       </a>
+      <svg width="33" height="40">
+        <use xlink:href="./img/sprite.svg#icon-htmlacademy"></use>
+      </svg>
     </section>
   </div>
 </footer>

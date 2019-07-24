@@ -9,6 +9,10 @@
   background-position: center;
 }
 
+.stock svg {
+  fill: $color-white;
+}
+
 @media ($for-tablet) {
   .stock {
     flex-direction: row;

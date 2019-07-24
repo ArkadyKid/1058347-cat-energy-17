@@ -1,9 +1,40 @@
 .contacts-fieldset__label {
   @include flex;
   @include font-params(1rem, 400, 1.13, $color-label);
+  position: relative;
+  flex-grow: 1;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
   padding: 0 1.25rem;
   margin-bottom: 0.87rem;
+}
+
+.contacts-fieldset__label svg {
+  display: none;
+}
+
+@media ($for-tablet) {
+  .contacts-fieldset__label {
+    font-size: 1.25rem;
+    line-height: 1;
+    padding: 0 4.375rem;
+    margin-bottom: 2.375rem;
+  }
+
+  .contacts-fieldset__label svg {
+    position: absolute;
+    right: 5.5rem;
+    display: block;
+  }
+}
+
+@media ($for-desktop) {
+  .contacts-fieldset__label {
+    padding: 0 1.25rem;
+  }
+
+  .contacts-fieldset__label svg {
+    right: 2.1875rem;
+  }
 }

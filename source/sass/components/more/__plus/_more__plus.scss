@@ -3,9 +3,25 @@
   padding-top: 0.125rem;
 }
 
+.more__plus svg {
+  fill: rgba($color-label, 0.2);
+}
+
+.more__plus svg:last-child {
+  display: none;
+}
+
 @media ($for-tablet) {
   .more__plus {
     padding-top: 3.43rem;
     padding-bottom: 3.12rem;
+  }
+
+  .more__plus svg:first-child {
+    display: none;
+  }
+
+  .more__plus svg:last-child {
+    display: block;
   }
 }

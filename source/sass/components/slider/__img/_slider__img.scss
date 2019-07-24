@@ -1,3 +1,5 @@
-.slider__img:last-of-type {
-  display: none;
+@media ($for-tablet) {
+  .slider__img {
+    width: 636px;
+  }
 }

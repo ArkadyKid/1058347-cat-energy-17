@@ -4,3 +4,18 @@
   padding: 0 1.25rem;
   margin: 0 0 2.5rem;
 }
+
+@media ($for-tablet) {
+  .form__text {
+    max-width: 30rem;
+    padding: 0 4.375rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
+
+@media ($for-desktop) {
+  .form__text {
+    padding: 0 1.25rem;
+  }
+}

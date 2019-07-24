@@ -3,3 +3,16 @@
   padding: 0 1.25rem;
   margin-bottom: 1.87rem;
 }
+
+@media ($for-tablet) {
+  .comments-fieldset__title {
+    font-size: 2.25rem;
+    padding: 0 4.375rem;
+  }
+}
+
+@media ($for-desktop) {
+  .comments-fieldset__title {
+    padding: 0 1.25rem;
+  }
+}

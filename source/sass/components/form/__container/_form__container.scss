@@ -1,13 +1,11 @@
-.footer__wrapper {
+.form__container {
   @include flex;
-  @include wrapper;
   flex-direction: column;
 }
 
-@media ($for-tablet) {
-  .footer__wrapper {
+@media ($for-desktop) {
+  .form__container {
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
   }
 }

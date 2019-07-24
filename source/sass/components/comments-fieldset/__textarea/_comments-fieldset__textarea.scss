@@ -1,8 +1,21 @@
 .comments-fieldset__textarea {
   @include font-params(1rem, 400, 1.13, $color-text);
-  width: 17.5rem;
+  flex-grow: 1;
   min-height: 9.37rem;
   padding: 0.93rem;
   border: 0.06rem solid $color-border;
   text-transform: uppercase;
+  resize: vertical;
+}
+
+.comments-fieldset__textarea:focus {
+  outline: 0.125rem solid $color-text;
+  border-color: transparent;
+}
+
+@media ($for-tablet) {
+  .comments-fieldset__textarea {
+    font-size: 1.25rem;
+    line-height: 1;
+  }
 }

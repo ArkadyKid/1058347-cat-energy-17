@@ -1,0 +1,13 @@
+.advantages__number {
+  font-size: 0;
+}
+
+@media ($for-tablet) {
+  .advantages__number {
+    @include font-params(17.5625rem, 400, 1, $color-background);
+    position: absolute;
+    top: -2.5rem;
+    left: 7.1875rem;
+    z-index: -1;
+  }
+}

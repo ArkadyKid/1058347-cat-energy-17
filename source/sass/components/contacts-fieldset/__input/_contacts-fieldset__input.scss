@@ -5,3 +5,29 @@
   padding: 0.93rem;
   text-transform: uppercase;
 }
+
+.contacts-fieldset__input:invalid {
+  outline: 0.125rem solid #ff8282;
+  border-color: transparent;
+}
+
+.contacts-fieldset__input:focus {
+  outline: 0.125rem solid $color-text;
+  border-color: transparent;
+}
+
+.contacts-fieldset__input:invalid + svg {
+  fill: #ff8282;
+}
+
+.contacts-fieldset__input:focus + svg {
+  fill: $color-main;
+}
+
+@media ($for-tablet) {
+  .contacts-fieldset__input {
+    font-size: 1.25rem;
+    line-height: 1;
+    padding-right: 3rem;
+  }
+}

@@ -151,9 +151,9 @@
         <div class="catalog__container">
           <a class="catalog__img-wrapper" href="#" aria-label="Cat Energy PRO 500 г">
             <picture>
-              <source srcset="./img/buckwheat-big-desktop@1x.png" media="(min-width: 1024px)" type="image/webp">
-              <source srcset="./img/buckwheat-big-tablet@1x.png" media="(min-width: 768px)" type="image/webp">
-              <img src="img/buckwheat-big-mobile@1x.jpg" alt="Cat Energy PRO 500 г" width="140" height="144">
+              <source srcset="./img/buckwheat-small-desktop@1x.png" media="(min-width: 1024px)" type="image/webp">
+              <source srcset="./img/buckwheat-small-tablet@1x.png" media="(min-width: 768px)" type="image/webp">
+              <img src="img/buckwheat-small-mobile@1x.jpg" alt="Cat Energy PRO 500 г" width="140" height="144">
             </picture>
           </a>
           <div class="catalog__wrapper">
@@ -385,7 +385,10 @@
       <li class="catalog__more more">
         <a class="more__plus" href="#" aria-label="Показать все">
           <svg width="31" height="31">
-
+            <use xlink:href="./img/sprite.svg#icon-plus-mobile"></use>
+          </svg>
+          <svg width="61" height="61">
+            <use xlink:href="./img/sprite.svg#icon-plus"></use>
           </svg>
         </a>
         <a class="more__title">
@@ -474,7 +477,7 @@
       <div class="accessories__stock stock">
         <div class="stock__icon">
           <svg width="56" height="61">
-
+            <use xlink:href="./img/sprite.svg#icon-gift"></use>
           </svg>
         </div>
         <p class="stock__text">
@@ -526,21 +529,21 @@
         <li class="social__item">
           <a class="social__link" href="http://vk.com" target="_blank" rel="noopener" aria-label="Vk">
             <svg width="22" height="12">
-
+              <use xlink:href="./img/sprite.svg#icon-vk"></use>
             </svg>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link" href="http://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
             <svg width="23" height="23">
-
+              <use xlink:href="./img/sprite.svg#icon-insta"></use>
             </svg>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link" href="http://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
             <svg width="10" height="19">
-
+              <use xlink:href="./img/sprite.svg#icon-fb"></use>
             </svg>
           </a>
         </li>
@@ -553,6 +556,9 @@
       <a class="footer-developers__text" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener">
         HTML Academy
       </a>
+      <svg width="33" height="40">
+        <use xlink:href="./img/sprite.svg#icon-htmlacademy"></use>
+      </svg>
     </section>
   </div>
 </footer>

@@ -11,5 +11,6 @@
 @media ($for-tablet) {
   .btn {
     @include font-params(1rem, 400, 1, $color-white);
+    padding: 1.0625rem 0 0.9375rem 0;
   }
 }

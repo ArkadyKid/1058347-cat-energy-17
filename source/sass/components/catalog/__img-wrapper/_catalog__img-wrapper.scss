@@ -1,9 +1,19 @@
-.catalog__img-wrapper {
+.catalog__img-wrapper img {
   object-fit: contain;
 }
 
 @media ($for-tablet) {
   .catalog__img-wrapper {
     margin-bottom: 2.43rem;
+  }
+
+  .catalog__img-wrapper img {
+    width: 324px;
+  }
+}
+
+@media ($for-desktop) {
+  .catalog__img-wrapper img {
+    width: 245px;
   }
 }

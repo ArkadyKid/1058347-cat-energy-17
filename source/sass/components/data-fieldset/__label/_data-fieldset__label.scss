@@ -7,3 +7,17 @@
   margin-bottom: 0.87rem;
   text-transform: uppercase;
 }
+
+@media ($for-tablet) {
+  .data-fieldset__label {
+    padding: 0 4.375rem;
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+}
+
+@media ($for-desktop) {
+  .data-fieldset__label {
+    padding: 0 1.25rem;
+  }
+}

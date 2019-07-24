@@ -1,11 +1,14 @@
-.advantages__img-wrapper {
+.advantages__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 3.75rem;
   height: 3.75rem;
   background-color: $color-main;
 }
 
 @media ($for-tablet) {
-  .advantages__img-wrapper {
+  .advantages__img {
     width: 5rem;
     height: 5rem;
     margin-bottom: 2.31rem;

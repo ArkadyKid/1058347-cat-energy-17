@@ -1,0 +1,6 @@
+@media ($for-desktop) {
+  .contacts-fieldset__wrapper {
+    @include flex;
+    justify-content: space-between;
+  }
+}

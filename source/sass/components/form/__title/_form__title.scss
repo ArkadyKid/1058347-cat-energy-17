@@ -3,3 +3,10 @@
   padding: 0 1.25rem;
   margin: 1.87rem 0 2.18rem;
 }
+
+@media ($for-tablet) {
+  .form__title {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}

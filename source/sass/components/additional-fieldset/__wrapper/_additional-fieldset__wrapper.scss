@@ -1,13 +1,11 @@
-.footer__wrapper {
+.additional-fieldset__wrapper {
   @include flex;
-  @include wrapper;
   flex-direction: column;
 }
 
 @media ($for-tablet) {
-  .footer__wrapper {
+  .additional-fieldset__wrapper {
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
   }
 }
