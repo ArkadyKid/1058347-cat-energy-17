@@ -1,0 +1,18 @@
+.contacts__pin {
+  position: absolute;
+  top: 57%;
+  left: 45%;
+}
+
+@media ($for-tablet) {
+  .contacts__pin img {
+    width: 7.06rem;
+  }
+}
+
+@media ($for-desktop) {
+  .contacts__pin {
+    top: 40%;
+    left: 70%;
+  }
+}

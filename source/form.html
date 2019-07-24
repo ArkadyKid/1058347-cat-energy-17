@@ -17,7 +17,11 @@
       Логотип
     </h3>
     <a class="header-logo__link" href="./index.html" aria-label="CAT ENERGY">
-      <img class="header-logo__img" src="./img/logo-mobile.svg" alt="CAT ENERGY" width="191" height="31">
+      <picture>
+        <source srcset="./img/logo-desktop.svg" media="(min-width: 1024px)">
+        <source srcset="./img/logo-tablet.svg" media="(min-width: 768px)">
+        <img src="./img/logo-mobile.svg" alt="CAT ENERGY" width="191" height="31">
+      </picture>
     </a>
   </section>
   <nav class="header__nav nav">
@@ -145,7 +149,7 @@
 </main>
 
 <footer class="footer">
-  <section class="footer__contacts contacts">
+  <section class="footer__contacts contacts contacts--index">
     <div class="contacts__wrapper">
       <h3 class="contacts__title">
         Приглашаем к&nbsp;сотрудничеству дилеров!
@@ -157,13 +161,15 @@
         </p>
       </address>
     </div>
-  </section>
-  <section class="footer__map map">
-    <h3 class="map__title visually-hidden">
-      Наши координаты
-    </h3>
-    <a class="contacts__map" href="https://www.google.com/maps/place/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F+%D0%9A%D0%BE%D0%BD%D1%8E%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%83%D0%BB.,+19%2F8,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+191186/data=!4m2!3m1!1s0x4696310fca145cc1:0x42b32648d8238007?sa=X&ved=2ahUKEwjUroDJ7afjAhVjyqYKHRGiAGkQ8gEwAHoECAoQAQ" target="_blank" rel="noopener" aria-label="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
-      <img class="contacts__map-img" src="https://via.placeholder.com/320x400.png" width="320" height="400" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
+    <div class="contacts__pin">
+      <img src="./img/map-pin.png" alt="мы здесь" width="55" height="53">
+    </div>
+    <a class="map__link" href="https://www.google.com/maps/place/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F+%D0%9A%D0%BE%D0%BD%D1%8E%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%83%D0%BB.,+19%2F8,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+191186/data=!4m2!3m1!1s0x4696310fca145cc1:0x42b32648d8238007?sa=X&ved=2ahUKEwjUroDJ7afjAhVjyqYKHRGiAGkQ8gEwAHoECAoQAQ" target="_blank" rel="noopener" aria-label="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
+      <picture>
+        <source srcset="./img/bg-map-desktop@1x.png" media="(min-width: 1024px)">
+        <source srcset="./img/bg-map-tablet@1x.png" media="(min-width: 768px)">
+        <img src="./img/bg-map-mobile@1x.png" width="320" height="400" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
+      </picture>
     </a>
   </section>
   <div class="footer__wrapper">
