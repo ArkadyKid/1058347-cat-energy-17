@@ -7,9 +7,14 @@
   background-size: 25px 12px;
 }
 
-.category__item-btn:hover {
+.category__item-btn:hover,
+.category__item-btn:focus {
   background-image: url("../img/icon-right-arrow-verylong.svg");
   background-size: 34px 12px;
+}
+
+.category__item-btn:active {
+  opacity: 0.3;
 }
 
 @media ($min-width-tablet) {

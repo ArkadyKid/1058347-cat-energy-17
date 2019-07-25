@@ -9,14 +9,15 @@
     background-color: $color-main;
     content: "";
     transform: translateY(-50%);
+    transition: $transition;
   }
 
   .slider__input--before:checked ~ .slider__wrapper .slider__range-button {
-    left: 6px;
+    left: 5%;
   }
 
   .slider__input--after:checked ~ .slider__wrapper .slider__range-button {
-    right: 6px;
+    left: 50%;
   }
 }
 
@@ -34,6 +35,17 @@
     transform: translate(-50%, -50%);
     content: "";
     cursor: pointer;
+    transition: $transition;
+  }
+
+  .slider__range-button:hover,
+  .slider__range-button:focus {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .slider__range-button:active {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
+    border: solid 2px $color-main;
   }
 
   .slider__range-button::before {

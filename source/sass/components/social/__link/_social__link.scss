@@ -1,0 +1,13 @@
+.social__link svg {
+  transition: $transition;
+}
+
+.social__link:hover svg,
+.social__link:focus svg {
+  fill: $color-main;
+}
+
+.social__link:active svg {
+  fill: $color-main;
+  opacity: 0.3;
+}

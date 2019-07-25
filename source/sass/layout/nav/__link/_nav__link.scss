@@ -14,11 +14,11 @@
 
 .nav__link[href]:hover,
 .nav__link[href]:focus {
-  color: rgba($color-title, 0.6);
+  color: rgba(17, 17, 17, 0.6);
 }
 
 .nav__link[href]:active {
-  color: rgba($color-title, 0.3);
+  color: rgba(17, 17, 17, 0.3);
 }
 
 .nav__link::after {

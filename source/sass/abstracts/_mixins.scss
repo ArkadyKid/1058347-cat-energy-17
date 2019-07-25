@@ -49,6 +49,17 @@
   text-align: center;
   text-transform: uppercase;
   background-color: $color-main;
+  transition: $transition;
+
+  &:hover,
+  &:focus {
+    background-color: #5eaa2f;
+  }
+
+  &:active {
+    background-color: #5eaa2f;
+    color: rgba($color-white, 0.3);
+  }
 
   @media ($min-width-tablet) {
     @include font-params(16px, 400, 1, $color-white);

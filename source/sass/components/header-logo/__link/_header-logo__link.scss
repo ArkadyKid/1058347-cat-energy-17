@@ -1,0 +1,13 @@
+.header-logo__link img {
+  object-fit: contain;
+  transition: $transition;
+}
+
+.header-logo__link:hover[href] img,
+.header-logo__link:focus[href] img {
+  opacity: 0.8;
+}
+
+.header-logo__link:active[href] img {
+  opacity: 0.6;
+}
