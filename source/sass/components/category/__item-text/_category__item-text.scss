@@ -6,7 +6,7 @@
   font-family: "Arial", sans-serif;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .category__item-text {
     max-width: 70%;
     border-bottom: none;
@@ -15,7 +15,7 @@
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .category__item-text {
     max-width: none;
   }

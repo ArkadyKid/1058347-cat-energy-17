@@ -4,13 +4,13 @@
   padding-bottom: 28px;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .category__wrapper {
     max-width: 70%;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .category__wrapper {
     max-width: none;
   }

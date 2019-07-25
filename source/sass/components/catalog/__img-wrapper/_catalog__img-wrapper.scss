@@ -2,7 +2,7 @@
   object-fit: contain;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .catalog__img-wrapper {
     margin-bottom: 39px;
   }
@@ -12,7 +12,7 @@
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .catalog__img-wrapper img {
     width: 245px;
   }

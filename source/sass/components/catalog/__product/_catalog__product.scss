@@ -6,7 +6,7 @@
   text-transform: uppercase;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .catalog__product {
     max-width: 128px;
     margin: 0 auto 28px;

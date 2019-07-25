@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .slider {
     width: 50%;
   }

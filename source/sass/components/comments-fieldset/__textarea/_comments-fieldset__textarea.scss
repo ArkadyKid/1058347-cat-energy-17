@@ -13,7 +13,7 @@
   border-color: transparent;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .comments-fieldset__textarea {
     font-size: 20px;
     line-height: 1;

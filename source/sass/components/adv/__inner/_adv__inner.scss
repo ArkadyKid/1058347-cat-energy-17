@@ -10,13 +10,13 @@
   background-position: top center;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .adv__inner {
     display: none;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .adv__inner {
     right: 0;
     top: 0;

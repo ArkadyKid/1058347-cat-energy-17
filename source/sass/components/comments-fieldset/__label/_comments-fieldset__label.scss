@@ -1,15 +1,15 @@
 .comments-fieldset__label {
-  padding: 0 20px;
+  @include wrapper;
   display: flex;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .comments-fieldset__label {
     padding: 0 70px;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .comments-fieldset__label {
     padding: 0 20px;
   }

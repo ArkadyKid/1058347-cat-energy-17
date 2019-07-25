@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .example-table {
     width: 100%;
     flex-direction: row;
@@ -13,7 +13,7 @@
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .example-table {
     flex-direction: column;
   }

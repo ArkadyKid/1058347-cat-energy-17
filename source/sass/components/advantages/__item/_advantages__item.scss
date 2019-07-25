@@ -5,7 +5,7 @@
   margin-bottom: 20px;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .advantages__item {
     min-height: 228px;
     flex-direction: column;
@@ -14,7 +14,7 @@
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .advantages__item {
     width: 25%;
   }

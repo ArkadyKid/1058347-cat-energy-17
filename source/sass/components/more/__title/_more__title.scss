@@ -5,7 +5,7 @@
   text-transform: uppercase;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .more__title {
     max-width: 144px;
     font-size: 20px;

@@ -3,7 +3,7 @@
   padding: 22px 20px;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .main__category {
     margin-bottom: 51px;
   }

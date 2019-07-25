@@ -13,7 +13,7 @@
   fill: $color-white;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .stock {
     flex-direction: row;
     justify-content: center;
@@ -21,7 +21,7 @@
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .stock {
     flex-direction: column;
     flex-grow: 1;

@@ -7,7 +7,7 @@
   text-transform: uppercase;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .more__link {
     margin-top: auto;
     margin-bottom: 40px;

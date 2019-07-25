@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .adv__title {
     max-width: 426px;
     padding-bottom: 32px;

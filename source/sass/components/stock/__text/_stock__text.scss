@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .stock__text {
     margin: 0;
   }

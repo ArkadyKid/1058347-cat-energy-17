@@ -2,7 +2,7 @@
   font-size: 0;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .advantages__number {
     @include font-params(281px, 400, 1, $color-background);
     position: absolute;

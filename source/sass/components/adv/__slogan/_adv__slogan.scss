@@ -5,7 +5,7 @@
   text-transform: uppercase;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .adv__slogan {
     padding-bottom: 48px;
     font-size: 20px;

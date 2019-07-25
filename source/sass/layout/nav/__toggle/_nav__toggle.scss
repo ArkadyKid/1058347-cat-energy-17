@@ -28,7 +28,7 @@
   content: "";
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .nav__toggle {
     display: none;
   }

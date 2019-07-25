@@ -4,7 +4,7 @@
   flex-direction: column;
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .category__menu {
     flex-direction: row;
     justify-content: space-between;

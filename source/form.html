@@ -49,12 +49,14 @@
 
 <main class="main">
   <section class="main__form form">
-    <h2 class="form__title">
-      Подбор программы
-    </h2>
-    <p class="form__text">
-      Заполните анкету и мы подберем программу питания для вашего кота
-    </p>
+    <div class="form__wrap">
+      <h2 class="form__title">
+        Подбор программы
+      </h2>
+      <p class="form__text">
+        Заполните анкету и мы подберем программу питания для вашего кота
+      </p>
+    </div>
     <form class="form__group" action="https://echo.htmlacademy.ru" method="get">
       <div class="form__container">
         <fieldset class="form__data-fieldset data-fieldset">
@@ -94,7 +96,9 @@
       </div>
       <fieldset class="form__contacts-fieldset contacts-fieldset">
         <legend class="contacts-fieldset__title">
-          Контактные данные (владельца кота)
+          <span class="contacts-fieldset__container">
+            Контактные данные (владельца кота)
+          </span>
         </legend>
         <div class="contacts-fieldset__wrapper">
           <label class="contacts-fieldset__label" for="email">
@@ -119,7 +123,9 @@
       </fieldset>
       <fieldset class="form__comments-fieldset comments-fieldset">
         <legend class="comments-fieldset__title">
-          Комментарий
+          <span class="comments-fieldset__container">
+            Комментарий
+          </span>
         </legend>
         <label class="comments-fieldset__label" for="comments" aria-label="Комментарий">
           <textarea class="comments-fieldset__textarea" id="comments" name="comments" placeholder="Расскажите обо всех повадках кота"></textarea>
@@ -127,7 +133,9 @@
       </fieldset>
       <fieldset class="form__additional-fieldset additional-fieldset">
         <legend class="additional-fieldset__title">
-          Дополнительно
+          <span class="additional-fieldset__container">
+            Дополнительно
+          </span>
         </legend>
         <div class="additional-fieldset__wrapper">
           <input class="additional-fieldset__input visually-hidden" id="sugar" type="checkbox" name="additional" value="sugar" checked>
@@ -149,7 +157,7 @@
         </div>
       </fieldset>
       <div class="form__wrapper">
-        <button class="form__btn btn" type="submit">
+        <button class="form__btn" type="submit">
           Отправить заявку
         </button>
         <small class="form__explain-text">
@@ -234,6 +242,9 @@
     </section>
   </div>
 </footer>
+
+<script src="./js/svg4everybody.js"></script>
+<script>svg4everybody();</script>
 
 </body>
 </html>

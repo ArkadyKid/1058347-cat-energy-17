@@ -5,7 +5,7 @@
   border-radius: 50%;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .category__img-wrapper {
     position: absolute;
     right: 5%;
@@ -16,7 +16,7 @@
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .category__img-wrapper {
     position: static;
     width: 100px;

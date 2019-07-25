@@ -1,4 +1,4 @@
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .nav__link--index {
     color: $color-white;
   }

@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .form__wrapper {
     flex-direction: row;
     padding: 0 70px;
@@ -13,7 +13,7 @@
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .form__wrapper {
     padding: 0 20px;
   }

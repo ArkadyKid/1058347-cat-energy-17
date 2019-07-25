@@ -5,7 +5,7 @@
   margin-bottom: 38px;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .example-table__wrapper {
     width: 366px;
   }

@@ -2,7 +2,7 @@
   @include wrapper;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .main__advantages {
     border-bottom: 1px solid $color-border;
   }

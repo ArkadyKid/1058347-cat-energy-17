@@ -1,4 +1,8 @@
-@media ($for-desktop) {
+.contacts-fieldset__wrapper {
+  @include wrapper;
+}
+
+@media ($min-width-desktop) {
   .contacts-fieldset__wrapper {
     @include flex;
     justify-content: space-between;

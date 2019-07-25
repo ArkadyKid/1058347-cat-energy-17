@@ -4,7 +4,7 @@
   flex-direction: column;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .footer__wrapper {
     flex-direction: row;
     justify-content: space-between;

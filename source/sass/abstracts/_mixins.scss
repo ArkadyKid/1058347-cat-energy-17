@@ -31,12 +31,27 @@
   min-width: 320px;
   width: 100%;
 
-  @media ($for-tablet) {
+  @media ($min-width-tablet) {
     min-width: 768px;
   }
 
-  @media ($for-desktop) {
+  @media ($min-width-desktop) {
     min-width: 1024px;
     max-width: 1220px;
+  }
+}
+
+@mixin btn {
+  @include font-params(14px, 400, 1.29, $color-white);
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: $color-main;
+
+  @media ($min-width-tablet) {
+    @include font-params(16px, 400, 1, $color-white);
+    padding: 17px 10px 15px 10px;
   }
 }

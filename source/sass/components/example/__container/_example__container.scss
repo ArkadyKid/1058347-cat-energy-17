@@ -4,13 +4,13 @@
   align-items: center;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .example__container {
     align-items: flex-start;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .example__container {
     width: 50%;
   }

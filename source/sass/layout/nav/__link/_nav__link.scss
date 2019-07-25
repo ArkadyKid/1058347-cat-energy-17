@@ -29,7 +29,7 @@
   height: 100%;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .nav__link {
     font-size: 18px;
     line-height: 1.29;

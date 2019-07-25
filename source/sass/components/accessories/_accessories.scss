@@ -1,0 +1,15 @@
+.accessories {
+  position: relative;
+}
+
+@media ($min-width-tablet) {
+  .accessories::before {
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+    width: 100%;
+    height: 3px;
+    background-color: $color-main;
+    content: "";
+  }
+}

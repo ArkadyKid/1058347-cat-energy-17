@@ -2,7 +2,7 @@
   border-bottom: 1px solid $color-border;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .footer__social {
     border-bottom: none;
   }

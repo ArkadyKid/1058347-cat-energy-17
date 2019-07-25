@@ -6,13 +6,13 @@
   width: 100%;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .advantages__menu {
     flex-direction: row;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .advantages__menu {
     align-items: flex-start;
   }

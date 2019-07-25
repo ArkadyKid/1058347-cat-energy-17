@@ -2,7 +2,7 @@
   @include reset-indents;
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .accessories__menu {
     flex-grow: 1;
   }

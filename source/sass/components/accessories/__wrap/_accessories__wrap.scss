@@ -1,4 +1,8 @@
-@media ($for-desktop) {
+.accessories__wrap {
+  @include wrapper;
+}
+
+@media ($min-width-desktop) {
   .accessories__wrap {
     @include flex;
     justify-content: space-between;

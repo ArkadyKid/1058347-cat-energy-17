@@ -2,7 +2,7 @@
   width: 50%;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .catalog__wrapper {
     width: auto;
   }

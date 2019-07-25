@@ -14,7 +14,7 @@
   display: none;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .contacts-fieldset__label {
     font-size: 20px;
     line-height: 1;
@@ -29,9 +29,13 @@
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .contacts-fieldset__label {
-    padding: 0 20px;
+    padding: 0;
+  }
+
+  .contacts-fieldset__label:first-child {
+    margin-right: 30px;
   }
 
   .contacts-fieldset__label svg {

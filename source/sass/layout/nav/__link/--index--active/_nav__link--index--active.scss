@@ -7,7 +7,7 @@
   content: "";
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .nav__link--index--active::before {
     background-color: $color-white;
   }

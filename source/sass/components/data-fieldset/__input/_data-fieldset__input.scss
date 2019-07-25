@@ -16,7 +16,7 @@
   border-color: transparent;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .data-fieldset__input {
     font-size: 20px;
     line-height: 1;

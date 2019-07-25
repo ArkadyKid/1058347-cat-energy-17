@@ -9,16 +9,21 @@
   background-color: $color-background;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .example-table__head {
     top: 74px;
-    width: max-content;
+    width: 127px;
+
+    @supports (width: max-content) {
+      width: max-content;
+    }
+
     font-size: 14px;
     background-color: $color-white;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .example-table__head {
     background-color: $color-background;
   }

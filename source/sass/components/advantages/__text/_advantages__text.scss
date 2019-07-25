@@ -6,7 +6,7 @@
   font-family: "Arial", sans-serif;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .advantages__text {
     font-size: 16px;
     padding-left: 0;

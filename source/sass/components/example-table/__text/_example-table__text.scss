@@ -5,14 +5,14 @@
   color: $color-title;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .example-table__text {
     width: 25%;
     font-size: 20px;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .example-table__text {
     @include flex;
     width: 366px;

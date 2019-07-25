@@ -4,13 +4,13 @@
   left: 45%;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .contacts__pin img {
     width: 113px;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .contacts__pin {
     top: 40%;
     left: 70%;

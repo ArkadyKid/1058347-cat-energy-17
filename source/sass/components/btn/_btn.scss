@@ -8,7 +8,7 @@
   background-color: $color-main;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .btn {
     @include font-params(16px, 400, 1, $color-white);
     padding: 17px 0 15px 0;

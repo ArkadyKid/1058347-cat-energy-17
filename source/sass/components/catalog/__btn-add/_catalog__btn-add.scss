@@ -1,5 +1,9 @@
-@media ($for-tablet) {
+.catalog__btn-add {
+  @include btn;
+}
+
+@media ($min-width-tablet) {
   .catalog__btn-add {
-    margin-bottom: 2.5px;
+    margin-bottom: 40px;
   }
 }

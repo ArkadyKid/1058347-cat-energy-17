@@ -7,7 +7,7 @@
   fill: #666666;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .social__item:first-child svg {
     width: 30px;
     height: 16px;

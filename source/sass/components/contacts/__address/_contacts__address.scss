@@ -7,7 +7,7 @@
   text-align: left;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .contacts__address {
     font-size: 16px;
     line-height: 1.25;

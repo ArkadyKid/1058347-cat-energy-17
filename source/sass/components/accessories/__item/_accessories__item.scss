@@ -6,7 +6,7 @@
   list-style: none;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .accessories__item {
     flex-direction: row;
     justify-content: space-between;
@@ -15,7 +15,7 @@
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .accessories__item {
     flex-direction: row;
     justify-content: space-between;

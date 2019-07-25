@@ -24,7 +24,7 @@
   fill: $color-main;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .contacts-fieldset__input {
     font-size: 20px;
     line-height: 1;

@@ -7,13 +7,13 @@
   min-width: auto;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .contacts__wrapper {
     justify-content: space-between;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .contacts__wrapper {
     position: absolute;
     top: 50%;

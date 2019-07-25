@@ -8,7 +8,7 @@
   border-bottom: 1px solid $color-border-light;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .more {
     width: 42%;
     min-width: 324px;
@@ -21,7 +21,7 @@
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .more {
     min-width: auto;
     max-width: 245px;

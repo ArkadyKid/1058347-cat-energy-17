@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .catalog__menu {
     flex-direction: row;
     justify-content: space-between;

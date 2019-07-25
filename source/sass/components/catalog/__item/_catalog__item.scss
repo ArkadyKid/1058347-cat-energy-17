@@ -10,7 +10,7 @@
   list-style: none;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .catalog__item {
     justify-content: flex-end;
     width: 42%;
@@ -28,7 +28,7 @@
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .catalog__item {
     min-width: auto;
     max-width: 245px;

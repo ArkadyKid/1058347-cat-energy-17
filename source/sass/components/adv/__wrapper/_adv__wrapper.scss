@@ -10,7 +10,7 @@
   object-fit: contain;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .adv__wrapper {
     position: relative;
     align-items: flex-start;
@@ -27,7 +27,7 @@
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .adv__wrapper {
     padding-top: 226px;
     padding-bottom: 268px;

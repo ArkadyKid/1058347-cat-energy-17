@@ -3,7 +3,7 @@
   font-family: "Arial", sans-serif;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .catalog-table__data {
     font-size: 16px;
     line-height: 1;

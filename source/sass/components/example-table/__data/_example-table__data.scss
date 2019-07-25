@@ -7,7 +7,7 @@
   text-transform: uppercase;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .example-table__data {
     padding: 22px 0;
     font-size: 30px;

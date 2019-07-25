@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .example-table__col {
     width: 162px;
   }

@@ -1,16 +1,18 @@
 .form__btn {
+  @include btn;
   margin-bottom: 23px;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .form__btn {
-    width: 283px;
+    min-width: 283px;
+    width: auto;
     margin-right: 61px;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .form__btn {
-    width: 568px;
+    min-width: 568px;
   }
 }
