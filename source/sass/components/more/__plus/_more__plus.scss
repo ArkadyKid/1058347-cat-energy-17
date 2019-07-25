@@ -1,6 +1,6 @@
 .more__plus {
-  padding-bottom: 1.56rem;
-  padding-top: 0.125rem;
+  padding-bottom: 25px;
+  padding-top: 2px;
 }
 
 .more__plus svg {
@@ -13,8 +13,8 @@
 
 @media ($for-tablet) {
   .more__plus {
-    padding-top: 3.43rem;
-    padding-bottom: 3.12rem;
+    padding-top: 55px;
+    padding-bottom: 50px;
   }
 
   .more__plus svg:first-child {

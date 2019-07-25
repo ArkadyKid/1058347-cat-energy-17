@@ -1,16 +1,16 @@
 .form__btn {
-  margin-bottom: 1.43rem;
+  margin-bottom: 23px;
 }
 
 @media ($for-tablet) {
   .form__btn {
-    width: 17.6875rem;
-    margin-right: 3.8125rem;
+    width: 283px;
+    margin-right: 61px;
   }
 }
 
 @media ($for-desktop) {
   .form__btn {
-    width: 35.5rem;
+    width: 568px;
   }
 }

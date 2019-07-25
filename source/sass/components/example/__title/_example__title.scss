@@ -1,12 +1,12 @@
 .example__title {
-  @include font-params (2.25rem, 400, 1.67, $color-title);
+  @include font-params (36px, 400, 1.67, $color-title);
   margin: 0;
-  padding: 2.06rem 0;
+  padding: 33px 0;
 }
 
 @media ($for-tablet) {
   .example__title {
-    font-size: 3.75rem;
+    font-size: 60px;
     line-height: 1;
   }
 }

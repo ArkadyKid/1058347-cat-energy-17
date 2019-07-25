@@ -2,15 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 3.75rem;
-  height: 3.75rem;
+  width: 60px;
+  height: 60px;
   background-color: $color-main;
 }
 
 @media ($for-tablet) {
   .advantages__img {
-    width: 5rem;
-    height: 5rem;
-    margin-bottom: 2.31rem;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 37px;
   }
 }

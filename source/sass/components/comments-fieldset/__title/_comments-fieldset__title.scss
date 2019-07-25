@@ -1,18 +1,18 @@
 .comments-fieldset__title {
-  @include font-params(1.5rem, 400, 1, $color-title);
-  padding: 0 1.25rem;
-  margin-bottom: 1.87rem;
+  @include font-params(24px, 400, 1, $color-title);
+  padding: 0 20px;
+  margin-bottom: 30px;
 }
 
 @media ($for-tablet) {
   .comments-fieldset__title {
-    font-size: 2.25rem;
-    padding: 0 4.375rem;
+    font-size: 36px;
+    padding: 0 70px;
   }
 }
 
 @media ($for-desktop) {
   .comments-fieldset__title {
-    padding: 0 1.25rem;
+    padding: 0 20px;
   }
 }

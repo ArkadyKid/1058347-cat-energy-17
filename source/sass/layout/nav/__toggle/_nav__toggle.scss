@@ -2,8 +2,8 @@
   position: absolute;
   top: -20%;
   right: 5%;
-  width: 1.18rem;
-  height: 0.12rem;
+  width: 19px;
+  height: 2px;
   background-color: $color-black;
   transform: rotate(-45deg);
   content: "";
@@ -11,8 +11,8 @@
 
 .nav__toggle::after {
   position: absolute;
-  width: 1.18rem;
-  height: 0.12rem;
+  width: 19px;
+  height: 2px;
   background-color: $color-black;
   transform: rotate(90deg);
   content: "";
@@ -20,8 +20,8 @@
 
 .nav__toggle::before {
   position: absolute;
-  width: 1.18rem;
-  height: 0.12rem;
+  width: 19px;
+  height: 2px;
   background-color: $color-black;
   opacity: 0;
   transform: rotate(45deg);

@@ -1,11 +1,11 @@
 .catalog-table__data {
-  @include font-params(0.75rem, 400, 1.33, $color-text);
+  @include font-params(12px, 400, 1.33, $color-text);
   font-family: "Arial", sans-serif;
 }
 
 @media ($for-tablet) {
   .catalog-table__data {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1;
   }
 }

@@ -1,16 +1,16 @@
 .comments-fieldset__label {
-  padding: 0 1.25rem;
+  padding: 0 20px;
   display: flex;
 }
 
 @media ($for-tablet) {
   .comments-fieldset__label {
-    padding: 0 4.375rem;
+    padding: 0 70px;
   }
 }
 
 @media ($for-desktop) {
   .comments-fieldset__label {
-    padding: 0 1.25rem;
+    padding: 0 20px;
   }
 }

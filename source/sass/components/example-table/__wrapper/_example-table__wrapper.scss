@@ -1,12 +1,12 @@
 .example-table__wrapper {
   @include flex;
   justify-content: space-between;
-  width: 17.5rem;
-  margin-bottom: 2.37rem;
+  width: 280px;
+  margin-bottom: 38px;
 }
 
 @media ($for-tablet) {
   .example-table__wrapper {
-    width: 22.87rem;
+    width: 366px;
   }
 }

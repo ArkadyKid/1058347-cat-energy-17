@@ -8,13 +8,13 @@
 @media ($for-tablet) {
   .form__wrapper {
     flex-direction: row;
-    padding: 0 4.375rem;
+    padding: 0 70px;
     align-items: baseline;
   }
 }
 
 @media ($for-desktop) {
   .form__wrapper {
-    padding: 0 1.25rem;
+    padding: 0 20px;
   }
 }

@@ -1,24 +1,24 @@
 .data-fieldset__input {
-  @include font-params(1rem, 400, 1.13, $color-text);
+  @include font-params(16px, 400, 1.13, $color-text);
   flex-grow: 1;
-  padding: 0.93rem;
-  border: 0.06rem solid $color-border-light;
+  padding: 15px;
+  border: 1px solid $color-border-light;
   text-transform: uppercase;
 }
 
 .data-fieldset__input:invalid {
-  outline: 0.125rem solid #ff8282;
+  outline: 2px solid #ff8282;
   border-color: transparent;
 }
 
 .data-fieldset__input:focus {
-  outline: 0.125rem solid $color-text;
+  outline: 2px solid $color-text;
   border-color: transparent;
 }
 
 @media ($for-tablet) {
   .data-fieldset__input {
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 1;
   }
 }

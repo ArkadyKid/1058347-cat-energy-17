@@ -1,9 +1,9 @@
 .category__item-btn {
-  @include font-params (1rem, 400, 1, $color-title);
+  @include font-params (16px, 400, 1, $color-title);
   text-transform: uppercase;
   background-image: url("../img/icon-right-arrow-long.svg");
   background-repeat: no-repeat;
-  background-position: 7.25rem;
+  background-position: 116px;
   background-size: 25px 12px;
 }
 
@@ -15,6 +15,6 @@
 @media ($for-tablet) {
   .category__item-btn {
     max-width: 70%;
-    font-size: 1.25rem;
+    font-size: 20px;
   }
 }

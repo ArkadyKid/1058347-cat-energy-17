@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-@mixin font-params($font-size: 1rem, $font-weight: 400, $line-height: 1.29, $color: $color-text) {
+@mixin font-params($font-size: 16px, $font-weight: 400, $line-height: 1.29, $color: $color-text) {
   font-size: $font-size;
   font-weight: $font-weight;
   line-height: $line-height;
@@ -16,7 +16,7 @@
 }
 
 
-@mixin area($padding: 1.25rem) {
+@mixin area($padding: 20px) {
   position: absolute;
   padding: $padding;
   top: 50%;
@@ -27,7 +27,7 @@
 
 @mixin wrapper {
   margin: 0 auto;
-  padding: 0 1.25rem;
+  padding: 0 20px;
   min-width: 320px;
   width: 100%;
 

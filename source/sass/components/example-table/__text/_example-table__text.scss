@@ -1,21 +1,21 @@
 .example-table__text {
   margin: 0;
   text-transform: uppercase;
-  font-size: 0.87rem;
+  font-size: 14px;
   color: $color-title;
 }
 
 @media ($for-tablet) {
   .example-table__text {
     width: 25%;
-    font-size: 1.25rem;
+    font-size: 20px;
   }
 }
 
 @media ($for-desktop) {
   .example-table__text {
     @include flex;
-    width: 22.87rem;
+    width: 366px;
     justify-content: space-between;
   }
 }

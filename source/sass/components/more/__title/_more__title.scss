@@ -1,5 +1,5 @@
 .more__title {
-  @include font-params(1rem, 400, 1.25, $color-title);
+  @include font-params(16px, 400, 1.25, $color-title);
   margin: 0;
   padding-bottom: 25px;
   text-transform: uppercase;
@@ -7,8 +7,8 @@
 
 @media ($for-tablet) {
   .more__title {
-    max-width: 9rem;
-    font-size: 1.25rem;
+    max-width: 144px;
+    font-size: 20px;
     line-height: 1;
     text-align: center;
   }

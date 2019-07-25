@@ -6,7 +6,7 @@
 
 @media ($for-tablet) {
   .catalog-table__row {
-    margin-bottom: 1rem;
-    border-bottom: 0.06rem solid $color-border;
+    margin-bottom: 16px;
+    border-bottom: 1px solid $color-border;
   }
 }

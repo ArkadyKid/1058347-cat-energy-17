@@ -4,10 +4,10 @@
 
 @media ($for-tablet) {
   .advantages__number {
-    @include font-params(17.5625rem, 400, 1, $color-background);
+    @include font-params(281px, 400, 1, $color-background);
     position: absolute;
-    top: -2.5rem;
-    left: 7.1875rem;
+    top: -40px;
+    left: 115px;
     z-index: -1;
   }
 }

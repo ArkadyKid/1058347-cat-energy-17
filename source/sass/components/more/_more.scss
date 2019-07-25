@@ -4,27 +4,27 @@
   min-width: 320px;
   flex-direction: column;
   align-items: center;
-  padding: 1.56rem 1.25rem;
-  border-bottom: 0.06rem solid $color-border-light;
+  padding: 25px 20px;
+  border-bottom: 1px solid $color-border-light;
 }
 
 @media ($for-tablet) {
   .more {
     width: 42%;
-    min-width: 20.25rem;
-    min-height: 26.93rem;
+    min-width: 324px;
+    min-height: 431px;
     flex-grow: 1;
-    margin-bottom: 5.75rem;
+    margin-bottom: 92px;
     margin-top: auto;
-    padding: 0 2.37rem;
-    border: 0.06rem solid $color-border;
+    padding: 0 38px;
+    border: 1px solid $color-border;
   }
 }
 
 @media ($for-desktop) {
   .more {
     min-width: auto;
-    max-width: 15.31rem;
+    max-width: 245px;
     width: 18%;
   }
 }

@@ -1,8 +1,8 @@
 .accessories__item {
   @include flex;
   flex-direction: column;
-  padding: 0.87rem 0 1.06rem;
-  border-bottom: 0.06rem solid $color-border;
+  padding: 14px 0 17px;
+  border-bottom: 1px solid $color-border;
   list-style: none;
 }
 
@@ -10,8 +10,8 @@
   .accessories__item {
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.75rem 2.31rem 1.75rem 2.31rem;
-    border: 0.06rem solid $color-border-light;
+    padding: 28px 37px 28px 37px;
+    border: 1px solid $color-border-light;
   }
 }
 
@@ -22,7 +22,7 @@
     align-items: baseline;
     border-left: none;
     border-right: none;
-    padding: 1.68rem 0 1.62rem;
-    margin-right: 3.5rem;
+    padding: 27px 0 26px;
+    margin-right: 56px;
   }
 }

@@ -3,10 +3,10 @@
   @include flex;
   flex-grow: 1;
   flex-direction: column;
-  padding-bottom: 0.62rem;
+  padding-bottom: 10px;
   border: none;
-  border-bottom: 0.06rem solid $color-background;
-  margin-bottom: 1.25rem;
+  border-bottom: 1px solid $color-background;
+  margin-bottom: 20px;
 }
 
 @media ($for-tablet) {

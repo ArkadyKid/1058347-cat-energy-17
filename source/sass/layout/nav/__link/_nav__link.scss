@@ -1,15 +1,15 @@
 .nav__link {
-  @include font-params(1.25rem, 500, 1, $color-title);
+  @include font-params(16px, 500, 1, $color-title);
   font-weight: 500;
   position: relative;
-  padding-top: 1.5rem;
-  padding-bottom: 1.25rem;
+  padding-top: 24px;
+  padding-bottom: 20px;
   text-transform: uppercase;
   transition: $transition;
 }
 
 .nav__item:first-child .nav__link {
-  padding-bottom: 1.5rem;
+  padding-bottom: 24px;
 }
 
 .nav__link[href]:hover,
@@ -31,7 +31,7 @@
 
 @media ($for-tablet) {
   .nav__link {
-    font-size: 1.12rem;
+    font-size: 18px;
     line-height: 1.29;
   }
 

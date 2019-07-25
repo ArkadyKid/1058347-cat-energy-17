@@ -1,8 +1,8 @@
 .example-table__head {
-  @include font-params (0.75rem, 400, 1, $color-text);
+  @include font-params (12px, 400, 1, $color-text);
   position: absolute;
-  top: 3.12rem;
-  margin: 0 0 1.56rem;
+  top: 50px;
+  margin: 0 0 25px;
   width: min-content;
   font-family: "Arial", sans-serif;
   text-align: center;
@@ -11,9 +11,9 @@
 
 @media ($for-tablet) {
   .example-table__head {
-    top: 4.62rem;
+    top: 74px;
     width: max-content;
-    font-size: 0.87rem;
+    font-size: 14px;
     background-color: $color-white;
   }
 }

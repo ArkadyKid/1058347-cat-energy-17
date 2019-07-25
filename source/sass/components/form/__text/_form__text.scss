@@ -1,21 +1,21 @@
 .form__text {
-  @include font-params(0.87rem, 400, 1.29, $color-title);
+  @include font-params(14px, 400, 1.29, $color-title);
   text-transform: uppercase;
-  padding: 0 1.25rem;
-  margin: 0 0 2.5rem;
+  padding: 0 20px;
+  margin: 0 0 40px;
 }
 
 @media ($for-tablet) {
   .form__text {
-    max-width: 30rem;
-    padding: 0 4.375rem;
-    font-size: 1.25rem;
+    max-width: 480px;
+    padding: 0 70px;
+    font-size: 20px;
     line-height: 1.5;
   }
 }
 
 @media ($for-desktop) {
   .form__text {
-    padding: 0 1.25rem;
+    padding: 0 20px;
   }
 }

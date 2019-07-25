@@ -2,9 +2,9 @@
   @include wrapper;
   @include flex;
   align-items: center;
-  padding-top: 0.68rem;
-  padding-bottom: 0.93rem;
-  border-bottom: 0.06rem solid $color-border-light;
+  padding-top: 11px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid $color-border-light;
 }
 
 @media ($for-tablet) {

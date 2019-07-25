@@ -1,7 +1,7 @@
 .category__wrapper {
   @include flex;
   align-items: center;
-  padding-bottom: 1.75rem;
+  padding-bottom: 28px;
 }
 
 @media ($for-tablet) {

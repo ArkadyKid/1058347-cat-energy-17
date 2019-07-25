@@ -3,7 +3,7 @@
   @include flex;
   align-items: baseline;
   justify-content: space-between;
-  padding: 1.93rem 1.25rem 1.62rem 1.25rem;
+  padding: 31px 20px 26px 20px;
   min-width: auto;
 }
 
@@ -18,11 +18,11 @@
     position: absolute;
     top: 50%;
     right: 50%;
-    width: 35.65rem;
+    width: 571px;
     min-width: auto;
     max-width: none;
-    min-height: 12.56rem;
-    padding: 4.31rem 5.62rem 3.68rem 4.75rem;
+    min-height: 200px;
+    padding: 69px 90px 59px 76px;
     background-color: $color-white;
     transform: translateY(-50%);
   }

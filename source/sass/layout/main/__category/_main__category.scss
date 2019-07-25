@@ -1,10 +1,10 @@
 .main__category {
   @include wrapper;
-  padding: 1.37rem 1.25rem;
+  padding: 22px 20px;
 }
 
 @media ($for-tablet) {
   .main__category {
-    margin-bottom: 3.18rem;
+    margin-bottom: 51px;
   }
 }
