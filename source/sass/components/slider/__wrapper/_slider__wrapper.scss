@@ -1,4 +1,11 @@
 .slider__wrapper {
   @include flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+@media ($min-width-tablet) {
+.slider__wrapper {
+  padding-bottom: 75px;
+}
 }

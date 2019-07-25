@@ -1,0 +1,22 @@
+@media (min-width: 0) and (max-width: 768px) {
+  .slider__range {
+    position: relative;
+    width: 84px;
+    height: 14px;
+    border: 1px solid $color-border;
+    border-radius: 6px;
+    margin: 0 20px;
+    background-color: $color-white;
+  }
+}
+
+@media ($min-width-tablet) {
+  .slider__range {
+    position: relative;
+    width: 428px;
+    height: 6px;
+    border-radius: 2.5px;
+    margin: 0 25px;
+    background-color: #dcdcdc;
+  }
+}
