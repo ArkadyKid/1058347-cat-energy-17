@@ -3,7 +3,7 @@
   @include flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 1.87rem;
+  padding-top: 30px;
 }
 
 .adv__wrapper img {
@@ -14,7 +14,7 @@
   .adv__wrapper {
     position: relative;
     align-items: flex-start;
-    padding-left: 7.5rem;
+    padding-left: 120px;
   }
 
   .adv__wrapper img {
@@ -29,8 +29,8 @@
 
 @media ($for-desktop) {
   .adv__wrapper {
-    padding-top: 14.12rem;
-    padding-bottom: 16.75rem;
+    padding-top: 226px;
+    padding-bottom: 268px;
   }
 
   .adv__wrapper img {
