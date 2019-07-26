@@ -1,5 +1,11 @@
-.nav {
-  position: relative;
+@media (min-width: 0) and (max-width: 768px) {
+  .nav {
+    position: absolute;
+    top: 68px;
+    z-index: 2;
+    width: 100%;
+    background-color: white;
+  }
 }
 
 @media ($min-width-tablet) {

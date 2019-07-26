@@ -11,6 +11,9 @@
   }
 }
 
-.nav__menu--js {
-  display: none;
+@media (min-width: 0) and (max-width: 768px) {
+  .nav__menu--js {
+    display: none;
+    top: 48px;
+  }
 }

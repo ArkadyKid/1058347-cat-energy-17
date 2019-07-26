@@ -1,12 +1,14 @@
 .nav__toggle {
   position: absolute;
-  top: -20%;
-  right: 5%;
-  width: 19px;
-  height: 2px;
-  background-color: $color-black;
-  transform: rotate(-45deg);
+  top: -40px;
+  right: 50px;
+}
+
+.nav__toggle::before {
+  position: absolute;
+  padding: 20px;
   content: "";
+  transform: translate(-28%, -50%);
 }
 
 .nav__toggle::after {
@@ -14,17 +16,8 @@
   width: 19px;
   height: 2px;
   background-color: $color-black;
-  transform: rotate(90deg);
-  content: "";
-}
-
-.nav__toggle::before {
-  position: absolute;
-  width: 19px;
-  height: 2px;
-  background-color: $color-black;
-  opacity: 0;
-  transform: rotate(45deg);
+  transform: scale(1);
+  transition: $transition;
   content: "";
 }
 
