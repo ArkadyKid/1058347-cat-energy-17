@@ -1,0 +1,9 @@
+.slider__input--before:checked ~ .slider__img-wrapper .slider__img--after {
+  transition: 100ms ease-out;
+  transform: scale(0);
+}
+
+.slider__input--after:checked ~ .slider__img-wrapper .slider__img--after {
+  transition: 500ms ease-out;
+  transform: scale(1);
+}

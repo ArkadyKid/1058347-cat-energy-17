@@ -1,5 +1,9 @@
+.slider__img {
+  position: absolute;
+}
+
 @media ($min-width-tablet) {
-  .slider__img {
+  .slider__img img {
     width: 636px;
   }
 }

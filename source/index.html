@@ -194,19 +194,21 @@
       <div class="example__slider slider">
         <input class="slider__input slider__input--before visually-hidden" id="before" type="radio" name="status" value="before" checked>
         <input class="slider__input slider__input--after visually-hidden" id="after" type="radio" name="status" value="after">
-        <div class="slider__img-wrapper slider__img-wrapper--before">
-          <picture>
-            <source srcset="./img/before-desktop@1x.png" media="(min-width: 1024px)">
-            <source srcset="./img/before-tablet@1x.png" media="(min-width: 768px)">
-            <img src="./img/before-mobile@1x.png" alt="Толстый кот" width="320" height="240">
-          </picture>
-        </div>
-        <div class="slider__img-wrapper slider__img-wrapper--after">
-          <picture>
-            <source srcset="./img/after-desktop@1x.png" media="(min-width: 1024px)">
-            <source srcset="./img/after-tablet@1x.png" media="(min-width: 768px)">
-            <img src="./img/after-mobile@1x.png" alt="Толстый кот" width="320" height="240">
-          </picture>
+        <div class="slider__img-wrapper">
+          <div class="slider__img slider__img--before">
+            <picture>
+              <source srcset="./img/before-desktop@1x.png" media="(min-width: 1024px)">
+              <source srcset="./img/before-tablet@1x.png" media="(min-width: 768px)">
+              <img src="./img/before-mobile@1x.png" alt="Толстый кот" width="320" height="240">
+            </picture>
+          </div>
+          <div class="slider__img slider__img--after">
+            <picture>
+              <source srcset="./img/after-desktop@1x.png" media="(min-width: 1024px)">
+              <source srcset="./img/after-tablet@1x.png" media="(min-width: 768px)">
+              <img src="./img/after-mobile@1x.png" alt="Толстый кот" width="320" height="240">
+            </picture>
+          </div>
         </div>
         <div class="slider__wrapper">
           <label class="slider__label" for="before">

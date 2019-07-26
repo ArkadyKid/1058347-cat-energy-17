@@ -5,14 +5,15 @@
   justify-content: space-between;
   font-family: "Arial", sans-serif;
   transition: $transition;
+  fill: #666666;
 }
 
-.footer-developers__text:hover svg {
+.footer-developers__text:hover {
   transition: $transition;
 }
 
-.footer-developers__text:hover svg,
-.footer-developers__text:focus svg {
+.footer-developers__text:hover,
+.footer-developers__text:focus {
   fill: $color-main;
 }
 
@@ -20,6 +21,6 @@
   opacity: 0.3;
 }
 
-.footer-developers__text:active svg {
+.footer-developers__text:active {
   fill: $color-main;
 }

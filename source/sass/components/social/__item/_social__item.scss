@@ -3,10 +3,6 @@
   padding: 28px 32px;
 }
 
-.social__item svg {
-  fill: #666666;
-}
-
 @media ($min-width-tablet) {
   .social__item:first-child svg {
     width: 30px;
