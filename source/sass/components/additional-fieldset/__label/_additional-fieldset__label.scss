@@ -6,6 +6,7 @@
   text-transform: uppercase;
   margin-bottom: 44px;
   transition: $transition;
+  user-select: none;
 }
 
 .additional-fieldset__label::before {

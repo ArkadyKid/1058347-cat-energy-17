@@ -31,18 +31,17 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: $color-main;
+  background-color: rgba($color-main, 0);
   transform: translateY(-50%);
-  opacity: 0;
   content: "";
 }
 
 .target-fieldset__input:checked + .target-fieldset__label::after {
-  opacity: 1;
+  background-color: $color-main;
 }
 
 .target-fieldset__label:active::after {
-  opacity: 0.3;
+  background-color: rgba($color-main, 0.3);
 }
 
 .target-fieldset__label:hover::before,

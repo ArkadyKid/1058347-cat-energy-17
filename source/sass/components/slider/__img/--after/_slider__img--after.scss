@@ -1,7 +1,0 @@
-.slider__input--before:checked ~ picture .slider__img--after {
-  display: none;
-}
-
-.slider__input--after:checked ~ picture .slider__img--after {
-  display: block;
-}

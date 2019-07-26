@@ -7,6 +7,10 @@
   transition: $transition;
 }
 
+.footer-developers__text:hover svg {
+  transition: $transition;
+}
+
 .footer-developers__text:hover svg,
 .footer-developers__text:focus svg {
   fill: $color-main;

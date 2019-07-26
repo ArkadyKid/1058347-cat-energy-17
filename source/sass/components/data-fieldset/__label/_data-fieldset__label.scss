@@ -1,6 +1,6 @@
 .data-fieldset__label {
-  @include flex;
   @include font-params(16px, 400, 1.13, $color-label);
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
