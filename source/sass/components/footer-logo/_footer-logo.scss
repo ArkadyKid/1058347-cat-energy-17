@@ -1,6 +1,6 @@
 .footer-logo {
   @include flex;
+  padding: 32px 0;
   object-fit: contain;
   justify-content: center;
-  padding: 3px 2px 2px;
 }

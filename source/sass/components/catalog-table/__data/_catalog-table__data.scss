@@ -1,5 +1,6 @@
 .catalog-table__data {
   @include font-params(12px, 400, 1.33, $color-text);
+  display: block;
   font-family: "Arial", sans-serif;
   text-align: right;
 }

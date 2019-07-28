@@ -1,5 +1,6 @@
 .main__advantages {
   @include wrapper;
+  margin-bottom: 22px;
 }
 
 @media ($min-width-tablet) {

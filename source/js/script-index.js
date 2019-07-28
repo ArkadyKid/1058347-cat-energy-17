@@ -1,7 +1,7 @@
 'use strict';
 
 (function () {
-  var navJsClass = 'nav__menu--js';
+  var navJsClass = 'nav__menu--js--close';
   var navMenuOpenClass = 'nav__menu--js--open';
   var toggleMenuCloseClass = 'nav__toggle--close';
   var toggleCloseIconClass = 'nav__toggle-icon--close';

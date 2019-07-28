@@ -1,9 +1,11 @@
-.footer__social {
+.social {
+  @include flex;
+  justify-content: center;
   border-bottom: 1px solid $color-border;
 }
 
 @media ($min-width-tablet) {
-  .footer__social {
+  .social {
     border-bottom: none;
   }
 }

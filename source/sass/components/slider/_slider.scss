@@ -5,6 +5,12 @@
   align-items: center;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slider {
+    @include wrapper;
+  }
+}
+
 @media ($min-width-desktop) {
   .slider {
     width: 50%;

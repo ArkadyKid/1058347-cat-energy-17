@@ -1,7 +1,7 @@
 .nav__toggle {
   position: absolute;
-  top: 30px;
-  right: 50px;
+  top: 31px;
+  right: 45px;
   z-index: 5;
 }
 
@@ -15,8 +15,8 @@
 
 .nav__toggle::after {
   position: absolute;
-  width: 19px;
-  height: 2px;
+  width: 25px;
+  height: 3px;
   background-color: $color-black;
   transform: scale(0);
   transition: $transition;
