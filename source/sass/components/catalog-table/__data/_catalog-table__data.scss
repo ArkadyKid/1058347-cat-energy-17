@@ -1,6 +1,7 @@
 .catalog-table__data {
   @include font-params(12px, 400, 1.33, $color-text);
   font-family: "Arial", sans-serif;
+  text-align: right;
 }
 
 @media ($min-width-tablet) {

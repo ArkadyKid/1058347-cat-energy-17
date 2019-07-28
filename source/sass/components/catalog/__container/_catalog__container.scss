@@ -1,5 +1,6 @@
 .catalog__container {
   @include flex;
+  width: 100%;
 }
 
 @media ($min-width-tablet) {

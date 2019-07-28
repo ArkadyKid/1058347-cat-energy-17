@@ -1,6 +1,8 @@
 .catalog-table__head {
   @include font-params(12px, 400, 1.33, $color-text);
+  width: 1%;                                         /* for ie 11 */
   font-family: "Arial", sans-serif;
+  text-align: left;
 }
 
 @media ($min-width-tablet) {

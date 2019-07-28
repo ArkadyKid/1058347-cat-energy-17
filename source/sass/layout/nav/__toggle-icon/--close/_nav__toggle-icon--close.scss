@@ -1,7 +1,7 @@
 .nav__toggle-icon--close {
-  transform: rotate(45deg);
+  transform: rotate(0deg) translateY(5px);
 }
 
 .nav__toggle-icon--close::after {
-  transform: rotate(-90deg);
+  transform: rotate(0deg) translateY(-10px);
 }

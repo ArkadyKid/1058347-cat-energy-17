@@ -3,7 +3,7 @@
   width: 19px;
   height: 2px;
   background-color: $color-black;
-  transform: rotate(0deg) translateY(5px);
+  transform: rotate(45deg);
   transition: $transition;
 }
 
@@ -13,6 +13,6 @@
   height: 2px;
   background-color: $color-black;
   transition: $transition;
-  transform: rotate(0deg) translateY(-10px);
+  transform: rotate(-90deg);
   content: "";
 }

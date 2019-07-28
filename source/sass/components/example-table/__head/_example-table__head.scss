@@ -2,11 +2,13 @@
   @include font-params (12px, 400, 1, $color-text);
   position: absolute;
   top: 50px;
+  left: 50%;
   margin: 0 0 25px;
   width: min-content;
   font-family: "Arial", sans-serif;
   text-align: center;
   background-color: $color-background;
+  transform: translateX(-50%);
 }
 
 @media ($min-width-tablet) {
