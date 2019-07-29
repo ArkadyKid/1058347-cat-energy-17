@@ -1,9 +1,16 @@
 .map__link {
   display: block;
   background-color: $color-background;
+  max-height: 370px;
+  overflow: hidden;
 }
 
 .map__link img {
   width: 100%;
-  max-height: 360px; /* временно */
+}
+
+@media ($min-width-tablet) {
+  .map__link {
+    max-height: 400px;
+  }
 }

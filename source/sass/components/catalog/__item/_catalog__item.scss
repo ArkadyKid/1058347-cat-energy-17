@@ -1,6 +1,7 @@
 .catalog__item {
   @include flex;
   flex-direction: column;
+  flex-grow: 1;
   align-items: center;
   min-width: 320px;
   width: 100%;
@@ -32,7 +33,6 @@
   .catalog__item {
     min-width: auto;
     max-width: 245px;
-    width: 18%;
     margin-right: 56px;
   }
 
