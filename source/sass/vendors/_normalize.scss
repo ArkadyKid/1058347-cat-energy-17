@@ -1,3 +1,4 @@
+/*stylelint-disable*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -10,13 +11,14 @@
 
 html {
   line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
    ========================================================================== */
 
 /**
- * pxove the margin in all browsers.
+ * Remove the margin in all browsers.
  */
 
 body {
@@ -61,7 +63,7 @@ hr {
  */
 
 pre {
-  font-family: monospace; /* 1 */
+  font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -69,7 +71,7 @@ pre {
    ========================================================================== */
 
 /**
- * pxove the gray background on active links in IE 10.
+ * Remove the gray background on active links in IE 10.
  */
 
 a {
@@ -77,12 +79,13 @@ a {
 }
 
 /**
- * 1. pxove the bottom border in Chrome 57-
+ * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 
 abbr[title] {
   border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
   text-decoration: underline dotted; /* 2 */
 }
 
@@ -103,7 +106,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace; /* 1 */
+  font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -140,7 +143,7 @@ sup {
    ========================================================================== */
 
 /**
- * pxove the border on images inside links in IE 10.
+ * Remove the border on images inside links in IE 10.
  */
 
 img {
@@ -152,7 +155,7 @@ img {
 
 /**
  * 1. Change the font styles in all browsers.
- * 2. pxove the margin in Firefox and Safari.
+ * 2. Remove the margin in Firefox and Safari.
  */
 
 button,
@@ -177,8 +180,8 @@ input { /* 1 */
 }
 
 /**
- * pxove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. pxove the inheritance of text transform in Firefox.
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
  */
 
 button,
@@ -190,9 +193,15 @@ select { /* 1 */
  * Correct the inability to style clickable types in iOS and Safari.
  */
 
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
 
 /**
- * pxove the inner border and padding in Firefox.
+ * Remove the inner border and padding in Firefox.
  */
 
 button::-moz-focus-inner,
@@ -225,7 +234,7 @@ fieldset {
 /**
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. pxove the padding so developers are not caught out when they zero out
+ * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
 
@@ -247,7 +256,7 @@ progress {
 }
 
 /**
- * pxove the default vertical scrollbar in IE 10+.
+ * Remove the default vertical scrollbar in IE 10+.
  */
 
 textarea {
@@ -256,7 +265,7 @@ textarea {
 
 /**
  * 1. Add the correct box sizing in IE 10.
- * 2. pxove the padding in IE 10.
+ * 2. Remove the padding in IE 10.
  */
 
 [type="checkbox"],
@@ -266,7 +275,7 @@ textarea {
 }
 
 /**
- * Correct the cursor style of incpxent and decpxent buttons in Chrome.
+ * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
 [type="number"]::-webkit-inner-spin-button,
@@ -280,9 +289,17 @@ textarea {
  */
 
 [type="search"] {
+  -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -290,6 +307,7 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
 
