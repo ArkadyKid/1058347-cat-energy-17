@@ -1,5 +1,18 @@
 .comments-fieldset {
   @include reset-indents;
+  position: relative;
   border: none;
-  margin-bottom: 1.93rem;
+  margin-bottom: 31px;
+}
+
+@media ($min-width-tablet) {
+  .comments-fieldset::before {
+    position: absolute;
+    top: 20px;
+    z-index: -1;
+    width: 100%;
+    height: 3px;
+    background-color: $color-main;
+    content: "";
+  }
 }

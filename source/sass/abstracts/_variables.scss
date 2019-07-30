@@ -12,9 +12,10 @@ $color-title: $color-codgray;
 $color-text: $color-tundora;
 $color-background: $color-concrete;
 $color-label: $color-mineshaft;
-$color-border: rgba($color-silver, 0.5);
+$color-border-light: rgba($color-silver, 0.5);
+$color-border: $color-silver;
 
 $transition: 300ms ease-out;
 
-$for-tablet: "min-width: 768px";
-$for-desktop: "min-width: 1024px";
+$min-width-tablet: "min-width: 768px";
+$min-width-desktop: "min-width: 1024px";

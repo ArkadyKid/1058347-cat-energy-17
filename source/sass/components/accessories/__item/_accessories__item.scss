@@ -1,7 +1,28 @@
 .accessories__item {
   @include flex;
   flex-direction: column;
-  padding: 0.87rem 0 1.06rem;
+  padding: 14px 0 17px;
   border-bottom: 1px solid $color-border;
   list-style: none;
+}
+
+@media ($min-width-tablet) {
+  .accessories__item {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 28px 37px 28px 37px;
+    border: 1px solid $color-border-light;
+  }
+}
+
+@media ($min-width-desktop) {
+  .accessories__item {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    border-left: none;
+    border-right: none;
+    padding: 27px 0 26px;
+    margin-right: 56px;
+  }
 }

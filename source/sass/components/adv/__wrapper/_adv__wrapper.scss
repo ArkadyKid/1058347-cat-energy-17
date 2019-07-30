@@ -1,21 +1,43 @@
 .adv__wrapper {
   @include wrapper;
   @include flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
-  padding-top: 1.87rem;
+  padding-top: 28px;
 }
 
-@media ($for-tablet) {
+.adv__wrapper img {
+  object-fit: contain;
+}
+
+@media ($min-width-tablet) {
   .adv__wrapper {
     position: relative;
     align-items: flex-start;
-    padding-left: 7.5rem;
+    padding-left: 120px;
+  }
+
+  .adv__wrapper img {
+    width: 709px;
+    align-self: center;
+  }
+
+  .adv__wrapper picture {
+    order: 4;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .adv__wrapper {
-    padding-top: 14.12rem;
+    padding-top: 226px;
+    padding-bottom: 268px;
+  }
+
+  .adv__wrapper img {
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    width: 552px;
   }
 }

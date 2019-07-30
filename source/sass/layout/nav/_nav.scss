@@ -1,9 +1,6 @@
-.nav {
-  position: relative;
-}
-
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .nav {
-    width: 70%;
+    width: 65%;
+    margin-left: auto;
   }
 }

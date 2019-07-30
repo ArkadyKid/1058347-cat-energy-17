@@ -1,0 +1,12 @@
+.additional-fieldset__wrapper {
+  @include wrapper;
+  @include flex;
+  flex-direction: column;
+}
+
+@media ($min-width-tablet) {
+  .additional-fieldset__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

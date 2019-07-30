@@ -1,9 +1,10 @@
 .main__advantages {
   @include wrapper;
+  margin-bottom: 22px;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .main__advantages {
-    border-bottom: 0.06rem solid $color-border;
+    border-bottom: 1px solid $color-border;
   }
 }

@@ -1,9 +1,44 @@
 .contacts-fieldset__label {
   @include flex;
-  @include font-params(1rem, 400, 1.13, $color-label);
+  @include font-params(16px, 400, 1.13, $color-label);
+  position: relative;
+  flex-grow: 1;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  padding: 0 1.25rem;
-  margin-bottom: 0.87rem;
+  padding: 0 20px;
+  margin-bottom: 14px;
+}
+
+.contacts-fieldset__label svg {
+  display: none;
+}
+
+@media ($min-width-tablet) {
+  .contacts-fieldset__label {
+    font-size: 20px;
+    line-height: 1;
+    padding: 0 70px;
+    margin-bottom: 38px;
+  }
+
+  .contacts-fieldset__label svg {
+    position: absolute;
+    right: 88px;
+    display: block;
+  }
+}
+
+@media ($min-width-desktop) {
+  .contacts-fieldset__label {
+    padding: 0;
+  }
+
+  .contacts-fieldset__label:first-child {
+    margin-right: 30px;
+  }
+
+  .contacts-fieldset__label svg {
+    right: 35px;
+  }
 }

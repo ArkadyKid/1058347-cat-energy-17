@@ -1,0 +1,13 @@
+.slider__img-wrapper {
+  position: relative;
+  width: 320px;
+  min-height: 250px;
+  margin-bottom: 10px;
+}
+
+@media ($min-width-tablet) {
+  .slider__img-wrapper {
+    min-height: 517px;
+    width: 100%;
+  }
+}

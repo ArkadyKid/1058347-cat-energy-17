@@ -1,16 +1,16 @@
 .example-table__data {
-  @include font-params (1.5rem, 400, 1, $color-title);
-  padding: 0.93rem 0;
+  @include font-params (24px, 400, 1, $color-title);
+  padding: 15px 0;
   border: 1px solid $color-border;
   width: 100%;
   text-align: center;
   text-transform: uppercase;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .example-table__data {
-    padding: 1.37rem 0;
-    font-size: 1.87rem;
+    padding: 22px 0;
+    font-size: 30px;
     line-height: 1.23;
   }
 }

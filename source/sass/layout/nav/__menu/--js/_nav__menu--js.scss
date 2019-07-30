@@ -1,0 +1,19 @@
+@media (min-width: 0) and (max-width: 768px) {
+  .nav__menu--js--close {
+    position: absolute;
+    top: -500px;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: white;
+  }
+
+  .nav__menu--js--open {
+    position: absolute;
+    top: 66px;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: white;
+  }
+}

@@ -1,9 +1,0 @@
-.stock__wrapper {
-  @include flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: $color-main;
-  background-image: url("../img/gift-photo-mobile@1x.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-}

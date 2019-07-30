@@ -1,24 +1,31 @@
 .example-table__head {
-  @include font-params (0.75rem, 400, 1, $color-text);
+  @include font-params (12px, 400, 1, $color-text);
   position: absolute;
-  top: 3.12rem;
-  margin: 0 0 1.56rem;
+  top: 50px;
+  left: 50%;
+  margin: 0 0 25px;
   width: min-content;
   font-family: "Arial", sans-serif;
   text-align: center;
   background-color: $color-background;
+  transform: translateX(-50%);
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .example-table__head {
-    top: 4.62rem;
-    width: max-content;
-    font-size: 0.87rem;
+    top: 74px;
+    width: 127px;
+
+    @supports (width: max-content) {
+      width: max-content;
+    }
+
+    font-size: 14px;
     background-color: $color-white;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .example-table__head {
     background-color: $color-background;
   }

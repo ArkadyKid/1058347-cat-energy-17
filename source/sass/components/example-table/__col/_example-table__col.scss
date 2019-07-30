@@ -2,12 +2,12 @@
   @include flex;
   position: relative;
   flex-direction: column;
-  width: 7.75rem;
+  width: 124px;
   align-items: center;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .example-table__col {
-    width: 10.12rem;
+    width: 162px;
   }
 }

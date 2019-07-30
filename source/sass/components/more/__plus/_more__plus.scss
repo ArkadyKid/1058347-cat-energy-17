@@ -1,3 +1,27 @@
 .more__plus {
-  padding-bottom: 1.56rem;
+  padding-bottom: 25px;
+  padding-top: 2px;
+}
+
+.more__plus svg {
+  fill: rgba($color-label, 0.2);
+}
+
+.more__plus svg:last-child {
+  display: none;
+}
+
+@media ($min-width-tablet) {
+  .more__plus {
+    padding-top: 55px;
+    padding-bottom: 50px;
+  }
+
+  .more__plus svg:first-child {
+    display: none;
+  }
+
+  .more__plus svg:last-child {
+    display: block;
+  }
 }

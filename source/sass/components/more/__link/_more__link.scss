@@ -1,8 +1,26 @@
 .more__link {
-  @include font-params(1rem, 400, 1.25, $color-text);
+  @include font-params(16px, 400, 1.25, $color-text);
   width: 100%;
-  padding: 0.75rem 0;
+  padding: 12px 0;
   text-align: center;
   background-color: $color-background;
   text-transform: uppercase;
+  transition: $transition;
+}
+
+.more__link:hover,
+.more__link:focus {
+  background-color: #ebebeb;
+}
+
+.more__link:active {
+  background-color: #ebebeb;
+  color: rgba(68, 68, 68, 0.3);
+}
+
+@media ($min-width-tablet) {
+  .more__link {
+    margin-top: auto;
+    margin-bottom: 40px;
+  }
 }

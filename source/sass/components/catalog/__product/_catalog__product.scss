@@ -1,7 +1,17 @@
 .catalog__product {
-  @include font-params(1rem, 400, 1.25, $color-title);
+  @include font-params(16px, 400, 1.25, $color-title);
   display: block;
-  width: 4.56rem;
-  padding-bottom: 1.12rem;
+  max-width: 73px;
+  margin-bottom: 18px;
   text-transform: uppercase;
+}
+
+@media ($min-width-tablet) {
+  .catalog__product {
+    max-width: 128px;
+    margin: 0 auto 28px;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+  }
 }

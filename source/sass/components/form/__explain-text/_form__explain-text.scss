@@ -1,5 +1,13 @@
 .form__explain-text {
-  @include font-params(0.87rem, 400, 1.14, $color-text);
-  margin-bottom: 2.12rem;
+  @include font-params(14px, 400, 1.14, $color-text);
+  margin-bottom: 34px;
   font-family: "Arial", sans-serif;
+}
+
+@media ($min-width-tablet) {
+  .form__explain-text {
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 0;
+  }
 }

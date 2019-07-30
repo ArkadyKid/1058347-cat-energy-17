@@ -1,0 +1,12 @@
+.form__container {
+  @include flex;
+  @include wrapper;
+  flex-direction: column;
+}
+
+@media ($min-width-desktop) {
+  .form__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

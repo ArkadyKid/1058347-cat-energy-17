@@ -1,5 +1,11 @@
-@media ($for-tablet) {
+.adv__link {
+  @include btn;
+}
+
+@media ($min-width-tablet) {
   .adv__link {
     order: 3;
+    width: auto;
+    min-width: 245px;
   }
 }

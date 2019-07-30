@@ -1,3 +1,6 @@
 .social__menu {
   @include reset-indents;
+  @include flex;
+  justify-content: center;
+  align-items: center;
 }

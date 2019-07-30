@@ -1,11 +1,29 @@
 .slider__label {
-  @include font-params (1rem, 400, 1.25, $color-title);
+  @include font-params (16px, 400, 1.25, $color-title);
+  position: relative;
+  padding-bottom: 6px;
+  border-bottom: 1px dotted rgba($color-black, 0.23);
   text-transform: uppercase;
+  cursor: pointer;
+  user-select: none;
 }
 
-@media ($for-tablet) {
+.slider__label:hover,
+.slider__label:focus {
+  border-bottom: 1px solid rgba($color-black, 0.4);
+}
+
+.slider__label:active {
+  border-bottom: none;
+}
+
+.slider__label::before {
+  @include area(30px);
+}
+
+@media ($min-width-tablet) {
   .slider__label {
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 1;
   }
 }

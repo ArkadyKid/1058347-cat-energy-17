@@ -1,21 +1,21 @@
 .category__item-text {
-  margin: 0 0 1.25rem;
-  padding-bottom: 1.43rem;
-  border-bottom: 0.06rem solid $color-border;
-  font-size: 0.87rem;
+  margin: 0 0 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $color-border;
+  font-size: 14px;
   font-family: "Arial", sans-serif;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .category__item-text {
     max-width: 70%;
     border-bottom: none;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.5;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .category__item-text {
     max-width: none;
   }

@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-@mixin font-params($font-size: 1rem, $font-weight: 400, $line-height: 1.29, $color: $color-text) {
+@mixin font-params($font-size: 16px, $font-weight: 400, $line-height: 1.29, $color: $color-text) {
   font-size: $font-size;
   font-weight: $font-weight;
   line-height: $line-height;
@@ -16,7 +16,7 @@
 }
 
 
-@mixin area($padding: 1.25rem) {
+@mixin area($padding: 20px) {
   position: absolute;
   padding: $padding;
   top: 50%;
@@ -27,16 +27,42 @@
 
 @mixin wrapper {
   margin: 0 auto;
-  padding: 0 1.25rem;
+  padding: 0 20px;
   min-width: 320px;
   width: 100%;
 
-  @media ($for-tablet) {
+  @media ($min-width-tablet) {
     min-width: 768px;
   }
 
-  @media ($for-desktop) {
-    min-width: 1024px;
-    max-width: 1220px;
+  @media ($min-width-desktop) {
+    min-width: 1064px;
+    max-width: 1260px;
+  }
+}
+
+@mixin btn {
+  @include font-params(14px, 400, 1.29, $color-white);
+  width: 100%;
+  padding: 10px 10px;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: $color-main;
+  transition: $transition;
+
+  &:hover,
+  &:focus {
+    background-color: #5eaa2f;
+  }
+
+  &:active {
+    background-color: #5eaa2f;
+    color: rgba($color-white, 0.3);
+  }
+
+  @media ($min-width-tablet) {
+    @include font-params(16px, 400, 1, $color-white);
+    padding: 17px 10px 15px 10px;
   }
 }

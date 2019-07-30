@@ -1,13 +1,13 @@
 .nav__item {
   @include flex;
   justify-content: center;
-  border-bottom: 0.06rem solid $color-border;
+  border-bottom: 1px solid $color-border-light;
   list-style: none;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .nav__item {
-    margin-right: 2rem;
+    margin-right: 32px;
     border-bottom: none;
   }
 

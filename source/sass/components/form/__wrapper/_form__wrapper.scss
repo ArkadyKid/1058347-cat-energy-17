@@ -1,5 +1,20 @@
 .form__wrapper {
   @include flex;
+  @include wrapper;
   flex-direction: column;
   align-items: center;
+}
+
+@media ($min-width-tablet) {
+  .form__wrapper {
+    flex-direction: row;
+    padding: 0 70px;
+    align-items: baseline;
+  }
+}
+
+@media ($min-width-desktop) {
+  .form__wrapper {
+    padding: 0 20px;
+  }
 }

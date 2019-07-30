@@ -1,17 +1,16 @@
 .btn {
-  @include font-params(0.87rem, 400, 1.29, $color-white);
-  width: 17.5rem;
-  padding: 0.75rem 0;
+  @include font-params(14px, 400, 1.29, $color-white);
+  width: 100%;
+  padding: 12px 0;
   border: none;
   text-align: center;
   text-transform: uppercase;
   background-color: $color-main;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .btn {
-    @include font-params(1rem, 400, 1, $color-white);
-    width: 15.31rem;
-    padding: 1rem 0;
+    @include font-params(16px, 400, 1, $color-white);
+    padding: 17px 0 15px 0;
   }
 }

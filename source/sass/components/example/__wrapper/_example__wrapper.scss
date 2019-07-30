@@ -1,11 +1,15 @@
 .example__wrapper {
-  @include wrapper;
   @include flex;
   flex-direction: column;
-  align-items: center;
 }
 
-@media ($for-desktop) {
+@media ($min-width-tablet) {
+  .example__wrapper {
+    @include wrapper;
+  }
+}
+
+@media ($min-width-desktop) {
   .example__wrapper {
     flex-direction: row;
   }

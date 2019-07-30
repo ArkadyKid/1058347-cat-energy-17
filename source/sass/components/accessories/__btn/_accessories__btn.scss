@@ -1,0 +1,10 @@
+.accessories__btn {
+  @include btn;
+}
+
+@media ($min-width-desktop) {
+  .accessories__btn {
+    min-width: 245px;
+    width: auto;
+  }
+}

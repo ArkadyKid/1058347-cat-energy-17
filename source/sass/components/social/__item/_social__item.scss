@@ -1,3 +1,21 @@
 .social__item {
   list-style: none;
+  padding: 20px 20px;
+}
+
+@media ($min-width-tablet) {
+  .social__item:first-child svg {
+    width: 30px;
+    height: 16px;
+  }
+
+  .social__item:nth-child(2) svg {
+    width: 23px;
+    height: 23px;
+  }
+
+  .social__item:nth-child(3) svg {
+    width: 14px;
+    height: 28px;
+  }
 }

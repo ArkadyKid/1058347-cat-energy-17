@@ -2,7 +2,22 @@
   @include flex;
   @include reset-indents;
   flex-direction: column;
+  flex-grow: 1;
   border: none;
-  border-bottom: 0.06rem solid $color-border;
-  margin-bottom: 1.93rem;
+  border-bottom: 1px solid $color-border;
+  margin-bottom: 31px;
+}
+
+@media ($min-width-tablet) {
+  .target-fieldset {
+    border: 1px solid $color-border-light;
+    margin: 0 70px;
+    padding: 36px 28px 25px 60px;
+  }
+}
+
+@media ($min-width-desktop) {
+  .target-fieldset {
+    margin-right: 20px;
+  }
 }

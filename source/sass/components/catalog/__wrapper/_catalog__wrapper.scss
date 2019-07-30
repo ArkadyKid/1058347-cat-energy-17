@@ -1,3 +1,9 @@
 .catalog__wrapper {
   width: 50%;
 }
+
+@media ($min-width-tablet) {
+  .catalog__wrapper {
+    width: 100%;
+  }
+}

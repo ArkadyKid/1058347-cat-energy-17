@@ -1,19 +1,20 @@
 .advantages__item {
   @include flex;
+  position: relative;
   list-style: none;
-  padding-bottom: 1.25rem;
+  margin-bottom: 20px;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .advantages__item {
-    min-height: 14.25rem;
+    min-height: 228px;
     flex-direction: column;
     width: 50%;
-    padding-bottom: 5.56rem;
+    margin-bottom: 89px;
   }
 }
 
-@media ($for-desktop) {
+@media ($min-width-desktop) {
   .advantages__item {
     width: 25%;
   }

@@ -1,0 +1,14 @@
+.social__link {
+  transition: $transition;
+  fill: #666666;
+}
+
+.social__link:hover,
+.social__link:focus {
+  fill: $color-main;
+}
+
+.social__link:active {
+  fill: $color-main;
+  opacity: 0.3;
+}

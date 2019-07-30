@@ -1,14 +1,14 @@
 .adv__slogan {
-  @include font-params(0.87rem, 400, 1, $color-white);
+  @include font-params(14px, 400, 1, $color-white);
   margin: 0;
-  padding-bottom: 1.87rem;
+  padding-bottom: 30px;
   text-transform: uppercase;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .adv__slogan {
-    padding-bottom: 3rem;
-    font-size: 1.25rem;
+    padding-bottom: 48px;
+    font-size: 20px;
     color: $color-title;
   }
 }

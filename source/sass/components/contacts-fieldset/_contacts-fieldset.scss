@@ -1,7 +1,19 @@
 .contacts-fieldset {
-  @include reset-indents;
   @include flex;
+  position: relative;
+  padding: 0;
   flex-direction: column;
   border: none;
-  margin-bottom: 30px;
+}
+
+@media ($min-width-tablet) {
+  .contacts-fieldset::before {
+    position: absolute;
+    top: 20px;
+    z-index: -1;
+    width: 100%;
+    height: 3px;
+    background-color: $color-main;
+    content: "";
+  }
 }

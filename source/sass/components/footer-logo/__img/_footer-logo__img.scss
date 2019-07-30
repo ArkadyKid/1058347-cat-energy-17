@@ -1,0 +1,13 @@
+.footer-logo__img {
+  object-fit: contain;
+  transition: $transition;
+}
+
+.footer-logo__link:hover[href] .footer-logo__img,
+.footer-logo__link:focus[href] .footer-logo__img {
+  opacity: 0.8;
+}
+
+.footer-logo__link:active[href] .footer-logo__img {
+  opacity: 0.6;
+}

@@ -1,5 +1,19 @@
 .additional-fieldset__title {
-  @include font-params(1.5rem, 400, 1, $color-title);
-  padding: 0 1.25rem;
-  margin-bottom: 1.93rem;
+  @include font-params(24px, 400, 1, $color-title);
+  @include wrapper;
+  display: block;
+  margin-bottom: 31px;
+}
+
+@media ($min-width-tablet) {
+  .additional-fieldset__title {
+    padding: 0 70px;
+    font-size: 36px;
+  }
+}
+
+@media ($min-width-desktop) {
+  .additional-fieldset__title {
+    padding: 0 20px;
+  }
 }

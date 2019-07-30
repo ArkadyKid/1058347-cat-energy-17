@@ -1,34 +1,29 @@
 .nav__toggle {
   position: absolute;
-  top: -20%;
-  right: 5%;
-  width: 1.18rem;
-  height: 0.12rem;
-  background-color: $color-black;
-  transform: rotate(-45deg);
+  top: 31px;
+  right: 45px;
+  z-index: 5;
+}
+
+.nav__toggle::before {
+  position: absolute;
+  left: -21px;
+  top: -28px;
+  padding: 30px;
   content: "";
 }
 
 .nav__toggle::after {
   position: absolute;
-  width: 1.18rem;
-  height: 0.12rem;
+  width: 25px;
+  height: 3px;
   background-color: $color-black;
-  transform: rotate(90deg);
+  transform: scale(0);
+  transition: $transition;
   content: "";
 }
 
-.nav__toggle::before {
-  position: absolute;
-  width: 1.18rem;
-  height: 0.12rem;
-  background-color: $color-black;
-  opacity: 0;
-  transform: rotate(45deg);
-  content: "";
-}
-
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .nav__toggle {
     display: none;
   }

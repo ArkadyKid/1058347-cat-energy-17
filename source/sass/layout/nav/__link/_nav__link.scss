@@ -1,29 +1,41 @@
 .nav__link {
-  @include font-params(1.25rem, 500, 1, $color-title);
+  @include font-params(16px, 500, 1, $color-title);
+  font-weight: 500;
   position: relative;
-  padding-top: 1.5rem;
-  padding-bottom: 1.25rem;
+  padding-top: 24px;
+  padding-bottom: 20px;
   text-transform: uppercase;
   transition: $transition;
 }
 
 .nav__item:first-child .nav__link {
-  padding-bottom: 1.5rem;
+  padding-bottom: 24px;
 }
 
-.nav__link:hover,
-.nav__link:focus {
-  color: rgba($color-title, 0.6);
+.nav__link[href]:hover,
+.nav__link[href]:focus {
+  color: rgba(17, 17, 17, 0.6);
 }
 
-.nav__link:active {
-  color: rgba($color-title, 0.3);
+.nav__link[href]:active {
+  color: rgba(17, 17, 17, 0.3);
 }
 
 .nav__link::after {
   @include area;
   content: "";
   padding: 0;
-  width: 100%;
+  width: 100vw;
   height: 100%;
+}
+
+@media ($min-width-tablet) {
+  .nav__link {
+    font-size: 18px;
+    line-height: 1.29;
+  }
+
+  .nav__link::after {
+    width: auto;
+  }
 }

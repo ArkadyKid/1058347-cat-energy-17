@@ -3,3 +3,10 @@
   width: 100%;
   justify-content: space-between;
 }
+
+@media ($min-width-tablet) {
+  .catalog-table__row {
+    margin-bottom: 16px;
+    border-bottom: 1px solid $color-border;
+  }
+}

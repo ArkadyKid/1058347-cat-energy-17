@@ -1,4 +1,13 @@
-@media ($for-desktop) {
+.nav__link--index:hover[href],
+.nav__link--index:focus[href] {
+  color: rgba($color-white, 0.6);
+}
+
+.nav__link--index:active[href] {
+  color: rgba($color-white, 0.3);
+}
+
+@media ($min-width-desktop) {
   .nav__link--index {
     color: $color-white;
   }

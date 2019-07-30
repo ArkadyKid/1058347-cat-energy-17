@@ -1,3 +1,14 @@
-.slider__img:first-of-type {
-  display: none;
+.slider__img {
+  position: absolute;
+  top: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media ($min-width-tablet) {
+  .slider__img img {
+    width: 636px;
+  }
 }

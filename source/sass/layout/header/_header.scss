@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-@media ($for-tablet) {
+@media ($min-width-tablet) {
   .header {
     @include wrapper;
     flex-direction: row;
