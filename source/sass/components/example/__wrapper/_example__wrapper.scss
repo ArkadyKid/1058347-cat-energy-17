@@ -5,6 +5,7 @@
 
 @media ($min-width-desktop) {
   .example__wrapper {
+    @include wrapper;
     flex-direction: row;
   }
 }

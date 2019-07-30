@@ -1,11 +1,11 @@
-.nav__toggle {
+.nav__toggle--js {
   position: absolute;
   top: 31px;
   right: 45px;
   z-index: 5;
 }
 
-.nav__toggle::before {
+.nav__toggle--js::before {
   position: absolute;
   left: -21px;
   top: -28px;
@@ -13,18 +13,18 @@
   content: "";
 }
 
-.nav__toggle::after {
+.nav__toggle--js::after {
   position: absolute;
   width: 25px;
   height: 3px;
   background-color: $color-black;
-  transform: scale(0);
+  transform: scale(1);
   transition: $transition;
   content: "";
 }
 
 @media ($min-width-tablet) {
-  .nav__toggle {
+  .nav__toggle--js {
     display: none;
   }
 }

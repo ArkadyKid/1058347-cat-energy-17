@@ -1,0 +1,10 @@
+@media (min-width: 0) and (max-width: 767px) {
+  .nav__menu--open {
+    position: absolute;
+    top: 66px;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: white;
+  }
+}

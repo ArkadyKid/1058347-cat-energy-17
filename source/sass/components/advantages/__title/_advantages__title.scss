@@ -1,6 +1,6 @@
 .advantages__title {
   @include font-params (36px, 400, 1.67, $color-title);
-  margin: 0 0 25px;
+  margin: 0 0 28px;
 }
 
 @media ($min-width-tablet) {

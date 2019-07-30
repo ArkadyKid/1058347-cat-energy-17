@@ -1,18 +1,18 @@
-.nav__toggle-icon {
+.nav__toggle-icon--js {
   position: absolute;
   width: 25px;
   height: 3px;
   background-color: $color-black;
-  transform: rotate(-45deg);
+  transform: rotate(0deg) translateY(-8px);
   transition: $transition;
 }
 
-.nav__toggle-icon::after {
+.nav__toggle-icon--js::after {
   position: absolute;
   width: 25px;
   height: 3px;
   background-color: $color-black;
   transition: $transition;
-  transform: rotate(90deg);
+  transform: rotate(0deg) translateY(16px);
   content: "";
 }

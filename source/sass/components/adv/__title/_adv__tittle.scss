@@ -1,15 +1,16 @@
 .adv__title {
   @include font-params (36px, 400, 1, $color-white);
   margin: 0;
-  max-width: 316px;
+  max-width: 80%;
   padding-bottom: 24px;
   text-align: center;
 }
 
 @media ($min-width-tablet) {
   .adv__title {
-    max-width: 426px;
-    padding-bottom: 32px;
+    padding-bottom: 43px;
+    padding-top: 47px;
+    padding-left: 12%;
     color: $color-title;
     font-size: 60px;
     text-align: left;
