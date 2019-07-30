@@ -4,7 +4,7 @@
   width: 100%;
 }
 
-@media (min-width: 0) and (max-width: 768px) {
+@media (min-width: 0) and (max-width: 1023px) {
   .example__container {
     @include wrapper;
   }
@@ -19,5 +19,6 @@
 @media ($min-width-desktop) {
   .example__container {
     width: 50%;
+    padding: 0 20px;
   }
 }

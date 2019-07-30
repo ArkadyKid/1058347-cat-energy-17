@@ -1,4 +1,10 @@
 .contacts__map {
   width: 100%;
-  height: 400px;
+  height: 365px;
+}
+
+@media ($min-width-tablet) {
+  .contacts__map {
+    height: 400px;
+  }
 }

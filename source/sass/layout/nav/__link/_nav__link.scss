@@ -1,6 +1,5 @@
 .nav__link {
-  @include font-params(16px, 500, 1, $color-title);
-  font-weight: 500;
+  @include font-params(20px, 500, 1, $color-title);
   position: relative;
   padding-top: 24px;
   padding-bottom: 20px;
