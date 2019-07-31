@@ -2,6 +2,7 @@
   @include font-params (16px, 400, 1.25, $color-title);
   position: relative;
   padding-bottom: 6px;
+  padding-top: 4px;
   border-bottom: 1px dotted rgba($color-black, 0.23);
   text-transform: uppercase;
   cursor: pointer;

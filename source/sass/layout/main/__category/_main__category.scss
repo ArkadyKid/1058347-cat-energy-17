@@ -1,10 +1,17 @@
 .main__category {
   @include wrapper;
-  padding: 25px 20px 21px;
+  margin-bottom: 21px;
+  padding: 0 20px;
 }
 
 @media ($min-width-tablet) {
   .main__category {
-    margin-bottom: 51px;
+    margin-bottom: 47px;
+  }
+}
+
+@media ($min-width-desktop) {
+  .main__category {
+    margin-bottom: 74px;
   }
 }

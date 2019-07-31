@@ -7,12 +7,14 @@
 @media (min-width: 0) and (max-width: 1023px) {
   .example__container {
     @include wrapper;
+    padding: 17px 20px 0;
   }
 }
 
 @media ($min-width-tablet) {
   .example__container {
     align-items: flex-start;
+    padding-top: 43px;
   }
 }
 

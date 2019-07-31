@@ -13,10 +13,10 @@
 @media ($min-width-tablet) {
   .slider__range {
     position: relative;
-    width: 65%;
+    width: 61%;
     height: 6px;
+    margin: 0 20px;
     border-radius: 2.5px;
-    margin: 0 25px;
     background-color: #dcdcdc;
   }
 }

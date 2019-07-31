@@ -1,0 +1,21 @@
+.category__item-icon {
+  position: relative;
+  width: 34px;
+  height: 12px;
+  overflow: hidden;
+  margin-left: 14px;
+}
+
+.category__item-icon svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  transition: $transition;
+}
+
+@media ($min-width-tablet) {
+  .category__item-icon {
+    margin-left: 24px;
+  }
+}

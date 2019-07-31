@@ -1,17 +1,19 @@
 .category__wrapper {
   @include flex;
   align-items: center;
-  padding-bottom: 23px;
+  margin-bottom: 23px;
 }
 
 @media ($min-width-tablet) {
   .category__wrapper {
     max-width: 70%;
+    margin-bottom: 25px;
   }
 }
 
 @media ($min-width-desktop) {
   .category__wrapper {
     max-width: none;
+    margin-bottom: 42px;
   }
 }

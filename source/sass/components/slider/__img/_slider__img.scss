@@ -8,6 +8,10 @@
 }
 
 @media ($min-width-tablet) {
+  .slider__img {
+    top: 7%;
+  }
+
   .slider__img img {
     width: 636px;
   }

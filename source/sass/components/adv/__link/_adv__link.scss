@@ -2,12 +2,24 @@
   @include btn;
 }
 
-@media ($min-width-tablet) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .adv__link {
-    order: 3;
+    position: absolute;
+    left: 15%;
+    top: 32%;
     width: auto;
-    min-width: 35%;
-    margin-left: 12%;
+    min-width: 32%;
     font-size: 20px;
+    line-height: 1;
+  }
+}
+
+@media ($min-width-desktop) {
+  .adv__link {
+    margin-left: 82px;
+    width: auto;
+    min-width: 20%;
+    font-size: 20px;
+    line-height: 1;
   }
 }

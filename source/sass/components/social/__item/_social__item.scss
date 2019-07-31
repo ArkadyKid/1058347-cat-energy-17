@@ -1,15 +1,20 @@
 .social__item {
   position: relative;
-  margin-left: 40px;
+  margin-right: 38px;
   list-style: none;
   padding: 20px 0;
 }
 
-.social__item:first-child {
-  margin-left: 0;
+.social__item:last-child {
+  margin-right: 0;
 }
 
 @media ($min-width-tablet) {
+  .social__item {
+    margin-left: 26px;
+    margin-right: 0;
+  }
+
   .social__item:first-child svg {
     width: 30px;
     height: 16px;

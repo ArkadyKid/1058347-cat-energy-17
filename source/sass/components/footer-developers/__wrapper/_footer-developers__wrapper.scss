@@ -1,0 +1,23 @@
+.footer-developers__wrapper {
+  @include font-params(16px, 400, 1, $color-text);
+  @include flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Arial", sans-serif;
+  transition: $transition;
+  fill: #666666;
+}
+
+.footer-developers__wrapper:hover {
+  transition: $transition;
+}
+
+.footer-developers__wrapper:hover,
+.footer-developers__wrapper:focus {
+  fill: $color-main;
+}
+
+.footer-developers__wrapper:active {
+  opacity: 0.3;
+  fill: $color-main;
+}

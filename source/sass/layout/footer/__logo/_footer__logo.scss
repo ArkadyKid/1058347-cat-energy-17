@@ -1,10 +1,11 @@
 .footer__logo {
   border-bottom: 1px solid $color-border;
-  padding: 40px 0 30px;
+  padding: 34px 0 30px;
 }
 
 @media ($min-width-tablet) {
   .footer__logo {
     border-bottom: none;
+    padding: 0;
   }
 }
