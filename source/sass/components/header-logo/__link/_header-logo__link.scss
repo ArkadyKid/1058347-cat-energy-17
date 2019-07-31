@@ -11,3 +11,17 @@
 .header-logo__link:active[href] img {
   opacity: 0.6;
 }
+
+@media ($min-width-tablet) {
+  .header-logo__link img {
+    width: 174px;
+    height: 59px;
+  }
+}
+
+@media ($min-width-desktop) {
+  .header-logo__link img {
+    width: 203px;
+    height: 60px;
+  }
+}
