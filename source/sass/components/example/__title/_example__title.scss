@@ -10,3 +10,9 @@
     margin-bottom: 64px;
   }
 }
+
+@media ($min-width-desktop) {
+  .example__title {
+    margin-bottom: 143px;
+  }
+}

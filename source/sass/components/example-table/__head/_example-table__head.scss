@@ -4,7 +4,7 @@
   top: 50px;
   left: 50%;
   margin: 0 0 25px;
-  width: min-content;
+  padding: 0 10px;
   font-family: "Arial", sans-serif;
   text-align: center;
   background-color: $color-background;
@@ -13,8 +13,8 @@
 
 @media ($min-width-tablet) {
   .example-table__head {
-    top: 74px;
-    width: 127px;
+    top: 64px;
+    width: 147px;
 
     @supports (width: max-content) {
       width: max-content;

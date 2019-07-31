@@ -12,3 +12,9 @@
     margin-right: 0;
   }
 }
+
+@media ($min-width-desktop) {
+  .slider__wrapper {
+    margin-left: 3%;
+  }
+}

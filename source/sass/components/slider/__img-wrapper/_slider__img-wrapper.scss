@@ -9,6 +9,12 @@
   .slider__img-wrapper {
     min-height: 523px;
     width: 100%;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
+  }
+}
+
+@media ($min-width-desktop) {
+  .slider__img-wrapper {
+    margin-bottom: 0;
   }
 }

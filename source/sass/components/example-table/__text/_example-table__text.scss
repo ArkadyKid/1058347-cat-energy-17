@@ -8,7 +8,7 @@
 @media ($min-width-tablet) {
   .example-table__text {
     width: 25%;
-    margin-top: 20px;
+    margin-top: 12px;
     text-align: right;
     font-size: 20px;
   }
@@ -17,7 +17,7 @@
 @media ($min-width-desktop) {
   .example-table__text {
     @include flex;
-    width: 366px;
+    width: 54%;
     justify-content: space-between;
   }
 }

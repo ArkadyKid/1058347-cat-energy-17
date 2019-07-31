@@ -12,3 +12,9 @@
     padding: 37px 30px;
   }
 }
+
+@media ($min-width-desktop) {
+  .footer__wrapper {
+    padding: 37px 20px;
+  }
+}

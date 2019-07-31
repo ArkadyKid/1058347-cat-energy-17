@@ -10,3 +10,9 @@
     width: 366px;
   }
 }
+
+@media ($min-width-desktop) {
+  .example-table__wrapper {
+    margin-bottom: 45px;
+  }
+}

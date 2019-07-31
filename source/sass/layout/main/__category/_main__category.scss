@@ -6,12 +6,14 @@
 
 @media ($min-width-tablet) {
   .main__category {
-    margin-bottom: 47px;
+    margin-bottom: 27px;
   }
 }
 
 @media ($min-width-desktop) {
   .main__category {
-    margin-bottom: 74px;
+    margin-bottom: 34px;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 }
