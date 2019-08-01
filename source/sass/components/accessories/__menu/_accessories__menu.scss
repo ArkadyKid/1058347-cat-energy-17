@@ -12,5 +12,8 @@
 @media ($min-width-desktop) {
   .accessories__menu {
     flex-grow: 1;
+    margin-right: 6.9%;
+    margin-bottom: 0;
+    max-width: 73%;
   }
 }

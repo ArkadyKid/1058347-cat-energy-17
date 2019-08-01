@@ -12,3 +12,9 @@
     padding: 12px 10px 12px;
   }
 }
+
+@media ($min-width-desktop) {
+  .catalog__btn-add {
+    width: 69%;
+  }
+}

@@ -8,3 +8,10 @@
     padding: 0 37px;
   }
 }
+
+@media ($min-width-desktop) {
+  .accessories__text {
+    position: absolute;
+    left: -18px;
+  }
+}

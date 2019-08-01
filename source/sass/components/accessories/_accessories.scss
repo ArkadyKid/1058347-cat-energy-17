@@ -11,3 +11,9 @@
   background-color: $color-main;
   content: "";
 }
+
+@media ($min-width-desktop) {
+  .accessories::before {
+    top: 51px;
+  }
+}

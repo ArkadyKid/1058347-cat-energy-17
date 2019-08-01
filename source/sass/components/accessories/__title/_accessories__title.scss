@@ -12,3 +12,11 @@
     margin-bottom: 59px;
   }
 }
+
+@media ($min-width-desktop) {
+  .accessories__title {
+    position: relative;
+    padding: 30px 0;
+    margin-bottom: 85px;
+  }
+}
