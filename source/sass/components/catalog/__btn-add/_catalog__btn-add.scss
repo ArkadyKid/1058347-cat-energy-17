@@ -1,9 +1,14 @@
 .catalog__btn-add {
   @include btn;
+  padding: 9px 10px;
+  font-size: 16px;
+  line-height: 1.25;
 }
 
 @media ($min-width-tablet) {
   .catalog__btn-add {
-    margin-bottom: 40px;
+    margin: 0 auto 40px;
+    width: 77%;
+    padding: 12px 10px 12px;
   }
 }

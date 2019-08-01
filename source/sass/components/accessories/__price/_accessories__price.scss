@@ -1,3 +1,9 @@
 .accessories__price {
   text-transform: uppercase;
 }
+
+@media ($min-width-tablet) {
+  .accessories__price {
+    margin-left: 56px;
+  }
+}

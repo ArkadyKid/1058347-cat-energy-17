@@ -1,17 +1,23 @@
 .catalog__product {
   @include font-params(16px, 400, 1.25, $color-title);
   display: block;
-  max-width: 73px;
-  margin-bottom: 18px;
+  max-width: 60%;
+  margin-bottom: 12px;
+  margin-top: 22px;
   text-transform: uppercase;
 }
 
 @media ($min-width-tablet) {
   .catalog__product {
-    max-width: 128px;
-    margin: 0 auto 28px;
+    margin: 0 auto 22px;
     font-size: 20px;
     line-height: 1;
     text-align: center;
+  }
+}
+
+@media ($min-width-desktop) {
+  .catalog__product {
+    max-width: 75%;
   }
 }

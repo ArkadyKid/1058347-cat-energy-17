@@ -1,13 +1,13 @@
 .stock__text {
   @include font-params(16px, 400, 1.25, $color-white);
-  width: 160px;
-  margin: 0 0 43px;
+  max-width: 165px;
+  margin: 0;
   font-family: "Arial", sans-serif;
   text-align: center;
 }
 
 @media ($min-width-tablet) {
   .stock__text {
-    margin: 0;
+    text-align: left;
   }
 }
