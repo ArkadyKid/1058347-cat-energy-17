@@ -2,6 +2,7 @@
   @include font-params (24px, 400, 1.54, $color-title);
   margin: 0;
   padding-left: 20px;
+  max-width: 300px;
   text-transform: uppercase;
 }
 
