@@ -10,7 +10,7 @@
 @media ($min-width-tablet) {
   .form__wrapper {
     flex-direction: row;
-    padding: 0 70px;
+    padding: 0 65px;
     margin-bottom: 72px;
     align-items: baseline;
   }
@@ -19,7 +19,7 @@
 @media ($min-width-desktop) {
   .form__wrapper {
     padding: 0 20px;
-    margin-bottom: 80px;
+    margin-bottom: 85px;
     align-items: center;
   }
 }

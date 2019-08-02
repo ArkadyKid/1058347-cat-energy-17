@@ -1,6 +1,7 @@
 .additional-fieldset__label {
   @include font-params(16px, 400, 1.16, $color-label);
   position: relative;
+  display: block;
   width: 100%;
   padding-left: 45px;
   margin-bottom: 24px;
@@ -94,16 +95,23 @@
 @media ($min-width-desktop) {
   .additional-fieldset__label {
     width: auto;
-    padding: 16px 15px 16px 78px;
+    padding: 16px 15px 16px 58px;
     margin-bottom: 0;
+    min-width: 260px;
+    max-width: 265px;
+    margin-right: 37px;
+  }
+
+  .additional-fieldset__label:last-of-type {
+    margin-right: 0;
   }
 
   .additional-fieldset__label::before {
-    left: 16px;
+    left: 0;
   }
 
   .additional-fieldset__label::after {
-    left: 30px;
-    top: 20px;
+    left: 10px;
+    top: 42%;
   }
 }

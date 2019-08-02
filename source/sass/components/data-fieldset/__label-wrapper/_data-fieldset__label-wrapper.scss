@@ -7,3 +7,9 @@
     padding-right: 18px;
   }
 }
+
+@media ($min-width-desktop) {
+  .data-fieldset__label-wrapper {
+    max-width: 300px;
+  }
+}

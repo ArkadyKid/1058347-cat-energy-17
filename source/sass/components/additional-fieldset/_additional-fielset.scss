@@ -1,7 +1,7 @@
 .additional-fieldset {
   @include flex;
   position: relative;
-  padding: 20px 0;
+  padding: 16px 0;
   flex-direction: column;
   border: none;
 }
@@ -23,6 +23,6 @@
   }
 
   .additional-fieldset::before {
-    top: 42px;
+    top: 46px;
   }
 }
