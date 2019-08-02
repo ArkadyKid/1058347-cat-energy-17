@@ -1,10 +1,12 @@
 .form__btn {
   @include btn;
-  margin-bottom: 23px;
+  font-size: 16px;
+  line-height: 1.25;
 }
 
 @media ($min-width-tablet) {
   .form__btn {
+    font-size: 20px;
     min-width: 283px;
     width: auto;
     margin-right: 61px;

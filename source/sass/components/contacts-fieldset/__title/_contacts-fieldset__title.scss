@@ -1,16 +1,16 @@
 .contacts-fieldset__title {
   @include font-params(24px, 400, 1, $color-title);
-  @include wrapper;
+  padding-left: 0;
+  position: relative;
   display: block;
-  padding: 0 20px;
-  margin: 0 auto 30px;
+  margin: 0 auto 17px;
 }
 
 @media ($min-width-tablet) {
   .contacts-fieldset__title {
     font-size: 36px;
-    padding: 0 70px;
-    margin-bottom: 70px;
+    padding: 0 30px;
+    margin-bottom: 68px;
   }
 }
 

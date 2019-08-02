@@ -1,7 +1,7 @@
 .form__container {
   @include flex;
-  @include wrapper;
   flex-direction: column;
+  padding-bottom: 17px;
 }
 
 @media ($min-width-desktop) {

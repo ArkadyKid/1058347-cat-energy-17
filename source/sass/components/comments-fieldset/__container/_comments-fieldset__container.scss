@@ -1,6 +1,10 @@
+.comments-fieldset__container {
+  background-color: $color-white;
+  padding: 0 20px;
+}
+
 @media ($min-width-tablet) {
   .comments-fieldset__container {
-    background-color: $color-white;
-    padding: 0 20px;
+    padding: 0 40px;
   }
 }

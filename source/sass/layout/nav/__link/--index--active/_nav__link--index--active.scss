@@ -1,6 +1,6 @@
 .nav__link--index--active::before {
   position: absolute;
-  bottom: 23%;
+  bottom: 18%;
   height: 2px;
   width: 100%;
   background-color: $color-main;
@@ -9,7 +9,6 @@
 
 @media ($min-width-desktop) {
   .nav__link--index--active::before {
-    bottom: 18%;
     background-color: $color-white;
   }
 }

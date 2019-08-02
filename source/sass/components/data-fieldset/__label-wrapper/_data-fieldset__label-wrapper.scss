@@ -1,3 +1,9 @@
 .data-fieldset__label-wrapper {
   padding-right: 15px;
 }
+
+@media ($min-width-tablet) {
+  .data-fieldset__label-wrapper {
+    padding-right: 18px;
+  }
+}

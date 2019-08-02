@@ -1,0 +1,15 @@
+.form__data-fieldset {
+  @include reset-indents;
+}
+
+@media ($min-width-tablet) {
+  .form__data-fieldset {
+    margin-bottom: 30px;
+  }
+}
+
+@media ($min-width-desktop) {
+  .form__data-fieldset {
+    margin-bottom: 0;
+  }
+}

@@ -1,20 +1,28 @@
 .additional-fieldset {
-  @include reset-indents;
   @include flex;
   position: relative;
+  padding: 20px 0;
   flex-direction: column;
   border: none;
-  margin-bottom: 31px;
+}
+
+.additional-fieldset::before {
+  position: absolute;
+  top: 31px;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 3px;
+  background-color: $color-main;
+  content: "";
 }
 
 @media ($min-width-tablet) {
+  .additional-fieldset {
+    padding: 18px 0;
+  }
+
   .additional-fieldset::before {
-    position: absolute;
-    top: 20px;
-    z-index: -1;
-    width: 100%;
-    height: 3px;
-    background-color: $color-main;
-    content: "";
+    top: 42px;
   }
 }

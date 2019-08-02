@@ -2,10 +2,10 @@
   @include font-params(16px, 400, 1.16, $color-label);
   position: relative;
   width: 100%;
-  padding: 0 20px 0 56px;
-  text-transform: uppercase;
-  margin-bottom: 44px;
+  padding-left: 45px;
+  margin-bottom: 24px;
   transition: $transition;
+  text-transform: uppercase;
   user-select: none;
 }
 
@@ -13,7 +13,7 @@
   content: "";
   position: absolute;
   top: 50%;
-  left: 16px;
+  left: 0;
   width: 30px;
   height: 30px;
   border: 1px solid $color-border-light;
@@ -22,13 +22,12 @@
 
 .additional-fieldset__label::after {
   position: absolute;
-  top: 50%;
-  left: 24px;
+  top: 4px;
+  left: 5px;
   padding: 10px;
   background-image: url("../img/svg/icon-tick.svg");
   background-repeat: no-repeat;
   opacity: 0;
-  transform: translateY(-50%);
   content: "";
 }
 
@@ -62,21 +61,33 @@
 
 @media ($min-width-tablet) {
   .additional-fieldset__label {
-    padding: 0 70px 0 130px;
+    padding-left: 98px;
     width: 50%;
-    margin-bottom: 54px;
+    margin-bottom: 51px;
     font-size: 20px;
     line-height: 1;
+  }
+
+  .additional-fieldset__label:nth-of-type(2n) {
+    padding-left: 88px;
   }
 
   .additional-fieldset__label::before {
     width: 40px;
     height: 40px;
-    left: 64px;
+    left: 39px;
+  }
+
+  .additional-fieldset__label:nth-of-type(2n)::before {
+    left: 30px;
   }
 
   .additional-fieldset__label::after {
-    left: 77px;
+    left: 50px;
+  }
+
+  .additional-fieldset__label:nth-of-type(2n)::after {
+    left: 41px;
   }
 }
 

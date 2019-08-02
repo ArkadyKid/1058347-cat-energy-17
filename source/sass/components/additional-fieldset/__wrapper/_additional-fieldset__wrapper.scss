@@ -1,6 +1,6 @@
 .additional-fieldset__wrapper {
-  @include wrapper;
   @include flex;
+  @include wrapper;
   flex-direction: column;
 }
 
