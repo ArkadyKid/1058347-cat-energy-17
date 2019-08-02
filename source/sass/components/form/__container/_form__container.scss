@@ -1,12 +1,17 @@
 .form__container {
   @include flex;
   flex-direction: column;
-  padding-bottom: 17px;
+  margin-bottom: 17px;
 }
 
 @media ($min-width-desktop) {
   .form__container {
+    min-width: 1024px;
+    max-width: 1260px;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0 auto;
+    padding: 40px 20px;
   }
 }

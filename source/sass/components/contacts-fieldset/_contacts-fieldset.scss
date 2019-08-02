@@ -26,3 +26,13 @@
     top: 79px;
   }
 }
+
+@media ($min-width-desktop) {
+  .contacts-fieldset {
+    padding: 20px 0;
+  }
+
+  .contacts-fieldset::before {
+    top: 49px;
+  }
+}

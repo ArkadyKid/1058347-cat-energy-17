@@ -3,7 +3,13 @@
 }
 
 @media ($min-width-tablet) {
-.contacts-fieldset__label-wrapper {
-  padding-right: 20px;
+  .contacts-fieldset__label-wrapper {
+    padding-right: 20px;
+  }
 }
+
+@media ($min-width-desktop) {
+  .contacts-fieldset__label-wrapper {
+    padding-right: 25px;
+  }
 }

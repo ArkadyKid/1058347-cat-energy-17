@@ -1,7 +1,5 @@
 .data-fieldset__label {
   @include font-params(16px, 400, 1.13, $color-label);
-  @include wrapper;
-  padding: 0 24px 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,13 +7,8 @@
   text-transform: uppercase;
 }
 
-.data-fieldset__label:last-child {
-  margin-bottom: 0;
-}
-
 @media ($min-width-tablet) {
   .data-fieldset__label {
-    padding: 0 70px;
     font-size: 20px;
     line-height: 1;
   }
@@ -24,5 +17,37 @@
 @media ($min-width-desktop) {
   .data-fieldset__label {
     padding: 0;
+  }
+
+  .data-fieldset__label:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 0) and (max-width: 767px) {
+  .data-fieldset__label {
+    @include wrapper;
+    padding: 0 24px 0 20px;
+    margin-bottom: 14px;
+  }
+
+  .data-fieldset__label:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+@media ($min-width-tablet) and (max-width: 1023px) {
+  .data-fieldset__label {
+    @include wrapper;
+    margin-bottom: 14px;
+  }
+
+  .data-fieldset__label {
+    padding: 0 70px;
+  }
+
+  .data-fieldset__label:last-child {
+    margin-bottom: 0;
   }
 }

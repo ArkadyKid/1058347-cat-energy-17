@@ -3,7 +3,7 @@
   padding-left: 0;
   position: relative;
   display: block;
-  margin: 0 auto 17px;
+  margin: 0 0 17px;
 }
 
 @media ($min-width-tablet) {
@@ -16,6 +16,12 @@
 
 @media ($min-width-desktop) {
   .contacts-fieldset__title {
+    @include wrapper;
+  }
+
+  .contacts-fieldset__title {
     padding: 0;
+    max-width: 1300px;
+    margin-bottom: 68px;
   }
 }

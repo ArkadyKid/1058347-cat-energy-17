@@ -1,3 +1,9 @@
 .form__contacts-fieldset {
   margin: 0;
 }
+
+@media ($min-width-desktop) {
+  .form__contacts-fieldset {
+    margin-bottom: 30px;
+  }
+}

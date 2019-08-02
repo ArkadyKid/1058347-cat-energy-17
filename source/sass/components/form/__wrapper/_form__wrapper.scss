@@ -3,7 +3,7 @@
   @include wrapper;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 23px;
+  margin-bottom: 35px;
   padding: 22px 20px 0;
 }
 
@@ -19,5 +19,7 @@
 @media ($min-width-desktop) {
   .form__wrapper {
     padding: 0 20px;
+    margin-bottom: 80px;
+    align-items: center;
   }
 }

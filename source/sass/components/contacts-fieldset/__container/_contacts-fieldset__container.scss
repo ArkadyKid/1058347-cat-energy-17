@@ -9,3 +9,9 @@
     padding: 0 40px;
   }
 }
+
+@media ($min-width-desktop) {
+  .contacts-fieldset__container {
+    padding: 0 42px 0 39px;
+  }
+}

@@ -93,8 +93,9 @@
 
 @media ($min-width-desktop) {
   .additional-fieldset__label {
-    padding: 16px 68px;
     width: auto;
+    padding: 16px 15px 16px 78px;
+    margin-bottom: 0;
   }
 
   .additional-fieldset__label::before {
@@ -103,5 +104,6 @@
 
   .additional-fieldset__label::after {
     left: 30px;
+    top: 20px;
   }
 }
