@@ -8,6 +8,7 @@
   transition: $transition;
   text-transform: uppercase;
   user-select: none;
+  cursor: pointer;
 }
 
 .additional-fieldset__label::before {
@@ -23,7 +24,7 @@
 
 .additional-fieldset__label::after {
   position: absolute;
-  top: 4px;
+  top: 0;
   left: 5px;
   padding: 10px;
   background-image: url("../img/svg/icon-tick.svg");
@@ -85,6 +86,7 @@
 
   .additional-fieldset__label::after {
     left: 50px;
+    top: 28%;
   }
 
   .additional-fieldset__label:nth-of-type(2n)::after {
