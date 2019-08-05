@@ -1,0 +1,9 @@
+.form__comments-fieldset {
+  margin: 0;
+}
+
+@media ($min-width-tablet) {
+  .form__comments-fieldset {
+    margin-bottom: 24px;
+  }
+}

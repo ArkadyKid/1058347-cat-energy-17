@@ -1,0 +1,27 @@
+.additional-fieldset__column {
+  @include flex;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.additional-fieldset__column:last-child {
+  margin-bottom: 0;
+}
+
+@media ($min-width-tablet) {
+  .additional-fieldset__column {
+    margin-bottom: 0;
+  }
+}
+
+@media ($min-width-desktop) {
+  .additional-fieldset__column {
+    flex-direction: row;
+    flex-grow: 1;
+    width: auto;
+  }
+
+  .additional-fieldset__column:nth-child(2n-1) {
+    margin-right: 80px;
+  }
+}

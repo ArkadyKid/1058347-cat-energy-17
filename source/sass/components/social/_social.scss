@@ -1,11 +1,4 @@
 .social {
   @include flex;
   justify-content: center;
-  border-bottom: 1px solid $color-border;
-}
-
-@media ($min-width-tablet) {
-  .social {
-    border-bottom: none;
-  }
 }

@@ -1,19 +1,23 @@
 .comments-fieldset__title {
   @include font-params(24px, 400, 1, $color-title);
-  @include wrapper;
   display: block;
-  margin-bottom: 30px;
+  margin: 0 0 35px;
 }
 
 @media ($min-width-tablet) {
   .comments-fieldset__title {
     font-size: 36px;
-    padding: 0 70px;
+    padding: 0 30px;
+    margin-bottom: 75px;
   }
 }
 
 @media ($min-width-desktop) {
   .comments-fieldset__title {
-    padding: 0 20px;
+    padding: 0;
+    min-width: 1024px;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto 75px;
   }
 }

@@ -16,11 +16,21 @@
 @media ($min-width-tablet) {
   .category__img-wrapper {
     position: absolute;
-    right: 5%;
+    right: 9%;
     top: 50%;
     width: 200px;
     height: 200px;
     transform: translateY(-50%);
+  }
+
+  .category__item:first-child .category__img-wrapper svg {
+    width: 141px;
+    height: 194px;
+  }
+
+  .category__item:last-child .category__img-wrapper svg {
+    width: 268px;
+    height: 113px;
   }
 }
 
@@ -30,5 +40,15 @@
     width: 100px;
     height: 100px;
     transform: translate(0);
+  }
+
+  .category__item:first-child .category__img-wrapper svg {
+    width: 71px;
+    height: 97px;
+  }
+
+  .category__item:last-child .category__img-wrapper svg {
+    width: 134px;
+    height: 57px;
   }
 }

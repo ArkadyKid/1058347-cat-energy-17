@@ -1,3 +1,15 @@
 .main__accessories {
-  margin-bottom: 39px;
+  margin-bottom: 40px;
+}
+
+@media ($min-width-tablet) {
+  .main__accessories {
+    margin-bottom: 76px;
+  }
+}
+
+@media ($min-width-desktop) {
+  .main__accessories {
+    margin-bottom: 87px;
+  }
 }

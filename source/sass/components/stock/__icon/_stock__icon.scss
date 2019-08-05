@@ -1,3 +1,9 @@
 .stock__icon {
-  padding: 65px 0;
+  margin-bottom: 60px;
+}
+
+@media ($min-width-tablet) {
+  .stock__icon {
+    margin-bottom: 0;
+  }
 }

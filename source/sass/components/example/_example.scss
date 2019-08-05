@@ -5,12 +5,12 @@
 @media ($min-width-tablet) {
   .example {
     background-color: transparent;
-    background-image: linear-gradient(to bottom, $color-white 60%, $color-background 60%);
+    background-image: linear-gradient(to bottom, $color-white 57%, $color-background 57%);
   }
 }
 
 @media ($min-width-desktop) {
   .example {
-    background-image: linear-gradient(to bottom, $color-white 27%, $color-background 27%);
+    background-image: linear-gradient(to bottom, $color-white 25%, $color-background 25%);
   }
 }

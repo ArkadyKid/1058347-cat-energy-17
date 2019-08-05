@@ -1,9 +1,19 @@
 .accessories__menu {
   @include reset-indents;
+  margin-bottom: 40px;
+}
+
+@media ($min-width-tablet) {
+  .accessories__menu {
+    margin-bottom: 70px;
+  }
 }
 
 @media ($min-width-desktop) {
   .accessories__menu {
     flex-grow: 1;
+    margin-right: 6.9%;
+    margin-bottom: 0;
+    max-width: 73%;
   }
 }

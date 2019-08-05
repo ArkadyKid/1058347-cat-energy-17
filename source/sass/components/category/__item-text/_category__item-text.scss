@@ -8,7 +8,9 @@
 
 @media ($min-width-tablet) {
   .category__item-text {
-    max-width: 70%;
+    margin: 0;
+    padding-bottom: 57px;
+    max-width: 60%;
     border-bottom: none;
     font-size: 16px;
     line-height: 1.5;
@@ -17,6 +19,13 @@
 
 @media ($min-width-desktop) {
   .category__item-text {
-    max-width: none;
+    max-width: 100%;
+    padding-bottom: 32px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .category__item:last-child .category__item-text {
+    max-width: 55%;
   }
 }

@@ -1,0 +1,10 @@
+.footer__social {
+  border-bottom: 1px solid $color-border;
+}
+
+@media ($min-width-tablet) {
+  .footer__social {
+    border-bottom: none;
+    max-width: 60%;
+  }
+}

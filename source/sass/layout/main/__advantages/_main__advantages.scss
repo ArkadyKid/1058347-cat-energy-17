@@ -6,5 +6,13 @@
 @media ($min-width-tablet) {
   .main__advantages {
     border-bottom: 1px solid $color-border;
+    margin-bottom: 0;
+  }
+}
+
+@media ($min-width-desktop) {
+  .main__advantages {
+    padding-right: 15px;
+    border-bottom: none;
   }
 }

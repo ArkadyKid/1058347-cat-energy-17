@@ -1,0 +1,10 @@
+.footer__developers {
+  padding: 18px 0;
+}
+
+@media ($min-width-tablet) {
+  .footer__developers {
+    padding: 0;
+    max-width: 30%;
+  }
+}

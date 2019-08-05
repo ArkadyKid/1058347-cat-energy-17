@@ -1,14 +1,21 @@
 .accessories__title {
   @include font-params(24px, 400, 1, $color-title);
   @include wrapper;
-  position: relative;
-  padding: 30px 0;
-  border-bottom: 1px solid $color-border;
+  padding: 26px 0 34px;
 }
 
 @media ($min-width-tablet) {
   .accessories__title {
     font-size: 36px;
-    border-bottom: none;
+    padding: 20px 30px;
+    margin-bottom: 59px;
+  }
+}
+
+@media ($min-width-desktop) {
+  .accessories__title {
+    position: relative;
+    padding: 30px 0;
+    margin-bottom: 85px;
   }
 }

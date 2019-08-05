@@ -1,6 +1,6 @@
 .additional-fieldset__wrapper {
-  @include wrapper;
   @include flex;
+  @include wrapper;
   flex-direction: column;
 }
 
@@ -8,5 +8,11 @@
   .additional-fieldset__wrapper {
     flex-direction: row;
     justify-content: space-between;
+  }
+}
+
+@media ($min-width-desktop) {
+  .additional-fieldset__wrapper {
+    margin-bottom: 40px;
   }
 }

@@ -1,6 +1,6 @@
 .slider__img {
   position: absolute;
-  top: -8px;
+  top: -4%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,7 +8,17 @@
 }
 
 @media ($min-width-tablet) {
+  .slider__img {
+    top: 7%;
+  }
+
   .slider__img img {
     width: 636px;
+  }
+}
+
+@media ($min-width-desktop) {
+  .slider__img {
+    top: 5%;
   }
 }

@@ -2,9 +2,14 @@
   @include btn;
 }
 
+@media ($min-width-tablet) {
+  .accessories__btn {
+    padding: 12px 10px;
+  }
+}
+
 @media ($min-width-desktop) {
   .accessories__btn {
-    min-width: 245px;
-    width: auto;
+    width: 27%;
   }
 }

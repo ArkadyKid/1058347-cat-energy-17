@@ -33,18 +33,20 @@
 
   @media ($min-width-tablet) {
     min-width: 768px;
+    padding: 0 30px;
   }
 
   @media ($min-width-desktop) {
-    min-width: 1064px;
+    min-width: 1024px;
     max-width: 1260px;
+    padding: 0 20px;
   }
 }
 
 @mixin btn {
   @include font-params(14px, 400, 1.29, $color-white);
   width: 100%;
-  padding: 10px 10px;
+  padding: 10px;
   border: none;
   text-align: center;
   text-transform: uppercase;
@@ -59,10 +61,11 @@
   &:active {
     background-color: #5eaa2f;
     color: rgba($color-white, 0.3);
+    -webkit-tap-highlight-color: transparent;
   }
 
   @media ($min-width-tablet) {
     @include font-params(16px, 400, 1, $color-white);
-    padding: 17px 10px 15px 10px;
+    padding: 15px 10px;
   }
 }

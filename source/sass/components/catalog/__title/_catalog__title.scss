@@ -2,17 +2,22 @@
   @include font-params(36px, 400, 1.69, $color-title);
   width: 100%;
   margin: 0;
-  padding: 31px 0 35px;
-  text-align: center;
+  padding: 16px 20px 28px;
   border-bottom: 1px solid $color-border;
 }
 
 @media ($min-width-tablet) {
   .catalog__title {
-    padding-bottom: 110px;
+    padding: 47px 0 73px;
     border-bottom: none;
     font-size: 60px;
     line-height: 1;
     text-align: left;
+  }
+}
+
+@media ($min-width-desktop) {
+  .catalog__title {
+    padding-top: 68px;
   }
 }

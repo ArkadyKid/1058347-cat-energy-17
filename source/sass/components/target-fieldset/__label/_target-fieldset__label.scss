@@ -3,20 +3,26 @@
   position: relative;
   display: block;
   text-transform: uppercase;
-  padding: 0 20px 0 68px;
-  margin-bottom: 29px;
+  padding: 0 20px 0 66px;
+  margin-bottom: 25px;
   user-select: none;
   transition: $transition;
+  cursor: pointer;
+}
+
+.target-fieldset__label:last-child {
+  margin-bottom: 0;
 }
 
 .target-fieldset__label:active {
   color: rgba(34, 34, 34, 0.3);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .target-fieldset__label::before {
   position: absolute;
   top: 50%;
-  left: 16px;
+  left: 20px;
   width: 30px;
   height: 30px;
   border: 1px solid $color-border-light;
@@ -28,7 +34,7 @@
 .target-fieldset__label::after {
   position: absolute;
   top: 50%;
-  left: 26px;
+  left: 29px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -43,6 +49,7 @@
 
 .target-fieldset__label:active::after {
   background-color: rgba($color-main, 0.3);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .target-fieldset__label:hover::before,
@@ -52,6 +59,7 @@
 
 .target-fieldset__label:active::before {
   border-color: rgba(#bababa, 0.3);
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media ($min-width-tablet) {
@@ -62,15 +70,21 @@
     margin-bottom: 33px;
   }
 
-  .target-fieldset__label:last-child {
-    margin-bottom: 0;
-  }
-
   .target-fieldset__label::before {
-    left: -48px;
+    left: -60px;
+    width: 40px;
+    height: 40px;
   }
 
   .target-fieldset__label::after {
-    left: -39px;
+    left: -48px;
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media ($min-width-desktop) {
+  .target-fieldset__label {
+    max-width: 300px;
   }
 }

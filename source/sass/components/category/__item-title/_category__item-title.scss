@@ -2,6 +2,7 @@
   @include font-params (24px, 400, 1.54, $color-title);
   margin: 0;
   padding-left: 20px;
+  max-width: 300px;
   text-transform: uppercase;
 }
 
@@ -15,6 +16,6 @@
 
 @media ($min-width-desktop) {
   .category__item-title {
-    padding-left: 20px;
+    margin-left: 62px;
   }
 }

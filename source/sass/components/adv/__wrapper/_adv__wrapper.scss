@@ -14,30 +14,26 @@
 @media ($min-width-tablet) {
   .adv__wrapper {
     position: relative;
+    padding-top: 47px;
     align-items: flex-start;
-    padding-left: 120px;
   }
 
   .adv__wrapper img {
-    width: 709px;
+    width: 100%;
     align-self: center;
-  }
-
-  .adv__wrapper picture {
-    order: 4;
   }
 }
 
 @media ($min-width-desktop) {
   .adv__wrapper {
-    padding-top: 226px;
-    padding-bottom: 268px;
+    padding-top: 222px;
+    padding-bottom: 189px;
   }
 
   .adv__wrapper img {
     position: absolute;
-    top: 20%;
-    left: 37%;
+    top: 142px;
+    left: 472px;
     width: 552px;
   }
 }

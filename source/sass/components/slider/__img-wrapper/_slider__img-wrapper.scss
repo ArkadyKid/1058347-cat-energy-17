@@ -7,7 +7,14 @@
 
 @media ($min-width-tablet) {
   .slider__img-wrapper {
-    min-height: 517px;
+    min-height: 523px;
     width: 100%;
+    margin-bottom: 12px;
+  }
+}
+
+@media ($min-width-desktop) {
+  .slider__img-wrapper {
+    margin-bottom: 0;
   }
 }

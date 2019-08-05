@@ -1,29 +1,28 @@
 .contacts__wrapper {
   @include wrapper;
   @include flex;
-  align-items: baseline;
   justify-content: space-between;
-  padding: 30px 20px 25px;
+  padding: 25px 20px;
 }
 
 @media ($min-width-tablet) {
   .contacts__wrapper {
     justify-content: space-between;
+    padding: 66px 71px 38px;
   }
 }
 
 @media ($min-width-desktop) {
   .contacts__wrapper {
     position: absolute;
-    top: 50%;
-    right: 50%;
+    top: 23%;
+    right: 53%;
     z-index: 2;
-    width: 571px;
+    width: 569px;
     min-width: auto;
     max-width: none;
     min-height: 200px;
-    padding: 69px 90px 59px 76px;
+    padding: 69px 48px 36px 73px;
     background-color: $color-white;
-    transform: translateY(-50%);
   }
 }

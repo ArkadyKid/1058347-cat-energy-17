@@ -1,4 +1,4 @@
-@media (min-width: 0) and (max-width: 768px) {
+@media (min-width: 0) and (max-width: 767px) {
   .slider__range {
     position: relative;
     width: 84px;
@@ -13,10 +13,16 @@
 @media ($min-width-tablet) {
   .slider__range {
     position: relative;
-    width: 70%;
+    width: 61%;
     height: 6px;
+    margin: 0 20px;
     border-radius: 2.5px;
-    margin: 0 25px;
     background-color: #dcdcdc;
+  }
+}
+
+@media ($min-width-desktop) {
+  .slider__range {
+    width: 71%;
   }
 }

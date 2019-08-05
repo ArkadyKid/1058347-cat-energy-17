@@ -1,4 +1,4 @@
-@media (min-width: 0) and (max-width: 768px) {
+@media (min-width: 0) and (max-width: 767px) {
   .slider__range-button {
     position: absolute;
     top: 50%;
@@ -46,6 +46,7 @@
   .slider__range-button:active {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
     border: solid 2px $color-main;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .slider__range-button::before {
@@ -62,10 +63,10 @@
   }
 
   .slider__input--before:checked ~ .slider__wrapper .slider__range-button {
-    left: 2%;
+    left: 3%;
   }
 
   .slider__input--after:checked ~ .slider__wrapper .slider__range-button {
-    left: 98%;
+    left: 97%;
   }
 }

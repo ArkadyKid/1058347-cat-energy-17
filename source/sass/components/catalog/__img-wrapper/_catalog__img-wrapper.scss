@@ -1,10 +1,17 @@
+.catalog__img-wrapper {
+  height: 147px;
+}
+
 .catalog__img-wrapper img {
   object-fit: contain;
 }
 
 @media ($min-width-tablet) {
   .catalog__img-wrapper {
-    margin-bottom: 39px;
+    height: 208px;
+    margin-bottom: 34px;
+    display: flex;
+    align-items: flex-end;
   }
 
   .catalog__img-wrapper img {

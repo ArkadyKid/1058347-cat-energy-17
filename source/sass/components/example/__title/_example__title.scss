@@ -1,12 +1,18 @@
 .example__title {
   @include font-params (36px, 400, 1.67, $color-title);
-  margin: 0;
-  padding: 20px 0;
+  margin: 0 0 23px;
 }
 
 @media ($min-width-tablet) {
   .example__title {
     font-size: 60px;
     line-height: 1;
+    margin-bottom: 64px;
+  }
+}
+
+@media ($min-width-desktop) {
+  .example__title {
+    margin-bottom: 143px;
   }
 }

@@ -18,9 +18,9 @@
     </h3>
     <a class="header-logo__link" aria-label="CAT ENERGY">
       <picture>
-        <source srcset="img/svg/logo-desktop.svg" media="(min-width: 1024px)">
-        <source srcset="img/svg/logo-tablet.svg" media="(min-width: 768px)">
-        <img src="img/svg/logo-mobile.svg" alt="CAT ENERGY" width="191" height="31">
+        <source srcset="./img/svg/logo-desktop.svg" media="(min-width: 1024px)">
+        <source srcset="./img/svg/logo-tablet.svg" media="(min-width: 768px)">
+        <img src="./img/svg/logo-mobile.svg" alt="CAT ENERGY" width="191" height="39">
       </picture>
     </a>
   </section>
@@ -58,15 +58,17 @@
         Занялся собой? Займись котом!
       </p>
       <picture>
-        <source srcset="./img/index-can-desktop@1x.png" media="(min-width: 1024px)">
-        <source srcset="./img/index-can-tablet@1x.jpg" media="(min-width: 768px)">
-        <img src="img/index-can-mobile@1x.png" alt="Cat energy PRO chicken" width="280" height="271">
+        <source type="image/webp" srcset="./img/webp/index-can-desktop@1x.webp 1x, ./img/webp/index-can-desktop@2x.webp 2x" media="(min-width: 1024px)">
+        <source type="image/webp" srcset="./img/webp/index-can-tablet@1x.webp 1x, ./img/webp/index-can-tablet@2x.webp 2x" media="(min-width: 768px)">
+        <source type="image/webp" srcset="./img/webp/index-can-mobile@1x.webp 1x, ./img/webp/index-can-mobile@2x.webp 2x">
+        <source srcset="./img/index-can-desktop@1x.png 1x, ./img/index-can-desktop@2x.png 2x" media="(min-width: 1024px)">
+        <source srcset="./img/index-can-tablet@1x.jpg 1x, ./img/index-can-tablet@2x.jpg 2x" media="(min-width: 768px)">
+        <img src="./img/index-can-mobile@1x.png" srcset="./img/index-can-mobile@2x.png 2x" alt="Cat energy PRO chicken" width="280" height="271">
       </picture>
       <a class="adv__link" href="./form.html">
         Подобрать программу
       </a>
     </div>
-    <div class="adv__inner"></div>
   </article>
   <section class="main__category category">
     <h2 class="category__title visually-hidden">
@@ -76,7 +78,7 @@
       <li class="category__item">
         <div class="category__wrapper">
           <div class="category__img-wrapper">
-            <svg width="35" height="49">
+            <svg width="35" height="49" aria-hidden="true">
               <use xlink:href="./img/svg/sprite.svg#icon-cat-slim"></use>
             </svg>
           </div>
@@ -90,12 +92,17 @@
         </p>
         <a class="category__item-btn" href="./category/slim.html">
           Каталог slim
+          <div class="category__item-icon">
+            <svg width="34" height="12">
+              <use xlink:href="./img/svg/sprite.svg#right-arrow"></use>
+            </svg>
+          </div>
         </a>
       </li>
       <li class="category__item">
         <div class="category__wrapper">
           <div class="category__img-wrapper">
-            <svg width="67" height="28">
+            <svg width="67" height="28" aria-hidden="true">
               <use xlink:href="./img/svg/sprite.svg#icon-cat-pro"></use>
             </svg>
           </div>
@@ -109,6 +116,11 @@
         </p>
         <a class="category__item-btn" href="./category/pro.html">
           Каталог pro
+          <div class="category__item-icon">
+            <svg width="34" height="12">
+              <use xlink:href="./img/svg/sprite.svg#right-arrow"></use>
+            </svg>
+          </div>
         </a>
       </li>
     </ul>
@@ -121,7 +133,10 @@
       <li class="advantages__item">
         <span class="advantages__number">1</span>
         <div class="advantages__img">
-          <img src="./img/advantage-leaf@1x.png" alt="полезно" width="50" height="50">
+          <picture>
+            <source type="image/webp" srcset="./img/webp/advantage-leaf@1x.webp 1x, ./img/webp/advantage-leaf@2x.webp 2x">
+            <img src="./img/advantage-leaf@1x.png" srcset="./img/advantage-leaf@2x.png 2x" alt="полезно" width="50" height="50">
+          </picture>
         </div>
         <p class="advantages__text">
           Функциональное питание содержит только полезные питательные вещества.
@@ -130,7 +145,10 @@
       <li class="advantages__item">
         <span class="advantages__number">2</span>
         <div class="advantages__img">
-          <img src="./img/advantage-powder@1x.png" alt="практично" width="50" height="50">
+          <picture>
+            <source type="image/webp" srcset="./img/webp/advantage-powder@1x.webp 1x, ./img/advantage-powder@2x.png 2x">
+            <img src="./img/advantage-powder@1x.png" srcset="./img/advantage-powder@2x.png 2x" alt="практично" width="50" height="50">
+          </picture>
         </div>
         <p class="advantages__text">
           Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
@@ -139,7 +157,10 @@
       <li class="advantages__item">
         <span class="advantages__number">3</span>
         <div class="advantages__img">
-          <img src="./img/advantage-dining@1x.png" alt="функционально" width="50" height="50">
+          <picture>
+            <source type="image/webp" srcset="./img/webp/advantage-dining@1x.webp 1x, ./img/webp/advantage-dining@2x.webp 2x">
+            <img src="./img/advantage-dining@1x.png" srcset="./img/advantage-dining@2x.png 2x" alt="функционально" width="50" height="50">
+          </picture>
         </div>
         <p class="advantages__text">
           Замените один-два приема обычной еды на наше функциональное питание.
@@ -148,10 +169,13 @@
       <li class="advantages__item">
         <span class="advantages__number">4</span>
         <div class="advantages__img">
-          <img src="./img/advantage-clock@1x.png" alt="быстро" width="50" height="50">
+          <picture>
+            <source type="image/webp" srcset="./img/webp/advantage-clock@1x.webp 1x, ./img/webp/advantage-clock@2x.webp 2x">
+            <img src="./img/advantage-clock@1x.png" srcset="./img/advantage-clock@2x.png 2x" alt="быстро" width="50" height="50">
+          </picture>
         </div>
         <p class="advantages__text">
-          Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
+          Уже через месяц наслаждайтесь изменениями к лучшему <br> вашего питомца!
         </p>
       </li>
     </ul>
@@ -199,16 +223,22 @@
         <div class="slider__img-wrapper">
           <div class="slider__img slider__img--before">
             <picture>
-              <source srcset="./img/before-desktop@1x.png" media="(min-width: 1024px)">
-              <source srcset="./img/before-tablet@1x.png" media="(min-width: 768px)">
-              <img src="./img/before-mobile@1x.png" alt="Толстый кот" width="320" height="240">
+              <source type="image/webp" srcset="./img/webp/before-desktop@1x.webp 1x, ./img/webp/before-desktop@2x.webp 2x" media="(min-width: 1024px)">
+              <source type="image/webp" srcset="./img/webp/before-tablet@1x.webp 1x, ./img/webp/before-tablet@2x.webp 2x" media="(min-width: 768px)">
+              <source type="image/webp" srcset="./img/webp/before-mobile@1x.webp 1x, ./img/webp/before-mobile@2x.webp 2x">
+              <source srcset="./img/before-desktop@1x.png 1x, ./img/before-desktop@2x.png 2x" media="(min-width: 1024px)">
+              <source srcset="./img/before-tablet@1x.png 1x, ./img/before-tablet@2x.png 2x" media="(min-width: 768px)">
+              <img src="./img/before-mobile@1x.png" srcset="./img/before-mobile@2x.png 2x" alt="Толстый кот" width="320" height="240">
             </picture>
           </div>
           <div class="slider__img slider__img--after">
             <picture>
-              <source srcset="./img/after-desktop@1x.png" media="(min-width: 1024px)">
-              <source srcset="./img/after-tablet@1x.png" media="(min-width: 768px)">
-              <img src="./img/after-mobile@1x.png" alt="Толстый кот" width="320" height="240">
+              <source type="image/webp" srcset="./img/webp/after-desktop@1x.webp 1x, ./img/webp/after-desktop@2x.webp 2x" media="(min-width: 1024px)">
+              <source type="image/webp" srcset="./img/webp/after-tablet@1x.webp 1x, ./img/webp/after-tablet@2x.webp 2x" media="(min-width: 768px)">
+              <source type="image/webp" srcset="./img/webp/after-mobile@1x.webp 1x, ./img/webp/after-mobile@2x.webp 2x">
+              <source srcset="./img/after-desktop@1x.png 1x, ./img/after-desktop@2x.png 2x" media="(min-width: 1024px)">
+              <source srcset="./img/after-tablet@1x.png 1x, ./img/after-tablet@2x.png 2x" media="(min-width: 768px)">
+              <img src="./img/after-mobile@1x.png" srcset="./img/after-mobile@2x.png 2x" alt="Толстый кот" width="320" height="240">
             </picture>
           </div>
         </div>
@@ -235,13 +265,15 @@
         Приглашаем к&nbsp;сотрудничеству дилеров!
       </h3>
       <address class="contacts__address">
-        ул. Большая Конюшенная, д. 19/8
+        ул. Большая Конюшенная, д.&nbsp;19/8
         <span class="contacts__address-wrapper">
           Санкт-Петербург
         </span>
       </address>
     </div>
-    <div class="contacts__map" id="map"></div>
+    <div class="contacts__map map" id="map">
+      <a class="map__link" href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.323055%2C59.938631&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D30.323057%252C59.938633%26spn%3D0.001000%252C0.001000%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2520%25D0%25A1%25D0%25B0%25D0%25BD%25D0%25BA%25D1%2582-%25D0%259F%25D0%25B5%25D1%2582%25D0%25B5%25D1%2580%25D0%25B1%25D1%2583%25D1%2580%25D0%25B3%252C%2520%25D0%2591%25D0%25BE%25D0%25BB%25D1%258C%25D1%2588%25D0%25B0%25D1%258F%2520%25D0%259A%25D0%25BE%25D0%25BD%25D1%258E%25D1%2588%25D0%25B5%25D0%25BD%25D0%25BD%25D0%25B0%25D1%258F%2520%25D1%2583%25D0%25BB%25D0%25B8%25D1%2586%25D0%25B0%252C%252019%252F8%2520&z=17" target="_blank" rel="noopener" aria-label="Санкт-Петербуг, ул. Большая Конюшенная 19/8"></a>
+    </div>
   </section>
   <div class="footer__wrapper">
     <section class="footer__logo footer-logo">
@@ -284,8 +316,8 @@
       <h3 class="footer-developers__title visually-hidden">
         Разработчики
       </h3>
-      <a class="footer-developers__text" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener">
-        <span>
+      <a class="footer-developers__wrapper" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener">
+        <span class="footer-developers__text">
           HTML Academy
         </span>
         <svg width="31" height="38">
@@ -297,9 +329,9 @@
 </footer>
 
 <script src="https://api-maps.yandex.ru/2.1/?apikey=46a7a3c4-aaed-454d-874a-fa888971ea69&lang=ru_RU" type="text/javascript"></script>
+<script src="./js/script-index.js"></script>
 <script src="js/svg4everybody.min.js"></script>
 <script src="./js/svg-function.js"></script>
-<script src="./js/script-index.js"></script>
 <script src="./js/map.js"></script>
 <script src="./js/picturefill.min.js"></script>
 

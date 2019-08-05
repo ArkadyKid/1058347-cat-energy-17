@@ -1,12 +1,18 @@
 .advantages__title {
   @include font-params (36px, 400, 1.67, $color-title);
-  margin: 0 0 25px;
+  margin: 0 0 28px;
 }
 
 @media ($min-width-tablet) {
   .advantages__title {
-    margin-bottom: 63px;
+    margin-bottom: 68px;
     font-size: 60px;
     line-height: 1;
+  }
+}
+
+@media ($min-width-desktop) {
+  .advantages__title {
+    margin-bottom: 71px;
   }
 }

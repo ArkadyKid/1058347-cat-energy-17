@@ -2,7 +2,7 @@
   @include font-params(16px, 400, 1.13, $color-text);
   border: 1px solid $color-border;
   flex-grow: 1;
-  padding: 15px;
+  padding: 13px;
   text-transform: uppercase;
 }
 
@@ -28,6 +28,6 @@
   .contacts-fieldset__input {
     font-size: 20px;
     line-height: 1;
-    padding-right: 48px;
+    padding: 13px 48px 13px 16px;
   }
 }

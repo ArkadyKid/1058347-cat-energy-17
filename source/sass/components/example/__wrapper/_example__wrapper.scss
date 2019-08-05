@@ -3,14 +3,9 @@
   flex-direction: column;
 }
 
-@media ($min-width-tablet) {
-  .example__wrapper {
-    @include wrapper;
-  }
-}
-
 @media ($min-width-desktop) {
   .example__wrapper {
+    @include wrapper;
     flex-direction: row;
   }
 }

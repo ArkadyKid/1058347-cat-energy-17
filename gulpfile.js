@@ -7,6 +7,13 @@ var sass = require("gulp-sass");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 var server = require("browser-sync").create();
+var webp = require('gulp-webp');
+
+gulp.task("img", () =>
+  gulp.src("source/img/*.{jpg,png}")
+    .pipe(webp())
+    .pipe(gulp.dest("source/img/webp"))
+);
 
 gulp.task("css", function () {
   return gulp.src("source/sass/style.scss")

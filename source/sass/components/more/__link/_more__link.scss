@@ -1,7 +1,7 @@
 .more__link {
   @include font-params(16px, 400, 1.25, $color-text);
   width: 100%;
-  padding: 12px 0;
+  padding: 10px;
   text-align: center;
   background-color: $color-background;
   text-transform: uppercase;
@@ -16,6 +16,7 @@
 .more__link:active {
   background-color: #ebebeb;
   color: rgba(68, 68, 68, 0.3);
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media ($min-width-tablet) {

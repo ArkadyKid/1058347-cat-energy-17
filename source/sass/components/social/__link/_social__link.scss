@@ -3,6 +3,10 @@
   fill: #666666;
 }
 
+.social__link::before {
+  @include area(25px);
+}
+
 .social__link:hover,
 .social__link:focus {
   fill: $color-main;
@@ -11,4 +15,5 @@
 .social__link:active {
   fill: $color-main;
   opacity: 0.3;
+  -webkit-tap-highlight-color: transparent;
 }

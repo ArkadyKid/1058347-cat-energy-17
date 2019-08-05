@@ -1,19 +1,21 @@
 .additional-fieldset__label {
   @include font-params(16px, 400, 1.16, $color-label);
   position: relative;
+  display: block;
   width: 100%;
-  padding: 0 20px 0 56px;
-  text-transform: uppercase;
-  margin-bottom: 44px;
+  padding-left: 45px;
+  margin-bottom: 24px;
   transition: $transition;
+  text-transform: uppercase;
   user-select: none;
+  cursor: pointer;
 }
 
 .additional-fieldset__label::before {
   content: "";
   position: absolute;
   top: 50%;
-  left: 16px;
+  left: 0;
   width: 30px;
   height: 30px;
   border: 1px solid $color-border-light;
@@ -22,13 +24,12 @@
 
 .additional-fieldset__label::after {
   position: absolute;
-  top: 50%;
-  left: 24px;
+  top: 0;
+  left: 5px;
   padding: 10px;
   background-image: url("../img/svg/icon-tick.svg");
   background-repeat: no-repeat;
   opacity: 0;
-  transform: translateY(-50%);
   content: "";
 }
 
@@ -38,6 +39,7 @@
 
 .additional-fieldset__label:active {
   color: rgba(34, 34, 34, 0.3);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .additional-fieldset__input:focus + .additional-fieldset__label::before,
@@ -48,13 +50,15 @@
 .additional-fieldset__label:active::before {
   border-color: #bababa;
   opacity: 0.3;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .additional-fieldset__label:active::after {
   opacity: 0.3;
+  -webkit-tap-highlight-color: transparent;
 }
 
-@media (min-width: 0) and (max-width: 768px) {
+@media (min-width: 0) and (max-width: 767px) {
   .additional-fieldset__label:last-child {
     margin-bottom: 0;
   }
@@ -62,35 +66,57 @@
 
 @media ($min-width-tablet) {
   .additional-fieldset__label {
-    padding: 0 70px 0 130px;
+    padding-left: 98px;
     width: 50%;
-    margin-bottom: 54px;
+    margin-bottom: 51px;
     font-size: 20px;
     line-height: 1;
+  }
+
+  .additional-fieldset__label:nth-of-type(2n) {
+    padding-left: 88px;
   }
 
   .additional-fieldset__label::before {
     width: 40px;
     height: 40px;
-    left: 64px;
+    left: 39px;
+  }
+
+  .additional-fieldset__label:nth-of-type(2n)::before {
+    left: 30px;
   }
 
   .additional-fieldset__label::after {
-    left: 77px;
+    left: 50px;
+    top: 28%;
+  }
+
+  .additional-fieldset__label:nth-of-type(2n)::after {
+    left: 41px;
   }
 }
 
 @media ($min-width-desktop) {
   .additional-fieldset__label {
-    padding: 16px 68px;
     width: auto;
+    padding: 16px 15px 16px 58px;
+    margin-bottom: 0;
+    min-width: 260px;
+    max-width: 265px;
+    margin-right: 37px;
+  }
+
+  .additional-fieldset__label:last-of-type {
+    margin-right: 0;
   }
 
   .additional-fieldset__label::before {
-    left: 16px;
+    left: 0;
   }
 
   .additional-fieldset__label::after {
-    left: 30px;
+    left: 10px;
+    top: 42%;
   }
 }
