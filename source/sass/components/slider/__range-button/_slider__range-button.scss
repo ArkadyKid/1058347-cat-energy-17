@@ -46,6 +46,7 @@
   .slider__range-button:active {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
     border: solid 2px $color-main;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .slider__range-button::before {

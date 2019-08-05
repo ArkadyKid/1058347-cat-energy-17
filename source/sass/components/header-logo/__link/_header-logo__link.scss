@@ -10,6 +10,7 @@
 
 .header-logo__link:active[href] img {
   opacity: 0.6;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media ($min-width-tablet) {

@@ -19,6 +19,7 @@
 
 .nav__link[href]:active {
   color: rgba(17, 17, 17, 0.3);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .nav__link::after {

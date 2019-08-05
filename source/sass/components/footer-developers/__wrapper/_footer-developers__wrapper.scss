@@ -20,4 +20,5 @@
 .footer-developers__wrapper:active {
   opacity: 0.3;
   fill: $color-main;
+  -webkit-tap-highlight-color: transparent;
 }

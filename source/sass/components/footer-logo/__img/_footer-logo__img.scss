@@ -10,4 +10,5 @@
 
 .footer-logo__link:active[href] .footer-logo__img {
   opacity: 0.6;
+  -webkit-tap-highlight-color: transparent;
 }

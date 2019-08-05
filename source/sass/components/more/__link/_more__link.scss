@@ -16,6 +16,7 @@
 .more__link:active {
   background-color: #ebebeb;
   color: rgba(68, 68, 68, 0.3);
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media ($min-width-tablet) {
