@@ -17,6 +17,7 @@
 
 .slider__label:active {
   border-bottom: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .slider__label::before {
