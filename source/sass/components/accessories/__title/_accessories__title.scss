@@ -1,7 +1,6 @@
 .accessories__title {
   @include font-params(24px, 400, 1, $color-title);
   @include wrapper;
-  position: relative;
   padding: 26px 0 34px;
 }
 

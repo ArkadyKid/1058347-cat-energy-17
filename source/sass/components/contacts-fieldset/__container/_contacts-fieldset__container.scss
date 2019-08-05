@@ -1,11 +1,17 @@
 .contacts-fieldset__container {
   padding: 0 20px;
   background-color: $color-white;
+  display: inline-block;
+  vertical-align: top;
 }
 
 @media ($min-width-tablet) {
   .contacts-fieldset__container {
     padding: 0 40px;
+  }
+
+  .contacts-fieldset__container br {
+    display: none;
   }
 }
 
