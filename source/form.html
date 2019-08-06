@@ -65,13 +65,13 @@
             <span class="data-fieldset__label-wrapper">
               Имя:*
             </span>
-            <input class="data-fieldset__input" id="name" type="text" name="name" required>
+            <input class="data-fieldset__input" id="name" type="text" name="name" required placeholder=" " pattern="^[а-яА-ЯёЁa-zA-Z\s]+$">
           </label>
           <label class="data-fieldset__label" for="weight">
             <span class="data-fieldset__label-wrapper">
               Вес (кг):*
             </span>
-            <input class="data-fieldset__input" id="weight" type="number" name="weight" required>
+            <input class="data-fieldset__input" id="weight" type="number" name="weight" required placeholder=" ">
           </label>
           <label class="data-fieldset__label" for="age">
             <span class="data-fieldset__label-wrapper">
@@ -106,7 +106,7 @@
             <span class="contacts-fieldset__label-wrapper">
               E-mail:*
             </span>
-            <input class="contacts-fieldset__input" id="email" type="email" name="email" required>
+            <input class="contacts-fieldset__input" id="email" type="email" name="email" required placeholder=" ">
             <svg width="18" height="14">
               <use xlink:href="./img/svg/sprite.svg#icon-mail"></use>
             </svg>
@@ -115,7 +115,7 @@
             <span class="contacts-fieldset__label-wrapper">
               Телефон:*
             </span>
-            <input class="contacts-fieldset__input" id="phone" type="tel" name="phone" required>
+            <input class="contacts-fieldset__input" id="phone" type="tel" name="phone" required placeholder=" " pattern="^[ 0-9\s]+$">
             <svg width="21" height="21">
               <use xlink:href="./img/svg/sprite.svg#icon-phone"></use>
             </svg>
