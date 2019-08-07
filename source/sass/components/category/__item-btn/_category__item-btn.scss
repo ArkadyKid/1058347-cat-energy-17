@@ -4,6 +4,7 @@
   align-items: center;
   text-transform: uppercase;
   transition: $transition;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .category__item-btn:hover svg,
@@ -13,12 +14,10 @@
 
 .category__item-btn:active {
   color: rgba($color-title, 0.3);
-  -webkit-tap-highlight-color: transparent;
 }
 
 .category__item-btn:active svg {
   opacity: 0.3;
-  -webkit-tap-highlight-color: transparent;
 }
 
 @media ($min-width-tablet) {

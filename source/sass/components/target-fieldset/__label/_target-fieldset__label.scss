@@ -8,6 +8,7 @@
   user-select: none;
   transition: $transition;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .target-fieldset__label:last-child {
@@ -16,7 +17,6 @@
 
 .target-fieldset__label:active {
   color: rgba(34, 34, 34, 0.3);
-  -webkit-tap-highlight-color: transparent;
 }
 
 .target-fieldset__label::before {
@@ -29,6 +29,7 @@
   border-radius: 50%;
   transform: translateY(-50%);
   content: "";
+  -webkit-tap-highlight-color: transparent;
 }
 
 .target-fieldset__label::after {
@@ -41,6 +42,7 @@
   background-color: rgba($color-main, 0);
   transform: translateY(-50%);
   content: "";
+  -webkit-tap-highlight-color: transparent;
 }
 
 .target-fieldset__input:checked + .target-fieldset__label::after {
@@ -49,7 +51,6 @@
 
 .target-fieldset__label:active::after {
   background-color: rgba($color-main, 0.3);
-  -webkit-tap-highlight-color: transparent;
 }
 
 .target-fieldset__label:hover::before,
@@ -59,7 +60,6 @@
 
 .target-fieldset__label:active::before {
   border-color: rgba(#bababa, 0.3);
-  -webkit-tap-highlight-color: transparent;
 }
 
 @media ($min-width-tablet) {

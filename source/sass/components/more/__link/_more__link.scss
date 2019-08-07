@@ -6,6 +6,7 @@
   background-color: $color-background;
   text-transform: uppercase;
   transition: $transition;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .more__link:hover,
@@ -16,7 +17,6 @@
 .more__link:active {
   background-color: #ebebeb;
   color: rgba(68, 68, 68, 0.3);
-  -webkit-tap-highlight-color: transparent;
 }
 
 @media ($min-width-tablet) {

@@ -9,6 +9,7 @@
   text-transform: uppercase;
   user-select: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .additional-fieldset__label::before {
@@ -39,7 +40,6 @@
 
 .additional-fieldset__label:active {
   color: rgba(34, 34, 34, 0.3);
-  -webkit-tap-highlight-color: transparent;
 }
 
 .additional-fieldset__input:focus + .additional-fieldset__label::before,
@@ -50,12 +50,10 @@
 .additional-fieldset__label:active::before {
   border-color: #bababa;
   opacity: 0.3;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .additional-fieldset__label:active::after {
   opacity: 0.3;
-  -webkit-tap-highlight-color: transparent;
 }
 
 @media (min-width: 0) and (max-width: 767px) {

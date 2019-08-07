@@ -6,6 +6,7 @@
   font-family: "Arial", sans-serif;
   transition: $transition;
   fill: #666666;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .footer-developers__wrapper:hover {
@@ -20,5 +21,4 @@
 .footer-developers__wrapper:active {
   opacity: 0.3;
   fill: $color-main;
-  -webkit-tap-highlight-color: transparent;
 }

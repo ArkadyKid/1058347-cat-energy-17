@@ -5,11 +5,11 @@
 
 .nav__link--index:active[href] {
   color: rgba($color-white, 0.3);
-  -webkit-tap-highlight-color: transparent;
 }
 
 @media ($min-width-desktop) {
   .nav__link--index {
     color: $color-white;
+    -webkit-tap-highlight-color: transparent;
   }
 }
