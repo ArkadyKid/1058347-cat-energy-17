@@ -5,7 +5,7 @@
     var coords = (window.matchMedia("(max-width: 1023px)").matches) ? [59.938931, 30.323055] : [59.938951, 30.320918];
     var myMap = new ymaps.Map("map", {
       center: coords,
-      zoom: 17
+      zoom: 18
     });
 
     var pinSize = (window.matchMedia("(max-width: 767px)").matches) ? [55, 53] : [124, 106];
