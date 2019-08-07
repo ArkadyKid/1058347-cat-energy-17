@@ -4,9 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
+
+<div style="display: none">
+  <include src="build/img/svg/sprite.svg"></include>
+</div>
 
 <header class="header header--index">
   <h1 class="header__title visually-hidden">
@@ -79,7 +83,7 @@
         <div class="category__wrapper">
           <div class="category__img-wrapper">
             <svg width="35" height="49" aria-hidden="true">
-              <use xlink:href="./img/svg/sprite.svg#icon-cat-slim"></use>
+              <use xlink:href="#icon-cat-slim"></use>
             </svg>
           </div>
           <h4 class="category__item-title">
@@ -94,7 +98,7 @@
           Каталог slim
           <div class="category__item-icon">
             <svg width="34" height="12">
-              <use xlink:href="./img/svg/sprite.svg#right-arrow"></use>
+              <use xlink:href="#right-arrow"></use>
             </svg>
           </div>
         </a>
@@ -103,7 +107,7 @@
         <div class="category__wrapper">
           <div class="category__img-wrapper">
             <svg width="67" height="28" aria-hidden="true">
-              <use xlink:href="./img/svg/sprite.svg#icon-cat-pro"></use>
+              <use xlink:href="#icon-cat-pro"></use>
             </svg>
           </div>
           <h4 class="category__item-title">
@@ -118,7 +122,7 @@
           Каталог pro
           <div class="category__item-icon">
             <svg width="34" height="12">
-              <use xlink:href="./img/svg/sprite.svg#right-arrow"></use>
+              <use xlink:href="#right-arrow"></use>
             </svg>
           </div>
         </a>
@@ -146,7 +150,7 @@
         <span class="advantages__number">2</span>
         <div class="advantages__img">
           <picture>
-            <source type="image/webp" srcset="./img/webp/advantage-powder@1x.webp 1x, ./img/advantage-powder@2x.png 2x">
+            <source type="image/webp" srcset="./img/webp/advantage-powder@1x.webp 1x, ./img/webp/advantage-powder@2x.webp 2x">
             <img src="./img/advantage-powder@1x.png" srcset="./img/advantage-powder@2x.png 2x" alt="практично" width="50" height="50">
           </picture>
         </div>
@@ -218,7 +222,7 @@
         </div>
       </div>
       <div class="example__slider slider">
-        <input class="slider__input slider__input--before visually-hidden" id="before" type="radio" name="status" value="before" checked>
+        <input class="slider__input slider__input--before visually-hidden" id="before" type="radio" name="status" value="before" checked="">
         <input class="slider__input slider__input--after visually-hidden" id="after" type="radio" name="status" value="after">
         <div class="slider__img-wrapper">
           <div class="slider__img slider__img--before">
@@ -292,21 +296,21 @@
         <li class="social__item">
           <a class="social__link" href="http://vk.com" target="_blank" rel="noopener" aria-label="Vk">
             <svg width="22" height="12">
-              <use xlink:href="./img/svg/sprite.svg#icon-vk"></use>
+              <use xlink:href="#icon-vk"></use>
             </svg>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link" href="http://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
             <svg width="17" height="17">
-              <use xlink:href="./img/svg/sprite.svg#icon-insta"></use>
+              <use xlink:href="#icon-insta"></use>
             </svg>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link" href="http://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
             <svg width="10" height="19">
-              <use xlink:href="./img/svg/sprite.svg#icon-fb"></use>
+              <use xlink:href="#icon-fb"></use>
             </svg>
           </a>
         </li>
@@ -321,7 +325,7 @@
           HTML Academy
         </span>
         <svg width="31" height="38">
-          <use xlink:href="./img/svg/sprite.svg#icon-htmlacademy"></use>
+          <use xlink:href="#icon-htmlacademy"></use>
         </svg>
       </a>
     </section>
@@ -330,8 +334,6 @@
 
 <script src="https://api-maps.yandex.ru/2.1/?apikey=46a7a3c4-aaed-454d-874a-fa888971ea69&lang=ru_RU" type="text/javascript"></script>
 <script src="./js/script-index.js"></script>
-<script src="js/svg4everybody.min.js"></script>
-<script src="./js/svg-function.js"></script>
 <script src="./js/map.js"></script>
 <script src="./js/picturefill.min.js"></script>
 
