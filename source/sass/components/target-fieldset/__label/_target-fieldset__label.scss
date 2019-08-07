@@ -15,7 +15,8 @@
   margin-bottom: 0;
 }
 
-.target-fieldset__label:active {
+.target-fieldset__label:active,
+.target-fieldset__input:disabled + .target-fieldset__label {
   color: rgba(34, 34, 34, 0.3);
 }
 
@@ -49,7 +50,8 @@
   background-color: $color-main;
 }
 
-.target-fieldset__label:active::after {
+.target-fieldset__label:active::after,
+.target-fieldset__input:disabled + .target-fieldset__label::after {
   background-color: rgba($color-main, 0.3);
 }
 
@@ -58,7 +60,8 @@
   border-color: #bababa;
 }
 
-.target-fieldset__label:active::before {
+.target-fieldset__label:active::before,
+.target-fieldset__input:disabled + .target-fieldset__label::before{
   border-color: rgba(#bababa, 0.3);
 }
 

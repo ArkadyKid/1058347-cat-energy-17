@@ -38,7 +38,8 @@
   opacity: 1;
 }
 
-.additional-fieldset__label:active {
+.additional-fieldset__label:active,
+.additional-fieldset__input:disabled + .additional-fieldset__label {
   color: rgba(34, 34, 34, 0.3);
 }
 
@@ -47,12 +48,14 @@
   border-color: #bababa;
 }
 
-.additional-fieldset__label:active::before {
+.additional-fieldset__label:active::before,
+.additional-fieldset__input:disabled + .additional-fieldset__label::before{
   border-color: #bababa;
   opacity: 0.3;
 }
 
-.additional-fieldset__label:active::after {
+.additional-fieldset__label:active::after,
+.additional-fieldset__input:disabled + .additional-fieldset__label::after {
   opacity: 0.3;
 }
 

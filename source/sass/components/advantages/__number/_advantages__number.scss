@@ -7,7 +7,13 @@
     @include font-params(281px, 400, 1, $color-background);
     position: absolute;
     top: -40px;
-    right: 6px;
+    right: 46px;
     z-index: -1;
+  }
+}
+
+@media ($min-width-desktop) {
+  .advantages__number {
+    right: 6px;
   }
 }

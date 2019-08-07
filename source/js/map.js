@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 (function () {
   function init() {
@@ -11,14 +11,14 @@
     var pinSize = (window.matchMedia("(max-width: 767px)").matches) ? [55, 53] : [124, 106];
     var pinOffset = (window.matchMedia("(max-width: 767px)").matches) ? [-3, -14] : [-30, -62];
     var myPlacemark = new ymaps.Placemark([59.938993, 30.323009], {}, {
-      iconLayout: 'default#image',
-      iconImageHref: './img/map-pin.png',
+      iconLayout: "default#image",
+      iconImageHref: "./img/map-pin.png",
       iconImageSize: pinSize,
       iconImageOffset: pinOffset
     });
 
     myMap.behaviors
-      .disable(['scrollZoom']);
+      .disable(["scrollZoom"]);
 
     myMap.geoObjects
       .add(myPlacemark)
