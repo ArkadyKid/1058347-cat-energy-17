@@ -1,6 +1,7 @@
 .header-logo__link img {
   object-fit: contain;
   transition: $transition;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .header-logo__link:hover[href] img,
@@ -10,7 +11,6 @@
 
 .header-logo__link:active[href] img {
   opacity: 0.6;
-  -webkit-tap-highlight-color: transparent;
 }
 
 @media ($min-width-tablet) {

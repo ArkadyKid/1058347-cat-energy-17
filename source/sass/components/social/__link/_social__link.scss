@@ -1,6 +1,7 @@
 .social__link {
   transition: $transition;
   fill: #666666;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .social__link::before {
@@ -15,5 +16,4 @@
 .social__link:active {
   fill: $color-main;
   opacity: 0.3;
-  -webkit-tap-highlight-color: transparent;
 }

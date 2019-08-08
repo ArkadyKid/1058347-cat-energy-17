@@ -4,9 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
+
+<div style="display: none">
+  <include src="build/img/svg/sprite.svg"></include>
+</div>
 
 <header class="header header--index">
   <h1 class="header__title visually-hidden">
@@ -16,7 +20,7 @@
     <h3 class="header-logo__title visually-hidden">
       Логотип
     </h3>
-    <a class="header-logo__link" aria-label="CAT ENERGY">
+    <a class="header-logo__link" aria-label="логотип CAT ENERGY">
       <picture>
         <source srcset="./img/svg/logo-desktop.svg" media="(min-width: 1024px)">
         <source srcset="./img/svg/logo-tablet.svg" media="(min-width: 768px)">
@@ -30,7 +34,7 @@
     </a>
     <ul class="nav__menu">
       <li class="nav__item">
-        <a class="nav__link nav__link--index nav__link--index--active">
+        <a class="nav__link nav__link--index nav__link--index-active">
           Главная
         </a>
       </li>
@@ -79,7 +83,7 @@
         <div class="category__wrapper">
           <div class="category__img-wrapper">
             <svg width="35" height="49" aria-hidden="true">
-              <use xlink:href="./img/svg/sprite.svg#icon-cat-slim"></use>
+              <use xlink:href="#icon-cat-slim"></use>
             </svg>
           </div>
           <h4 class="category__item-title">
@@ -92,18 +96,18 @@
         </p>
         <a class="category__item-btn" href="./category/slim.html">
           Каталог slim
-          <div class="category__item-icon">
+          <span class="category__item-icon">
             <svg width="34" height="12">
-              <use xlink:href="./img/svg/sprite.svg#right-arrow"></use>
+              <use xlink:href="#right-arrow"></use>
             </svg>
-          </div>
+          </span>
         </a>
       </li>
       <li class="category__item">
         <div class="category__wrapper">
           <div class="category__img-wrapper">
             <svg width="67" height="28" aria-hidden="true">
-              <use xlink:href="./img/svg/sprite.svg#icon-cat-pro"></use>
+              <use xlink:href="#icon-cat-pro"></use>
             </svg>
           </div>
           <h4 class="category__item-title">
@@ -116,11 +120,11 @@
         </p>
         <a class="category__item-btn" href="./category/pro.html">
           Каталог pro
-          <div class="category__item-icon">
+          <span class="category__item-icon">
             <svg width="34" height="12">
-              <use xlink:href="./img/svg/sprite.svg#right-arrow"></use>
+              <use xlink:href="#right-arrow"></use>
             </svg>
-          </div>
+          </span>
         </a>
       </li>
     </ul>
@@ -146,7 +150,7 @@
         <span class="advantages__number">2</span>
         <div class="advantages__img">
           <picture>
-            <source type="image/webp" srcset="./img/webp/advantage-powder@1x.webp 1x, ./img/advantage-powder@2x.png 2x">
+            <source type="image/webp" srcset="./img/webp/advantage-powder@1x.webp 1x, ./img/webp/advantage-powder@2x.webp 2x">
             <img src="./img/advantage-powder@1x.png" srcset="./img/advantage-powder@2x.png 2x" alt="практично" width="50" height="50">
           </picture>
         </div>
@@ -218,7 +222,7 @@
         </div>
       </div>
       <div class="example__slider slider">
-        <input class="slider__input slider__input--before visually-hidden" id="before" type="radio" name="status" value="before" checked>
+        <input class="slider__input slider__input--before visually-hidden" id="before" type="radio" name="status" value="before" checked="">
         <input class="slider__input slider__input--after visually-hidden" id="after" type="radio" name="status" value="after">
         <div class="slider__img-wrapper">
           <div class="slider__img slider__img--before">
@@ -272,7 +276,7 @@
       </address>
     </div>
     <div class="contacts__map map" id="map">
-      <a class="map__link" href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.323055%2C59.938631&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D30.323057%252C59.938633%26spn%3D0.001000%252C0.001000%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2520%25D0%25A1%25D0%25B0%25D0%25BD%25D0%25BA%25D1%2582-%25D0%259F%25D0%25B5%25D1%2582%25D0%25B5%25D1%2580%25D0%25B1%25D1%2583%25D1%2580%25D0%25B3%252C%2520%25D0%2591%25D0%25BE%25D0%25BB%25D1%258C%25D1%2588%25D0%25B0%25D1%258F%2520%25D0%259A%25D0%25BE%25D0%25BD%25D1%258E%25D1%2588%25D0%25B5%25D0%25BD%25D0%25BD%25D0%25B0%25D1%258F%2520%25D1%2583%25D0%25BB%25D0%25B8%25D1%2586%25D0%25B0%252C%252019%252F8%2520&z=17" target="_blank" rel="noopener" aria-label="Санкт-Петербуг, ул. Большая Конюшенная 19/8"></a>
+      <a class="map__link" href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.323055%2C59.938631&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D30.323057%252C59.938633%26spn%3D0.001000%252C0.001000%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2520%25D0%25A1%25D0%25B0%25D0%25BD%25D0%25BA%25D1%2582-%25D0%259F%25D0%25B5%25D1%2582%25D0%25B5%25D1%2580%25D0%25B1%25D1%2583%25D1%2580%25D0%25B3%252C%2520%25D0%2591%25D0%25BE%25D0%25BB%25D1%258C%25D1%2588%25D0%25B0%25D1%258F%2520%25D0%259A%25D0%25BE%25D0%25BD%25D1%258E%25D1%2588%25D0%25B5%25D0%25BD%25D0%25BD%25D0%25B0%25D1%258F%2520%25D1%2583%25D0%25BB%25D0%25B8%25D1%2586%25D0%25B0%252C%252019%252F8%2520&z=17" target="_blank" rel="noopener" aria-label="Наш адрес: Санкт-Петербуг, ул. Большая Конюшенная 19/8"></a>
     </div>
   </section>
   <div class="footer__wrapper">
@@ -280,7 +284,7 @@
       <h3 class="footer-logo__title visually-hidden">
         Логотип
       </h3>
-      <a class="footer-logo__link" aria-label="CAT ENERGY">
+      <a class="footer-logo__link" aria-label="логотип CAT ENERGY">
         <img src="img/svg/logo-footer.svg" alt="CAT ENERGY" width="128" height="24">
       </a>
     </section>
@@ -290,23 +294,23 @@
       </h3>
       <ul class="social__menu">
         <li class="social__item">
-          <a class="social__link" href="http://vk.com" target="_blank" rel="noopener" aria-label="Vk">
+          <a class="social__link" href="http://vk.com" target="_blank" rel="noopener" aria-label="перейти на сайт Vk">
             <svg width="22" height="12">
-              <use xlink:href="./img/svg/sprite.svg#icon-vk"></use>
+              <use xlink:href="#icon-vk"></use>
             </svg>
           </a>
         </li>
         <li class="social__item">
-          <a class="social__link" href="http://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+          <a class="social__link" href="http://instagram.com" target="_blank" rel="noopener" aria-label="перейти на сайт Instagram">
             <svg width="17" height="17">
-              <use xlink:href="./img/svg/sprite.svg#icon-insta"></use>
+              <use xlink:href="#icon-insta"></use>
             </svg>
           </a>
         </li>
         <li class="social__item">
-          <a class="social__link" href="http://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+          <a class="social__link" href="http://facebook.com" target="_blank" rel="noopener" aria-label="перейти на сайт Facebook">
             <svg width="10" height="19">
-              <use xlink:href="./img/svg/sprite.svg#icon-fb"></use>
+              <use xlink:href="#icon-fb"></use>
             </svg>
           </a>
         </li>
@@ -316,22 +320,20 @@
       <h3 class="footer-developers__title visually-hidden">
         Разработчики
       </h3>
-      <a class="footer-developers__wrapper" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener">
+      <a class="footer-developers__wrapper" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener" aria-label="перейти на сайт HTML academy">
         <span class="footer-developers__text">
           HTML Academy
         </span>
         <svg width="31" height="38">
-          <use xlink:href="./img/svg/sprite.svg#icon-htmlacademy"></use>
+          <use xlink:href="#icon-htmlacademy"></use>
         </svg>
       </a>
     </section>
   </div>
 </footer>
 
-<script src="https://api-maps.yandex.ru/2.1/?apikey=46a7a3c4-aaed-454d-874a-fa888971ea69&lang=ru_RU" type="text/javascript"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=46a7a3c4-aaed-454d-874a-fa888971ea69&lang=ru_RU"></script>
 <script src="./js/script-index.js"></script>
-<script src="js/svg4everybody.min.js"></script>
-<script src="./js/svg-function.js"></script>
 <script src="./js/map.js"></script>
 <script src="./js/picturefill.min.js"></script>
 

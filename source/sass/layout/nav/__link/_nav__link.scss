@@ -6,6 +6,7 @@
   max-width: 230px;
   text-transform: uppercase;
   transition: $transition;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .nav__item:first-child .nav__link {
@@ -19,7 +20,6 @@
 
 .nav__link[href]:active {
   color: rgba(17, 17, 17, 0.3);
-  -webkit-tap-highlight-color: transparent;
 }
 
 .nav__link::after {

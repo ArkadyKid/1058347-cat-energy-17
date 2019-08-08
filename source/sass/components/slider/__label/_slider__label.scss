@@ -8,6 +8,7 @@
   text-transform: uppercase;
   cursor: pointer;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .slider__label:hover,
@@ -17,7 +18,6 @@
 
 .slider__label:active {
   border-bottom: none;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .slider__label::before {

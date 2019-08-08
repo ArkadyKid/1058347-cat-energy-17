@@ -6,7 +6,7 @@
   text-transform: uppercase;
 }
 
-.data-fieldset__input:invalid {
+.data-fieldset__input:invalid:not(:placeholder-shown) {
   outline: 2px solid #ff8282;
   border-color: transparent;
 }

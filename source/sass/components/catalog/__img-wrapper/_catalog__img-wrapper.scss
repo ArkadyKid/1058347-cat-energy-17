@@ -1,9 +1,14 @@
-.catalog__img-wrapper {
-  height: 147px;
-}
-
 .catalog__img-wrapper img {
   object-fit: contain;
+}
+
+@media ("min-width: 0") and (max-width: 767px) {
+  .catalog__img-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media ($min-width-tablet) {

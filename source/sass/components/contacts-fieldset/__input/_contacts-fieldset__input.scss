@@ -6,7 +6,7 @@
   text-transform: uppercase;
 }
 
-.contacts-fieldset__input:invalid {
+.contacts-fieldset__input:invalid:not(:placeholder-shown) {
   outline: 2px solid #ff8282;
   border-color: transparent;
 }
@@ -16,11 +16,11 @@
   border-color: transparent;
 }
 
-.contacts-fieldset__input:invalid + svg {
+.contacts-fieldset__input:invalid:not(:placeholder-shown) + svg {
   fill: #ff8282;
 }
 
-.contacts-fieldset__input:focus + svg {
+.contacts-fieldset__input + svg {
   fill: $color-main;
 }
 

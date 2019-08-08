@@ -4,9 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
+
+<div style="display: none">
+  <include src="build/img/svg/sprite.svg"></include>
+</div>
 
 <header class="header">
   <h1 class="header__title visually-hidden">
@@ -16,7 +20,7 @@
     <h3 class="header-logo__title visually-hidden">
       Логотип
     </h3>
-    <a class="header-logo__link" href="./index.html" aria-label="CAT ENERGY">
+    <a class="header-logo__link" href="./index.html" aria-label="логотип CAT ENERGY">
       <picture>
         <source srcset="./img/svg/logo-desktop.svg" media="(min-width: 1024px)">
         <source srcset="./img/svg/logo-tablet.svg" media="(min-width: 768px)">
@@ -65,13 +69,13 @@
             <span class="data-fieldset__label-wrapper">
               Имя:*
             </span>
-            <input class="data-fieldset__input" id="name" type="text" name="name" required>
+            <input class="data-fieldset__input" id="name" type="text" name="name" required="" placeholder=" " pattern="^[а-яА-ЯёЁa-zA-Z\s]+$">
           </label>
           <label class="data-fieldset__label" for="weight">
             <span class="data-fieldset__label-wrapper">
               Вес (кг):*
             </span>
-            <input class="data-fieldset__input" id="weight" type="number" name="weight" required>
+            <input class="data-fieldset__input" id="weight" type="number" name="weight" required="" placeholder=" ">
           </label>
           <label class="data-fieldset__label" for="age">
             <span class="data-fieldset__label-wrapper">
@@ -81,7 +85,7 @@
           </label>
         </fieldset>
         <fieldset class="form__target-fieldset target-fieldset">
-          <input class="target-fieldset__input visually-hidden" id="slim" type="radio" name="target" value="slim" checked>
+          <input class="target-fieldset__input visually-hidden" id="slim" type="radio" name="target" value="slim" checked="">
           <label class="target-fieldset__label" for="slim">
             Похудение
           </label>
@@ -106,18 +110,18 @@
             <span class="contacts-fieldset__label-wrapper">
               E-mail:*
             </span>
-            <input class="contacts-fieldset__input" id="email" type="email" name="email" required>
+            <input class="contacts-fieldset__input" id="email" type="email" name="email" required="" placeholder=" ">
             <svg width="18" height="14">
-              <use xlink:href="./img/svg/sprite.svg#icon-mail"></use>
+              <use xlink:href="#icon-mail"></use>
             </svg>
           </label>
           <label class="contacts-fieldset__label" for="phone">
             <span class="contacts-fieldset__label-wrapper">
               Телефон:*
             </span>
-            <input class="contacts-fieldset__input" id="phone" type="tel" name="phone" required>
+            <input class="contacts-fieldset__input" id="phone" type="tel" name="phone" required="" placeholder=" " pattern="^[ 0-9\s]+$">
             <svg width="21" height="21">
-              <use xlink:href="./img/svg/sprite.svg#icon-phone"></use>
+              <use xlink:href="#icon-phone"></use>
             </svg>
           </label>
         </div>
@@ -140,7 +144,7 @@
         </h3>
         <div class="additional-fieldset__wrapper">
           <div class="additional-fieldset__column">
-            <input class="additional-fieldset__input visually-hidden" id="sugar" type="checkbox" name="additional" value="sugar" checked>
+            <input class="additional-fieldset__input visually-hidden" id="sugar" type="checkbox" name="additional" value="sugar" checked="">
             <label class="additional-fieldset__label" for="sugar">
               Сахарозаменитель
             </label>
@@ -187,7 +191,7 @@
       </address>
     </div>
     <div class="contacts__map map" id="map">
-      <a class="map__link" href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.323055%2C59.938631&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D30.323057%252C59.938633%26spn%3D0.001000%252C0.001000%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2520%25D0%25A1%25D0%25B0%25D0%25BD%25D0%25BA%25D1%2582-%25D0%259F%25D0%25B5%25D1%2582%25D0%25B5%25D1%2580%25D0%25B1%25D1%2583%25D1%2580%25D0%25B3%252C%2520%25D0%2591%25D0%25BE%25D0%25BB%25D1%258C%25D1%2588%25D0%25B0%25D1%258F%2520%25D0%259A%25D0%25BE%25D0%25BD%25D1%258E%25D1%2588%25D0%25B5%25D0%25BD%25D0%25BD%25D0%25B0%25D1%258F%2520%25D1%2583%25D0%25BB%25D0%25B8%25D1%2586%25D0%25B0%252C%252019%252F8%2520&z=17" target="_blank" rel="noopener" aria-label="Санкт-Петербуг, ул. Большая Конюшенная 19/8"></a>
+      <a class="map__link" href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.323055%2C59.938631&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D30.323057%252C59.938633%26spn%3D0.001000%252C0.001000%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2520%25D0%25A1%25D0%25B0%25D0%25BD%25D0%25BA%25D1%2582-%25D0%259F%25D0%25B5%25D1%2582%25D0%25B5%25D1%2580%25D0%25B1%25D1%2583%25D1%2580%25D0%25B3%252C%2520%25D0%2591%25D0%25BE%25D0%25BB%25D1%258C%25D1%2588%25D0%25B0%25D1%258F%2520%25D0%259A%25D0%25BE%25D0%25BD%25D1%258E%25D1%2588%25D0%25B5%25D0%25BD%25D0%25BD%25D0%25B0%25D1%258F%2520%25D1%2583%25D0%25BB%25D0%25B8%25D1%2586%25D0%25B0%252C%252019%252F8%2520&z=17" target="_blank" rel="noopener" aria-label="Наш адрес: Санкт-Петербуг, ул. Большая Конюшенная 19/8"></a>
     </div>
   </section>
   <div class="footer__wrapper">
@@ -195,7 +199,7 @@
       <h3 class="footer-logo__title visually-hidden">
         Логотип
       </h3>
-      <a class="footer-logo__link" href="./index.html" aria-label="CAT ENERGY">
+      <a class="footer-logo__link" href="./index.html" aria-label="логотип CAT ENERGY">
         <img class="footer-logo__img" src="img/svg/logo-footer.svg" alt="CAT ENERGY" width="128" height="24">
       </a>
     </section>
@@ -205,23 +209,23 @@
       </h3>
       <ul class="social__menu">
         <li class="social__item">
-          <a class="social__link" href="http://vk.com" target="_blank" rel="noopener" aria-label="Vk">
+          <a class="social__link" href="http://vk.com" target="_blank" rel="noopener" aria-label="перейти на сайт Vk">
             <svg width="22" height="12">
-              <use xlink:href="./img/svg/sprite.svg#icon-vk"></use>
+              <use xlink:href="#icon-vk"></use>
             </svg>
           </a>
         </li>
         <li class="social__item">
-          <a class="social__link" href="http://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+          <a class="social__link" href="http://instagram.com" target="_blank" rel="noopener" aria-label="перейти на сайт Instagram">
             <svg width="17" height="17">
-              <use xlink:href="./img/svg/sprite.svg#icon-insta"></use>
+              <use xlink:href="#icon-insta"></use>
             </svg>
           </a>
         </li>
         <li class="social__item">
-          <a class="social__link" href="http://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+          <a class="social__link" href="http://facebook.com" target="_blank" rel="noopener" aria-label="перейти на сайт Facebook">
             <svg width="10" height="19">
-              <use xlink:href="./img/svg/sprite.svg#icon-fb"></use>
+              <use xlink:href="#icon-fb"></use>
             </svg>
           </a>
         </li>
@@ -231,22 +235,20 @@
       <h3 class="footer-developers__title visually-hidden">
         Разработчики
       </h3>
-      <a class="footer-developers__wrapper" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener">
+      <a class="footer-developers__wrapper" href="https://htmlacademy.ru/intensive/adaptive" target="_blank" rel="noopener" aria-label="перейти на сайт HTML academy">
         <span class="footer-developers__text">
           HTML Academy
         </span>
         <svg width="31" height="38">
-          <use xlink:href="./img/svg/sprite.svg#icon-htmlacademy"></use>
+          <use xlink:href="#icon-htmlacademy"></use>
         </svg>
       </a>
     </section>
   </div>
 </footer>
 
-<script src="https://api-maps.yandex.ru/2.1/?apikey=46a7a3c4-aaed-454d-874a-fa888971ea69&lang=ru_RU" type="text/javascript"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=46a7a3c4-aaed-454d-874a-fa888971ea69&lang=ru_RU"></script>
 <script src="./js/script-index.js"></script>
-<script src="js/svg4everybody.min.js"></script>
-<script src="./js/svg-function.js"></script>
 <script src="./js/map.js"></script>
 <script src="./js/picturefill.min.js"></script>
 
