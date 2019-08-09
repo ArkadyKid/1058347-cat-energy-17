@@ -2,7 +2,7 @@
   object-fit: contain;
 }
 
-@media ("min-width: 0") and (max-width: 767px) {
+@media (min-width: 0) and (max-width: 767px) {
   .catalog__img-wrapper {
     width: 50%;
     display: flex;

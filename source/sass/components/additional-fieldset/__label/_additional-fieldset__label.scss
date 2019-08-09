@@ -9,7 +9,6 @@
   text-transform: uppercase;
   user-select: none;
   cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .additional-fieldset__label::before {
@@ -49,7 +48,7 @@
 }
 
 .additional-fieldset__label:active::before,
-.additional-fieldset__input:disabled + .additional-fieldset__label::before{
+.additional-fieldset__input:disabled + .additional-fieldset__label::before {
   border-color: #bababa;
   opacity: 0.3;
 }

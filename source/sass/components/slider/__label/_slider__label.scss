@@ -5,19 +5,26 @@
   padding-top: 4px;
   max-width: 65px;
   border-bottom: 1px dotted rgba($color-black, 0.23);
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 1px;
+  transition: background-size $transition;
   text-transform: uppercase;
   cursor: pointer;
   user-select: none;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .slider__label:hover,
 .slider__label:focus {
-  border-bottom: 1px solid rgba($color-black, 0.4);
+  border-bottom: 1px solid rgba($color-black, 0);
+  background-size: 100% 1px;
+  background-image: linear-gradient(rgba($color-black, 0.4), rgba($color-black, 0.4));
 }
 
 .slider__label:active {
-  border-bottom: none;
+  border-bottom: 1px solid rgba($color-black, 0);
+  background-size: 0;
 }
 
 .slider__label::before {
