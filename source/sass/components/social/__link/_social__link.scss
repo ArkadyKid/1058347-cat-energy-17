@@ -1,7 +1,7 @@
 .social__link {
+  position: relative;
   transition: $transition;
   fill: #666666;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .social__link::before {

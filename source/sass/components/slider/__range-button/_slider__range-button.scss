@@ -10,7 +10,6 @@
     content: "";
     transform: translateY(-50%);
     transition: $transition;
-    -webkit-tap-highlight-color: transparent;
   }
 
   .slider__input--before:checked ~ .slider__wrapper .slider__range-button {
@@ -37,7 +36,6 @@
     content: "";
     cursor: pointer;
     transition: $transition;
-    -webkit-tap-highlight-color: transparent;
   }
 
   .slider__range-button:hover,

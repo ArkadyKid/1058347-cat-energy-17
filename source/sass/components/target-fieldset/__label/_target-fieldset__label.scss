@@ -8,7 +8,6 @@
   user-select: none;
   transition: $transition;
   cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .target-fieldset__label:last-child {
@@ -30,7 +29,6 @@
   border-radius: 50%;
   transform: translateY(-50%);
   content: "";
-  -webkit-tap-highlight-color: transparent;
 }
 
 .target-fieldset__label::after {
@@ -43,7 +41,6 @@
   background-color: rgba($color-main, 0);
   transform: translateY(-50%);
   content: "";
-  -webkit-tap-highlight-color: transparent;
 }
 
 .target-fieldset__input:checked + .target-fieldset__label::after {
@@ -61,7 +58,7 @@
 }
 
 .target-fieldset__label:active::before,
-.target-fieldset__input:disabled + .target-fieldset__label::before{
+.target-fieldset__input:disabled + .target-fieldset__label::before {
   border-color: rgba(#bababa, 0.3);
 }
 
