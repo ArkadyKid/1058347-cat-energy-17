@@ -8,7 +8,7 @@ html {
   box-sizing: border-box;
   font-family: "Oswald", "Arial", sans-serif;
 
-  @include font-params();
+  @include font-params;
 }
 
 body {

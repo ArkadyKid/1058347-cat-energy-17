@@ -1,6 +1,6 @@
 .contacts-fieldset__input {
   @include font-params(16px, 400, 1.13, $color-text);
-  border: 1px solid $color-border;
+  border: 1px solid $color-border-light;
   flex-grow: 1;
   padding: 13px;
   text-transform: uppercase;
@@ -9,6 +9,10 @@
 .contacts-fieldset__input:invalid:not(:placeholder-shown) {
   outline: 2px solid #ff8282;
   border-color: transparent;
+}
+
+.contacts-fieldset__input:hover {
+  border-color: $color-border;
 }
 
 .contacts-fieldset__input:focus {
@@ -21,6 +25,10 @@
 }
 
 .contacts-fieldset__input + svg {
+  fill: $color-label;
+}
+
+.contacts-fieldset__input:focus + svg {
   fill: $color-main;
 }
 

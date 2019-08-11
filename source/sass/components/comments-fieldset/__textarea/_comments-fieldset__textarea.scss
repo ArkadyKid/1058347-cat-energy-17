@@ -3,9 +3,13 @@
   flex-grow: 1;
   min-height: 150px;
   padding: 15px 10px 15px 15px;
-  border: 1px solid $color-border;
+  border: 1px solid $color-border-light;
   text-transform: uppercase;
   resize: vertical;
+}
+
+.comments-fieldset__textarea:hover {
+  border-color: $color-border;
 }
 
 .comments-fieldset__textarea:focus {

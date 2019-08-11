@@ -11,6 +11,10 @@
   border-color: transparent;
 }
 
+.data-fieldset__input:hover{
+border-color: $color-border;
+}
+
 .data-fieldset__input:focus {
   outline: 2px solid $color-text;
   border-color: transparent;
