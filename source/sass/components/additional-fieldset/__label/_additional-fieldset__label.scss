@@ -49,8 +49,7 @@
 
 .additional-fieldset__label:active::before,
 .additional-fieldset__input:disabled + .additional-fieldset__label::before {
-  border-color: #bababa;
-  opacity: 0.3;
+  border-color: rgba(#bababa, 0.3);
 }
 
 .additional-fieldset__label:active::after,

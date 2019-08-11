@@ -5,20 +5,21 @@
   flex-grow: 1;
   border: none;
   border-bottom: 1px solid $color-border;
-  padding: 25px 0;
+  padding: 20px 0;
 }
 
 @media ($min-width-tablet) {
   .target-fieldset {
     border: 1px solid $color-border-light;
     margin: 0 70px;
-    padding: 34px 28px 36px 87px;
+    padding: 25px 28px;
   }
 }
 
 @media ($min-width-desktop) {
   .target-fieldset {
+    width: 30%;
     margin: 0;
-    padding: 40px 41px 36px 87px;
+    padding: 30px 28px 26px;
   }
 }

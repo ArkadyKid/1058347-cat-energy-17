@@ -2,17 +2,19 @@
 
 (function () {
   function init() {
-    var coords = (window.matchMedia("(max-width: 1023px)").matches) ? [59.938931, 30.323055] : [59.938951, 30.320918];
+    var coords = (window.matchMedia("(max-width: 1023px)").matches) ? [59.9390901, 30.323255] : [59.939091, 30.3209138];
     var myMap = new ymaps.Map("map", {
       center: coords,
       zoom: 18
     });
 
     var pinSize = (window.matchMedia("(max-width: 767px)").matches) ? [55, 53] : [124, 106];
-    var myPlacemark = new ymaps.Placemark([59.938993, 30.323009], {}, {
+    var offset = (window.matchMedia("(max-width: 767px)").matches) ? [-30, -45] : [-72, -102];
+    var myPlacemark = new ymaps.Placemark([59.938993, 30.323309], {}, {
       iconLayout: "default#image",
       iconImageHref: "./img/map-pin.png",
-      iconImageSize: pinSize
+      iconImageSize: pinSize,
+      iconImageOffset: offset
     });
 
     myMap.behaviors

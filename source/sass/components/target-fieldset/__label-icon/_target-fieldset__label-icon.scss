@@ -1,0 +1,54 @@
+.target-fieldset__label-icon {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+  border-radius: 50%;
+  border: 1px solid $color-border-light;
+}
+
+.target-fieldset__label-icon::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba($color-main, 0);
+  transform: translate(-50%, -50%);
+  content: "";
+}
+
+.target-fieldset__input:checked + .target-fieldset__label .target-fieldset__label-icon::before {
+  background-color: rgba($color-main, 1);
+}
+
+.target-fieldset__input:focus + .target-fieldset__label .target-fieldset__label-icon,
+.target-fieldset__label:hover .target-fieldset__label-icon {
+  border-color: #bababa;
+}
+
+.target-fieldset__label:active .target-fieldset__label-icon,
+.target-fieldset__input:disabled + .target-fieldset__label .target-fieldset__label-icon {
+  border-color: rgba(#bababa, 0.3);
+}
+
+.target-fieldset__label:active .target-fieldset__label-icon::before,
+.target-fieldset__input:disabled + .target-fieldset__label .target-fieldset__label-icon::before {
+  background-color: rgba($color-main, 0.3);
+}
+
+@media ($min-width-tablet) {
+  .target-fieldset__label-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+
+  .target-fieldset__label-icon::before {
+    width: 18px;
+    height: 18px;
+  }
+}
